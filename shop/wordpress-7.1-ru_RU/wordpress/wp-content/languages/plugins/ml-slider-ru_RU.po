@@ -1,0 +1,1099 @@
+# Translation of Plugins - Slider, Gallery, and Carousel by MetaSlider &#8211; Image Slider, Video Slider - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Slider, Gallery, and Carousel by MetaSlider &#8211; Image Slider, Video Slider - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-07-29 17:26:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.1.0\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Slider, Gallery, and Carousel by MetaSlider &#8211; Image Slider, Video Slider - Stable (latest release)\n"
+
+#: themes/bitono/customize.php:527 themes/blend/customize.php:523
+#: themes/bubble/customize.php:543 themes/clarity/customize.php:526
+#: themes/cubic/customize.php:509 themes/databold/customize.php:526
+#: themes/default-base/customize.php:548 themes/disjoint/customize.php:501
+#: themes/draxler/customize.php:493 themes/nexus/customize.php:510
+#: themes/outline/customize.php:525 themes/simply-dark/customize.php:515
+msgid "Alignment"
+msgstr "Выравнивание"
+
+#: admin/views/pages/start.php:369
+msgid "Choose your own images to start a new slideshow."
+msgstr "Выберите свои собственные изображения, чтобы начать новый слайд-шоу."
+
+#: admin/views/pages/start.php:382
+msgid "Drop files to upload"
+msgstr "Перетащите файлы сюда"
+
+#: admin/views/pages/start.php:383
+msgctxt "Uploader: Drop files to upload - or - Select Files"
+msgid "or"
+msgstr "или"
+
+#: admin/views/pages/start.php:385
+msgid "Select Files"
+msgstr "Выберите файлы"
+
+#: admin/views/pages/start.php:386
+msgid "Open Media Library"
+msgstr "Открыть библиотеку файлов"
+
+#: admin/views/pages/start.php:157 inc/metaslider.quickstart.class.php:215
+#: inc/metaslider.quickstart.class.php:782 modules/local_video/slide.php:43
+#: modules/local_video/slide.php:82
+msgid "Local Video"
+msgstr "Локальное видео"
+
+#: admin/views/pages/parts/slider-settings.php:1558
+msgid "Keyboard Controls"
+msgstr "Управление клавиатурой"
+
+#: ml-slider.php:2772
+msgid "Allowed Files"
+msgstr "Разрешённые файлы"
+
+#: admin/Table.php:499
+msgid "Empty Trash"
+msgstr "Очистить корзину"
+
+#: ml-slider.php:1985
+msgid "You are viewing slides that have been trashed, which will be automatically deleted in %s days."
+msgstr "Вы просматриваете слайды, которые были удалены в корзину и будут автоматически удалены через %s дней."
+
+#: admin/views/pages/dashboard.php:8
+msgid "Add New"
+msgstr "Добавить новый"
+
+#: admin/views/pages/start.php:368
+msgid "Create a slideshow with your images"
+msgstr "Создайте слайд-шоу с вашими изображениями"
+
+#: admin/Table.php:214
+msgid "Created"
+msgstr "Создан"
+
+#: admin/views/pages/start.php:126
+msgid "Blank slideshow"
+msgstr "Пустой слайд-шоу"
+
+#: inc/slide/metaslide.image.class.php:412
+#: inc/slide/metaslide.livid.class.php:789 modules/local_video/slide.php:203
+#: modules/local_video/slide.php:881 modules/local_video/slide.php:939
+#: modules/local_video/slide.php:1047 modules/local_video/slide.php:1212
+#: modules/local_video/slide.php:1285 modules/local_video/slide.php:1399
+#: modules/local_video/slide.php:2085
+msgid "Access denied"
+msgstr "Доступ запрещён"
+
+#: admin/Notices.php:402 admin/Notices.php:649
+#: inc/slide/metaslide.class.php:161 inc/slide/metaslide.image.class.php:144
+#: inc/slide/metaslide.image.class.php:249
+#: inc/slide/metaslide.image.class.php:303
+#: inc/slide/metaslide.image.class.php:422
+#: inc/slide/metaslide.livid.class.php:355
+#: inc/slide/metaslide.livid.class.php:420
+#: inc/slide/metaslide.livid.class.php:467
+#: inc/slide/metaslide.livid.class.php:474
+#: inc/slide/metaslide.livid.class.php:798 ml-slider.php:1011
+#: ml-slider.php:1093 ml-slider.php:1205 ml-slider.php:2877 ml-slider.php:2921
+#: ml-slider.php:2997 modules/local_video/slide.php:209
+#: modules/local_video/slide.php:890 modules/local_video/slide.php:948
+#: modules/local_video/slide.php:1060 modules/local_video/slide.php:1224
+#: modules/local_video/slide.php:1294 modules/local_video/slide.php:1408
+#: modules/local_video/slide.php:2094
+msgid "Bad request"
+msgstr "Недопустимый запрос"
+
+#: admin/Notices.php:360
+msgid "Let's Start &rarr;"
+msgstr "Давайте начнём &rarr;"
+
+#: admin/Notices.php:364
+msgid "Sign up &rarr;"
+msgstr "Регистрация &rarr;"
+
+#: ml-slider.php:584
+msgid "Upgrade to Pro"
+msgstr "Обновить до Pro"
+
+#: inc/metaslider.quickstart.class.php:131
+msgid "Images"
+msgstr "Изображения"
+
+#: admin/views/pages/upgrade.php:21
+msgid "Pro"
+msgstr "Pro"
+
+#: admin/Table.php:370
+msgid "Edit"
+msgstr "Изменить"
+
+#: admin/views/pages/start.php:162
+msgid "Features"
+msgstr "Функции"
+
+#: admin/Notices.php:362
+msgid "Find out more &rarr;"
+msgstr "Узнать больше здесь &rarr;"
+
+#: admin/views/pages/dashboard.php:41
+msgid "Search"
+msgstr "Поиск"
+
+#: admin/views/pages/start.php:153 inc/metaslider.quickstart.class.php:695
+#: inc/metaslider.quickstart.class.php:806 ml-slider.php:896
+msgid "Background Color"
+msgstr "Цвет фона"
+
+#: admin/views/pages/start.php:329
+msgid "Cancel"
+msgstr "Отмена"
+
+#: admin/views/pages/settings.php:58 admin/assets/dist/js/app.js:2
+msgid "Help Center"
+msgstr "Центр помощи"
+
+#: ml-slider.php:580
+msgid "Settings & Help"
+msgstr "Настройки и помощь"
+
+#: admin/views/pages/parts/slider-settings.php:197
+#: admin/assets/dist/js/app.js:2
+msgid "100% Width"
+msgstr "100% ширина"
+
+#: admin/views/pages/settings.php:89 admin/assets/dist/js/app.js:2
+msgid "Export"
+msgstr "Экспорт"
+
+#: admin/views/pages/settings.php:74 admin/assets/dist/js/app.js:2
+msgid "Import"
+msgstr "Импорт"
+
+#: admin/views/pages/parts/ie-warning.php:4
+msgid "Browser upgrade required"
+msgstr "Требуется обновление браузера"
+
+#: admin/views/pages/parts/ie-warning.php:8
+msgid "IE11"
+msgstr "IE11"
+
+#: admin/views/pages/parts/ie-warning.php:8
+msgid "It looks like you are using %s. While MetaSlider does support %s on the frontend of the website where users see your slideshows, some of the tools we provide back here require a modern browser."
+msgstr "Похоже, что вы используете %s. Хотя MetaSlider поддерживает %s на фронтенде сайта, где пользователи видят ваши слайд-шоу, некоторые инструменты, которые мы предоставляем здесь, требуют современного браузера."
+
+#: admin/routes/api.php:934
+msgid "The title cannot be empty."
+msgstr "Заголовок не может быть пустым."
+
+#: admin/views/pages/parts/ie-warning.php:8
+msgid "Microsoft Internet Explorer 11"
+msgstr "Microsoft Internet Explorer 11"
+
+#: admin/routes/api.php:561
+msgid "Nothing to import."
+msgstr "Нечего импортировать."
+
+#: admin/routes/api.php:938 admin/routes/api.php:1212
+msgid "The field (%s) cannot be empty"
+msgstr "Поле (%s) не может быть пустым"
+
+#: admin/views/pages/parts/ie-warning.php:12
+msgid "Update Internet Explorer"
+msgstr "Обновить Internet Explorer"
+
+#: admin/views/pages/dashboard.php:8 ml-slider.php:578
+#: admin/assets/dist/js/app.js:2
+msgid "Slideshows"
+msgstr "Слайды-шоу"
+
+#: ml-slider.php:2073
+msgid "Add slideshow"
+msgstr "Добавить слайд-шоу"
+
+#: inc/metaslider.systemcheck.class.php:94
+msgid "this article"
+msgstr "это сообщение"
+
+#: inc/metaslider.systemcheck.class.php:216
+msgid "Warning:"
+msgstr "Внимание:"
+
+#: inc/metaslider.systemcheck.class.php:91
+msgid "Your settings might not be saving properly due to a configuration on your server. %s is currently set to %s, but we recommend a setting of 4000. Please see %s for more information. The php.ini file is being loaded from here: %s"
+msgstr "Возможно, ваши настройки не сохраняются должным образом из-за конфигурации на вашем сервере. В настоящее время %s имеет значение %s, но мы рекомендуем установить значение 4000. Пожалуйста, обратитесь к разделу %s для получения дополнительной информации. Файл php.ini загружается отсюда: %s"
+
+#: themes/simply-dark/v1.0.0/theme.php:58
+msgid "Next Slide"
+msgstr "Следующий слайд"
+
+#: themes/simply-dark/v1.0.0/theme.php:57
+msgid "Previous Slide"
+msgstr "Предыдущий слайд"
+
+#: admin/routes/api.php:826
+msgid "This was not a slideshow, so we cannot update the setting."
+msgstr "Это не было слайд-шоу, поэтому мы не можем обновить настройки."
+
+#: admin/views/pages/parts/toolbar.php:112
+msgid "Duplicate"
+msgstr "Дублировать"
+
+#: admin/views/pages/parts/slider-settings.php:65
+#: inc/slider/metaslider.flex.class.php:457 admin/assets/dist/js/app.js:2
+msgid "Loading..."
+msgstr "Загрузка..."
+
+#: admin/views/pages/parts/toolbar.php:95
+msgid "New"
+msgstr "Новый"
+
+#: admin/views/pages/parts/toolbar.php:122
+msgid "Add CSS"
+msgstr "Добавить CSS"
+
+#: admin/views/pages/upgrade.php:142
+msgid "Add custom CSS"
+msgstr "Добавить произвольный CSS"
+
+#: admin/views/pages/parts/toolbar.php:100
+msgid "Duplicate this slideshow"
+msgstr "Дублировать это слайд-шоу"
+
+#: admin/Pages.php:203
+msgid "Close"
+msgstr "Закрыть"
+
+#: admin/slideshows/Themes.php:595
+msgid "We removed your selected theme as it could not be found. Was the folder deleted?"
+msgstr "Мы удалили выбранную вами тему, так как ее не удалось найти. Была ли удалена папка?"
+
+#: admin/views/pages/start.php:106 ml-slider.php:579
+msgid "Quick Start"
+msgstr "Быстрый старт"
+
+#: admin/routes/api.php:613
+msgid "This was not a slideshow, so we cannot delete it."
+msgstr "Это не слайд-шоу и мы не можем его удалить."
+
+#: admin/Pages.php:159
+msgid "Please confirm that you would like to delete this slideshow."
+msgstr "Убедитесь что вы точно хотите удалить это слайдшоу."
+
+#: admin/Notices.php:615
+msgid "Thanks for using MetaSlider, the WordPress slideshow plugin"
+msgstr "Спасибо за использование MetaSlider, плагина для слайд-шоу WordPress"
+
+#: admin/views/pages/parts/toolbar.php:130
+msgid "Save slideshow"
+msgstr "Сохранить слайд-шоу"
+
+#: admin/views/pages/parts/slider-settings.php:665
+#: admin/views/pages/parts/slider-settings.php:685
+#: admin/views/pages/parts/slider-settings.php:1416
+#: admin/views/pages/parts/slider-settings.php:1450
+msgctxt "Short for milliseconds"
+msgid "ms"
+msgstr "мс"
+
+#: themes/manifest-legacy.php:189 themes/manifest.php:189
+msgid "A bold and clear design that works well on a darker images."
+msgstr "Смелый и четкий дизайн, который хорошо подходит для темных изображений."
+
+#: themes/manifest-legacy.php:149 themes/manifest.php:149
+msgid "This theme has a special additional functionality that uses image titles as the slide navigation. "
+msgstr "Эта тема имеет специальную дополнительную функцию, которая использует заголовки изображений в качестве навигации по слайдам. "
+
+#: themes/manifest-legacy.php:180 themes/manifest.php:180
+msgid "This theme has a unique design that gives it a sophisticated look."
+msgstr "Эта тема имеет уникальный дизайн, который придает ей изысканный вид."
+
+#: themes/manifest-legacy.php:122 themes/manifest.php:122
+msgid "This theme places the controls vertically for a unique look."
+msgstr "В этой теме элементы управления расположены вертикально, что придает ей уникальный вид."
+
+#: themes/manifest-legacy.php:223
+msgid "The Nivo Bar theme included here for legacy purposes. Note: only works with Nivo Slider"
+msgstr "Тема Nivo Bar включена здесь в целях наследия. Примечание: работает только с Nivo Slider"
+
+#: themes/manifest-legacy.php:231
+msgid "The Nivo Dark theme included here for legacy purposes. Note: only works with Nivo Slider"
+msgstr "Тема Nivo Dark включена сюда в целях наследия. Примечание: работает только с Nivo Slider"
+
+#: themes/manifest-legacy.php:215
+msgid "The Nivo Light theme included here for legacy purposes. Note: only works with Nivo Slider"
+msgstr "Тема Nivo Light включена сюда в целях наследия. Примечание: работает только с Nivo Slider"
+
+#: themes/manifest-legacy.php:72 themes/manifest.php:73
+msgid "A clean, subtle theme that features block arrows and bold design."
+msgstr "Чистая, тонкая тема, которая имеет блок-стрелки и смелый дизайн."
+
+#: themes/manifest-legacy.php:81 themes/manifest.php:82
+msgid "A fun, circular design to brighten up your site. This theme works well with dark images"
+msgstr "Веселый, круговой дизайн, чтобы осветить ваш сайт. Эта тема хорошо работает с темными изображениями"
+
+#: admin/slideshows/Themes.php:203
+msgid "No themes found."
+msgstr "Темы не найдены."
+
+#: inc/slide/metaslide.class.php:917
+msgid "Schedule"
+msgstr "Расписание"
+
+#: admin/views/pages/upgrade.php:151
+msgid "Add a start/end date to individual slides."
+msgstr "Добавьте дату начала/окончания для отдельных слайдов."
+
+#: admin/routes/api.php:466
+msgid "The request format was not valid."
+msgstr "Недопустимый формат запроса."
+
+#: admin/routes/api.php:474 admin/routes/api.php:606
+msgid "This slideshow is no longer available."
+msgstr "Это слайд-шоу больше не доступно."
+
+#: admin/views/pages/upgrade.php:54
+msgid "Toggle your slide's visibility"
+msgstr "Переключение видимости слайда"
+
+#: admin/views/pages/upgrade.php:150
+msgid "Schedule your slides"
+msgstr "Запланировать слайды"
+
+#: admin/slideshows/Image.php:155
+msgid "We could not find any images to import."
+msgstr "Мы не смогли найти ни одного изображения для импорта."
+
+#: admin/views/slides/tabs/seo.php:11
+msgid "Enable this to inherit the image title"
+msgstr "Включите это, чтобы наследовать заголовок изображения"
+
+#: admin/views/slides/tabs/seo.php:39
+msgid "Use the image alt text"
+msgstr "Используйте атрибут alt изображения"
+
+#: admin/views/slides/tabs/seo.php:13
+msgid "Use the image title"
+msgstr "Использовать заголовок изображения"
+
+#: admin/views/slides/tabs/seo.php:37
+msgid "Enable this to inherit the image alt text"
+msgstr "Включить этот параметр для наследования атрибут alt изображения"
+
+#: admin/Pages.php:208
+msgid "Open in new window"
+msgstr "Открывать в новом окне"
+
+#: admin/Notices.php:618 admin/views/notices/header-notice.php:23
+msgid "Dismiss"
+msgstr "Отклонить"
+
+#: admin/Pages.php:163 admin/assets/dist/js/app.js:2
+msgid "Success"
+msgstr "Успешно"
+
+#: admin/Pages.php:164
+msgid "Item was copied to your clipboard"
+msgstr "Элемент скопирован в буфер обмена"
+
+#: admin/Table.php:194 admin/Table.php:357 inc/slide/metaslide.class.php:430
+msgid "Delete Permanently"
+msgstr "Удалить безвозвратно"
+
+#: ml-slider.php:2679
+msgid "Premium Support"
+msgstr "Премиум поддержка"
+
+#: admin/views/pages/upgrade.php:190
+msgid "Premium support"
+msgstr "Премиум поддержка"
+
+#: admin/Table.php:209 admin/views/pages/parts/toolbar.php:75
+#: admin/assets/dist/js/app.js:2
+msgid "Preview"
+msgstr "Предпросмотр"
+
+#: admin/slideshows/Settings.php:86 inc/slider/metaslider.class.php:192
+#: inc/slider/metaslider.flex.class.php:819
+msgid "Previous"
+msgstr "Назад"
+
+#: admin/views/pages/upgrade.php:38
+msgid "Regular updates"
+msgstr "Регулярные обновления"
+
+#: admin/Table.php:193 admin/Table.php:356 inc/slide/metaslide.class.php:420
+msgid "Restore"
+msgstr "Восстановить"
+
+#: ml-slider.php:2689
+msgid "Support"
+msgstr "Поддержка"
+
+#: ml-slider.php:2698
+msgid "Leave a review"
+msgstr "Оставить отзыв"
+
+#: admin/views/pages/parts/toolbar.php:56
+msgid "Add a new slide"
+msgstr "Добавить новый слайд"
+
+#: admin/views/pages/upgrade.php:103
+msgid "Add layers to your slides with over 50 available transition effects."
+msgstr "Добавьте слои на слайды с более чем 50 доступными эффектами перехода."
+
+#: admin/views/pages/upgrade.php:102
+msgid "Add slide layers"
+msgstr "Добавить слои слайдов"
+
+#: inc/slide/metaslide.livid.class.php:293 ml-slider.php:850
+#: modules/local_video/slide.php:112 admin/assets/dist/js/admin.js:1
+#: admin/assets/js/admin.js:218
+msgid "Add to slideshow"
+msgstr "Добавить в слайд-шоу"
+
+#: admin/views/pages/upgrade.php:111
+msgid "Easily build slides based on your WordPress posts."
+msgstr "Легко построить слайды на основе ваших записей WordPress."
+
+#: admin/slideshows/Settings.php:59 inc/slider/metaslider.class.php:165
+msgid "New Slideshow"
+msgstr "Новое слайд-шоу"
+
+#: admin/views/pages/upgrade.php:46
+msgid "Intelligent image cropping"
+msgstr "Интеллектуальное кадрирование изображений"
+
+#: inc/slide/metaslide.class.php:130
+msgid "There was an error updating the image. Please try again"
+msgstr "Произошла ошибка при обновлении изображения. Попробуйте еще раз"
+
+#: inc/slide/metaslide.class.php:94
+msgid "The requested image does not exist. Please try again."
+msgstr "Запрошенное изображение не существует. Попробуйте еще раз."
+
+#: ml-slider.php:1026
+msgid "The slide was successfully restored"
+msgstr "Слайд успешно восстановлен"
+
+#: inc/slide/metaslide.class.php:315
+msgid "There was an error while updating the database. Please try again."
+msgstr "Ошибка при обновлении базы данных. Попробуйте еще раз."
+
+#: ml-slider.php:1108
+msgid "The slide was successfully trashed"
+msgstr "Слайд успешно удален в корзину"
+
+#: admin/views/pages/parts/slider-settings.php:1722
+msgid "View trashed slides"
+msgstr "Просмотр удаленных слайдов в корзине"
+
+#: ml-slider.php:1049
+msgid "The attempt to restore the slide failed."
+msgstr "Попытка восстановить слайд не удалась."
+
+#: inc/slide/metaslide.class.php:120
+msgid "The image was successfully updated."
+msgstr "Изображение успешно обновлено."
+
+#: inc/slide/metaslide.class.php:442 inc/slide/metaslide.class.php:661
+#: inc/slide/metaslide.class.php:662
+msgid "Update slide image"
+msgstr "Обновить изображение слайда"
+
+#: admin/views/pages/upgrade.php:62
+msgid "Thumbnail navigation"
+msgstr "Навигация по миниатюрам"
+
+#: admin/views/pages/parts/slider-settings.php:1712 ml-slider.php:1930
+msgid "Trashed Slides"
+msgstr "Слайды в корзине"
+
+#: admin/Table.php:198 admin/Table.php:371
+msgid "Trash"
+msgstr "Корзина"
+
+#: admin/views/pages/upgrade.php:25 admin/views/pages/upgrade.php:200
+msgid "Installed"
+msgstr "Установлен"
+
+#: admin/views/notices/header-notice.php:8
+msgid "Logo"
+msgstr "Логотип"
+
+#: admin/slideshows/Settings.php:87 inc/slider/metaslider.class.php:193
+#: inc/slider/metaslider.flex.class.php:820
+msgid "Next"
+msgstr "Далее"
+
+#: admin/Notices.php:372
+msgid "Read more"
+msgstr "Читать далее"
+
+#: admin/Pages.php:162
+msgid "Slide deleted"
+msgstr "Слайд удален"
+
+#: admin/Pages.php:160
+msgid "Undo"
+msgstr "Отменить"
+
+#: admin/Notices.php:340
+msgid "weeks"
+msgstr "недель"
+
+#: admin/views/pages/start.php:350 admin/views/pages/theme-editor.php:36
+#: admin/views/pages/upgrade.php:26 admin/views/pages/upgrade.php:201
+#: admin/assets/dist/js/app.js:2
+msgid "Upgrade now"
+msgstr "Обновить сейчас"
+
+#: admin/views/pages/upgrade.php:31
+msgid "Create and manage as many slideshows as you need."
+msgstr "Создавайте и управляйте таким количеством слайд-шоу, какое вам необходимо."
+
+#: admin/views/pages/upgrade.php:30
+msgid "Create unlimited slideshows"
+msgstr "Создавайте неограниченное количество слайд-шоу"
+
+#: admin/views/pages/upgrade.php:13
+msgid "Comparison Chart"
+msgstr "Сравнительная диаграмма"
+
+#: admin/Notices.php:423
+msgid "The option was successfully updated"
+msgstr "Опция была успешно обновлена"
+
+#: admin/Notices.php:489
+msgid "The requested data does not exist."
+msgstr "Запрошенные данные не существуют."
+
+#: admin/Notices.php:386 admin/Notices.php:635
+#: inc/slide/metaslide.class.php:144 inc/slide/metaslide.image.class.php:127
+#: inc/slide/metaslide.image.class.php:232
+#: inc/slide/metaslide.image.class.php:286
+#: inc/slide/metaslide.image.class.php:404
+#: inc/slide/metaslide.livid.class.php:338
+#: inc/slide/metaslide.livid.class.php:405
+#: inc/slide/metaslide.livid.class.php:452
+#: inc/slide/metaslide.livid.class.php:781 ml-slider.php:994 ml-slider.php:1076
+#: ml-slider.php:1188 ml-slider.php:2860 ml-slider.php:2905 ml-slider.php:2980
+#: modules/local_video/slide.php:873 modules/local_video/slide.php:931
+#: modules/local_video/slide.php:1039 modules/local_video/slide.php:1204
+#: modules/local_video/slide.php:1277 modules/local_video/slide.php:1391
+msgid "The security check failed. Please refresh the page and try again."
+msgstr "Не удалось выполнить проверку безопасности. Обновите страницу и попробуйте еще раз."
+
+#: admin/Notices.php:410
+msgid "This item does not exist. Please refresh the page and try again."
+msgstr "Этот элемент не существует. Обновите страницу и попробуйте еще раз."
+
+#: admin/Pages.php:166
+msgid "Press to undo"
+msgstr "Нажмите для отмены"
+
+#: admin/Pages.php:161
+msgid "Slide restored"
+msgstr "Слайд восстановлен"
+
+#: admin/Notices.php:514
+msgid "The attempt to update the option failed."
+msgstr "Попытка обновления опции не удалась."
+
+#: inc/metaslider.quickstart.class.php:587 ml-slider.php:890
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: ml-slider.php:891
+msgid "YouTube"
+msgstr "YouTube"
+
+#: admin/views/pages/start.php:156 inc/metaslider.quickstart.class.php:800
+#: ml-slider.php:901
+msgid "Layer Slide"
+msgstr "Многослойный слайд"
+
+#: admin/views/pages/start.php:155 inc/metaslider.quickstart.class.php:611
+#: inc/metaslider.quickstart.class.php:803 ml-slider.php:900
+msgid "Post Feed"
+msgstr "Feed записи"
+
+#: admin/Pages.php:186 admin/views/pages/parts/slider-settings.php:1427
+#: admin/views/slides/tabs/background.php:73
+#: inc/metaslider.imagestyles.class.php:463 themes/architekt/customize.php:602
+#: themes/bitono/customize.php:785 themes/blend/customize.php:815
+#: themes/bubble/customize.php:801 themes/cascade/customize.php:756
+#: themes/clarity/customize.php:737 themes/cubic/customize.php:767
+#: themes/databold/customize.php:784 themes/default-base/customize.php:819
+#: themes/disjoint/customize.php:759 themes/draxler/customize.php:759
+#: themes/highway/customize.php:772 themes/jenga/customize.php:576
+#: themes/nexus/customize.php:768 themes/outline/customize.php:783
+#: themes/precognition/customize.php:682 themes/radix/customize.php:659
+#: themes/simply-dark/customize.php:778
+msgid "Opacity"
+msgstr "Прозрачность"
+
+#: admin/views/pages/parts/slider-settings.php:1643
+msgid "Print CSS"
+msgstr "Выводить CSS"
+
+#: admin/views/pages/parts/slider-settings.php:1656
+msgid "Print JS"
+msgstr "Выводить JS"
+
+#: admin/Table.php:221
+msgid "Usage"
+msgstr "Использование"
+
+#: admin/Table.php:215 admin/views/pages/parts/slider-settings.php:1690
+msgid "Shortcode"
+msgstr "Шорткод"
+
+#: ml-slider.php:2109
+msgid "Choose slideshow"
+msgstr "Выберите слайдшоу"
+
+#: ml-slider.php:2119
+msgid "Insert slideshow"
+msgstr "Вставить слайдшоу"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+#: ml-slider.php
+msgid "https://www.metaslider.com"
+msgstr "https://www.metaslider.com"
+
+#: inc/metaslider.widget.class.php:116
+msgid "Select Slider:"
+msgstr "Выберите слайдер:"
+
+#: inc/metaslider.widget.class.php:126 ml-slider.php:2124
+#: admin/assets/dist/js/app.js:2
+msgid "No slideshows found"
+msgstr "Не найдено ни одного слайд-шоу"
+
+#: admin/views/slides/tabs/seo.php:33
+msgid "Image Alt Text"
+msgstr "Alt изображения"
+
+#: ml-slider.php:2694 modules/local_video/slide.php:536
+msgid "Documentation"
+msgstr "Документация"
+
+#: admin/Pages.php:178
+msgid "Caution: This setting is for advanced developers only. If you're unsure, leave it checked."
+msgstr "Внимание: данная настройка только для опытных пользователей. Если вы не уверены, оставьте её отмеченной."
+
+#: admin/views/pages/start.php:145 inc/metaslider.quickstart.class.php:773
+#: ml-slider.php:849
+msgid "Image"
+msgstr "Изображение"
+
+#: admin/views/pages/parts/toolbar.php:60 inc/slider/metaslider.class.php:1065
+msgid "Add Slide"
+msgstr "Добавить слайд"
+
+#: admin/views/pages/settings.php:42
+msgid "Settings"
+msgstr "Настройки"
+
+#: admin/views/pages/parts/toolbar.php:144 admin/assets/dist/js/app.js:2
+msgid "Save"
+msgstr "Сохранить"
+
+#: admin/views/pages/parts/slider-settings.php:87
+#: admin/views/pages/parts/slider-settings.php:715
+#: themes/architekt/customize.php:215 themes/architekt/customize.php:545
+#: themes/bitono/customize.php:226 themes/bitono/customize.php:728
+#: themes/blend/customize.php:758 themes/bubble/customize.php:209
+#: themes/bubble/customize.php:744 themes/cascade/customize.php:225
+#: themes/cascade/customize.php:699 themes/clarity/customize.php:225
+#: themes/clarity/customize.php:680 themes/cubic/customize.php:710
+#: themes/databold/customize.php:243 themes/databold/customize.php:727
+#: themes/default-base/customize.php:242 themes/default-base/customize.php:762
+#: themes/disjoint/customize.php:702 themes/draxler/customize.php:702
+#: themes/highway/customize.php:225 themes/highway/customize.php:715
+#: themes/jenga/customize.php:519 themes/nexus/customize.php:209
+#: themes/nexus/customize.php:711 themes/outline/customize.php:225
+#: themes/outline/customize.php:726 themes/precognition/customize.php:226
+#: themes/precognition/customize.php:625 themes/radix/customize.php:602
+#: themes/simply-dark/customize.php:721
+msgid "Width"
+msgstr "Ширина"
+
+#: admin/views/pages/parts/slider-settings.php:89
+msgid "Slideshow width"
+msgstr "Ширина слайд-шоу"
+
+#: admin/views/pages/parts/slider-settings.php:90
+#: admin/views/pages/parts/slider-settings.php:103
+#: admin/views/pages/parts/slider-settings.php:922
+#: admin/views/slides/tabs/background.php:51
+#: inc/metaslider.imagestyles.class.php:407
+#: inc/metaslider.imagestyles.class.php:419
+msgid "px"
+msgstr "пикселей"
+
+#: admin/views/pages/parts/slider-settings.php:100
+#: admin/views/pages/parts/slider-settings.php:732
+#: themes/architekt/customize.php:232 themes/bitono/customize.php:243
+#: themes/blend/customize.php:206 themes/bubble/customize.php:226
+#: themes/cascade/customize.php:242 themes/clarity/customize.php:242
+#: themes/cubic/customize.php:226 themes/databold/customize.php:226
+#: themes/default-base/customize.php:259 themes/disjoint/customize.php:218
+#: themes/draxler/customize.php:206 themes/highway/customize.php:242
+#: themes/nexus/customize.php:226 themes/outline/customize.php:242
+#: themes/precognition/customize.php:243 themes/radix/customize.php:238
+msgid "Height"
+msgstr "Высота"
+
+#: admin/views/pages/parts/slider-settings.php:102
+msgid "Slideshow height"
+msgstr "Высота слайд-шоу"
+
+#: admin/views/pages/parts/slider-settings.php:566
+#: admin/views/pages/parts/slider-settings.php:1340
+msgid "Random"
+msgstr "Случайно"
+
+#: admin/views/pages/parts/slider-settings.php:571
+msgid "Swirl"
+msgstr "Кручение"
+
+#: admin/views/pages/parts/slider-settings.php:576
+msgid "Rain"
+msgstr "Дождь"
+
+#: admin/views/pages/parts/slider-settings.php:581
+msgid "Straight"
+msgstr "Классический"
+
+#: admin/views/pages/parts/slider-settings.php:586
+msgid "Slice Down"
+msgstr "Скольжение вниз"
+
+#: admin/views/pages/parts/slider-settings.php:591
+msgid "Slice Up"
+msgstr "Сдвиг"
+
+#: admin/views/pages/parts/slider-settings.php:596
+msgid "Slice Up Left"
+msgstr "Скольжение вверх влево"
+
+#: admin/views/pages/parts/slider-settings.php:601
+msgid "Slide Up Down"
+msgstr "Сдвиг вниз"
+
+#: admin/views/pages/parts/slider-settings.php:606
+msgid "Slice Up Down Left"
+msgstr "Сдвиг влево вниз"
+
+#: admin/views/pages/parts/slider-settings.php:616
+msgid "Slide in Right"
+msgstr "Скольжение вправо"
+
+#: admin/views/pages/parts/slider-settings.php:621
+msgid "Slide in Left"
+msgstr "Скольжение влево"
+
+#: admin/views/pages/parts/slider-settings.php:626
+msgid "Box Random"
+msgstr "Случайные квадраты"
+
+#: admin/views/pages/parts/slider-settings.php:636
+msgid "Box Rain Reverse"
+msgstr "Обратная мозаика"
+
+#: admin/views/pages/parts/slider-settings.php:646
+msgid "Box Rain Grow Reverse"
+msgstr "Возрастающая мозаика"
+
+#: admin/views/pages/parts/slider-settings.php:554
+#: admin/views/pages/start.php:174
+msgid "Slide"
+msgstr "Скольжение"
+
+#: admin/views/slides/tabs/background.php:45
+#: admin/views/slides/tabs/background.php:51
+#: admin/views/slides/tabs/background.php:53
+#: admin/views/slides/tabs/background.php:58
+#: admin/views/slides/tabs/background.php:66
+#: admin/views/slides/tabs/background.php:74
+#: admin/views/slides/tabs/background.php:80
+#: admin/views/slides/tabs/background.php:89
+#: inc/metaslider.imagestyles.class.php:553 themes/architekt/customize.php:21
+#: themes/architekt/customize.php:48 themes/architekt/customize.php:92
+#: themes/architekt/customize.php:361 themes/architekt/customize.php:429
+#: themes/architekt/customize.php:626 themes/architekt/customize.php:647
+#: themes/bitono/customize.php:21 themes/bitono/customize.php:48
+#: themes/bitono/customize.php:92 themes/bitono/customize.php:372
+#: themes/bitono/customize.php:406 themes/bitono/customize.php:809
+#: themes/bitono/customize.php:830 themes/blend/customize.php:21
+#: themes/blend/customize.php:48 themes/blend/customize.php:92
+#: themes/blend/customize.php:335 themes/blend/customize.php:369
+#: themes/blend/customize.php:448 themes/blend/customize.php:839
+#: themes/blend/customize.php:860 themes/bubble/customize.php:21
+#: themes/bubble/customize.php:48 themes/bubble/customize.php:75
+#: themes/bubble/customize.php:355 themes/bubble/customize.php:389
+#: themes/bubble/customize.php:468 themes/bubble/customize.php:825
+#: themes/bubble/customize.php:846 themes/cascade/customize.php:21
+#: themes/cascade/customize.php:48 themes/cascade/customize.php:92
+#: themes/cascade/customize.php:371 themes/cascade/customize.php:405
+#: themes/cascade/customize.php:780 themes/cascade/customize.php:801
+#: themes/clarity/customize.php:21 themes/clarity/customize.php:48
+#: themes/clarity/customize.php:92 themes/clarity/customize.php:371
+#: themes/clarity/customize.php:405 themes/clarity/customize.php:761
+#: themes/clarity/customize.php:782 themes/cubic/customize.php:21
+#: themes/cubic/customize.php:48 themes/cubic/customize.php:92
+#: themes/cubic/customize.php:355 themes/cubic/customize.php:389
+#: themes/cubic/customize.php:791 themes/cubic/customize.php:812
+#: themes/databold/customize.php:21 themes/databold/customize.php:48
+#: themes/databold/customize.php:92 themes/databold/customize.php:372
+#: themes/databold/customize.php:406 themes/databold/customize.php:808
+#: themes/databold/customize.php:829 themes/default-base/customize.php:32
+#: themes/default-base/customize.php:59 themes/default-base/customize.php:103
+#: themes/default-base/customize.php:388 themes/default-base/customize.php:422
+#: themes/default-base/customize.php:843 themes/default-base/customize.php:864
+#: themes/disjoint/customize.php:21 themes/disjoint/customize.php:48
+#: themes/disjoint/customize.php:92 themes/disjoint/customize.php:347
+#: themes/disjoint/customize.php:381 themes/disjoint/customize.php:783
+#: themes/disjoint/customize.php:804 themes/draxler/customize.php:21
+#: themes/draxler/customize.php:48 themes/draxler/customize.php:92
+#: themes/draxler/customize.php:338 themes/draxler/customize.php:372
+#: themes/draxler/customize.php:783 themes/draxler/customize.php:804
+#: themes/highway/customize.php:21 themes/highway/customize.php:48
+#: themes/highway/customize.php:92 themes/highway/customize.php:371
+#: themes/highway/customize.php:405 themes/highway/customize.php:796
+#: themes/highway/customize.php:817 themes/jenga/customize.php:21
+#: themes/jenga/customize.php:48 themes/jenga/customize.php:75
+#: themes/jenga/customize.php:255 themes/jenga/customize.php:289
+#: themes/jenga/customize.php:600 themes/jenga/customize.php:621
+#: themes/nexus/customize.php:21 themes/nexus/customize.php:48
+#: themes/nexus/customize.php:75 themes/nexus/customize.php:355
+#: themes/nexus/customize.php:389 themes/nexus/customize.php:792
+#: themes/nexus/customize.php:821 themes/nexus/customize.php:842
+#: themes/outline/customize.php:21 themes/outline/customize.php:48
+#: themes/outline/customize.php:92 themes/outline/customize.php:371
+#: themes/outline/customize.php:405 themes/outline/customize.php:807
+#: themes/outline/customize.php:828 themes/precognition/customize.php:21
+#: themes/precognition/customize.php:48 themes/precognition/customize.php:92
+#: themes/precognition/customize.php:372 themes/precognition/customize.php:474
+#: themes/precognition/customize.php:706 themes/precognition/customize.php:727
+#: themes/radix/customize.php:21 themes/radix/customize.php:76
+#: themes/radix/customize.php:120 themes/radix/customize.php:683
+#: themes/radix/customize.php:704 themes/simply-dark/customize.php:21
+#: themes/simply-dark/customize.php:48 themes/simply-dark/customize.php:92
+#: themes/simply-dark/customize.php:360 themes/simply-dark/customize.php:394
+#: themes/simply-dark/customize.php:802 themes/simply-dark/customize.php:823
+msgid "Default"
+msgstr "По умолчанию"
+
+#: admin/views/pages/parts/slider-settings.php:108
+#: themes/architekt/customize.php:10 themes/bitono/customize.php:10
+#: themes/blend/customize.php:10 themes/bubble/customize.php:10
+#: themes/cascade/customize.php:10 themes/clarity/customize.php:10
+#: themes/cubic/customize.php:10 themes/databold/customize.php:10
+#: themes/default-base/customize.php:21 themes/disjoint/customize.php:10
+#: themes/draxler/customize.php:10 themes/highway/customize.php:10
+#: themes/jenga/customize.php:10 themes/nexus/customize.php:10
+#: themes/outline/customize.php:10 themes/precognition/customize.php:10
+#: themes/radix/customize.php:10 themes/simply-dark/customize.php:10
+msgid "Arrows"
+msgstr "Стрелочки"
+
+#: admin/views/pages/parts/slider-settings.php:139
+#: themes/architekt/customize.php:350 themes/bitono/customize.php:361
+#: themes/blend/customize.php:324 themes/bubble/customize.php:344
+#: themes/cascade/customize.php:360 themes/clarity/customize.php:360
+#: themes/cubic/customize.php:344 themes/databold/customize.php:361
+#: themes/default-base/customize.php:377 themes/disjoint/customize.php:336
+#: themes/draxler/customize.php:327 themes/highway/customize.php:360
+#: themes/jenga/customize.php:244 themes/nexus/customize.php:344
+#: themes/outline/customize.php:360 themes/precognition/customize.php:361
+#: themes/radix/customize.php:356 themes/simply-dark/customize.php:349
+msgid "Navigation"
+msgstr "Навигация"
+
+#: admin/views/pages/parts/slider-settings.php:151
+#: admin/assets/dist/js/app.js:2
+msgid "Dots"
+msgstr "Точки"
+
+#: admin/views/pages/parts/slider-settings.php:1286
+msgid "Pause the slideshow when hovering over slider, then resume when no longer hovering."
+msgstr "Останавливает слайд-шоу при наведении на него мышки и снова возобновляет, когда мышка убрана."
+
+#: admin/views/pages/parts/slider-settings.php:768
+msgid "Reverse"
+msgstr "В обратном порядке"
+
+#: admin/views/pages/parts/slider-settings.php:717
+#: admin/views/pages/parts/slider-settings.php:734
+msgid "Number of squares"
+msgstr "Количество квадратов"
+
+#: admin/views/pages/parts/slider-settings.php:750
+#: admin/views/slides/tabs/background.php:89
+#: inc/metaslider.imagestyles.class.php:493
+msgid "Horizontal"
+msgstr "Горизонтально"
+
+#: admin/views/pages/parts/slider-settings.php:757
+#: admin/views/pages/start.php:179 admin/views/slides/tabs/background.php:89
+#: inc/metaslider.imagestyles.class.php:494
+msgid "Vertical"
+msgstr "Вертикально"
+
+#: admin/views/slides/tabs/crop.php:23
+msgid "Center Center"
+msgstr "По центру"
+
+#: admin/Pages.php:168
+msgid "Select replacement image"
+msgstr "Выбрать изображение"
+
+#: admin/views/pages/parts/slider-settings.php:1082
+msgid "Standard"
+msgstr "Обычная"
+
+#: admin/views/pages/parts/slider-settings.php:1089
+msgid "Disabled"
+msgstr "Отключено"
+
+#: inc/slide/metaslide.image.class.php:540
+msgid "Warning: The image data does not exist. Please re-upload the image."
+msgstr "Внимание: данные изображения не существуют. Пожалуйста, загрузите изображение еще раз."
+
+#. Author of the plugin
+#: ml-slider.php
+msgid "MetaSlider"
+msgstr "MetaSlider"
+
+#: admin/views/pages/parts/toolbar.php:91
+msgid "Add a new slideshow"
+msgstr "Добавить новое слайд-шоу"
+
+#: admin/views/pages/parts/slider-settings.php:918
+msgid "Pixel margin between slides in carousel."
+msgstr "Отступ (в пикселях) между слайдами в карусели."
+
+#: inc/slide/metaslide.image.class.php:595
+msgid "Crop"
+msgstr "Кадрировать"
+
+#: admin/views/slides/tabs/crop.php:14
+msgid "Crop Position"
+msgstr "Позиция кадрирования"
+
+#: admin/Pages.php:157 modules/local_video/slide.php:423
+#: themes/architekt/customize.php:511 themes/bitono/customize.php:625
+#: themes/blend/customize.php:655 themes/bubble/customize.php:641
+#: themes/cascade/customize.php:596 themes/clarity/customize.php:624
+#: themes/cubic/customize.php:607 themes/databold/customize.php:624
+#: themes/default-base/customize.php:646 themes/disjoint/customize.php:599
+#: themes/draxler/customize.php:599 themes/highway/customize.php:613
+#: themes/jenga/customize.php:416 themes/nexus/customize.php:608
+#: themes/outline/customize.php:623 themes/precognition/customize.php:522
+#: themes/radix/customize.php:500 themes/simply-dark/customize.php:613
+#: admin/assets/dist/js/app.js:2
+msgid "Caption"
+msgstr "Подпись"
+
+#: admin/views/pages/parts/slider-settings.php:1096
+msgid "Disabled (Smart Pad)"
+msgstr "Отключено (Smart Pad)"
+
+#: inc/slide/metaslide.image.class.php:555
+#: inc/slide/metaslide.livid.class.php:881 modules/local_video/slide.php:407
+msgid "General"
+msgstr "Основные"
+
+#: inc/slide/metaslide.image.class.php:451
+msgid "Image Slide"
+msgstr "Слайд изображения"
+
+#: admin/views/slides/tabs/seo.php:7
+msgid "Image Title Text"
+msgstr "Текст заголовка изображения"
+
+#: admin/views/slides/tabs/crop.php:26
+msgid "Bottom Center"
+msgstr "Внизу по центру"
+
+#: admin/views/slides/tabs/crop.php:25
+msgid "Bottom Left"
+msgstr "Внизу слева"
+
+#: admin/views/slides/tabs/crop.php:27
+msgid "Bottom Right"
+msgstr "Внизу справа"
+
+#: admin/views/pages/parts/slider-settings.php:631
+msgid "Box Rain"
+msgstr "Мозаика"
+
+#: admin/views/slides/tabs/crop.php:22
+msgid "Center Left"
+msgstr "Слева по центру"
+
+#: admin/views/slides/tabs/crop.php:24
+msgid "Center Right"
+msgstr "Справа по центру"
+
+#: admin/views/pages/parts/slider-settings.php:550
+#: admin/views/pages/start.php:175 inc/metaslider.imagestyles.class.php:537
+msgid "Fade"
+msgstr "Исчезание"
+
+#: admin/views/pages/parts/slider-settings.php:611
+msgid "Fold"
+msgstr "Складывание"
+
+#: admin/views/pages/parts/slider-settings.php:117
+#: admin/views/pages/parts/slider-settings.php:148
+#: admin/assets/dist/js/app.js:2
+msgid "Hidden"
+msgstr "Скрытый"
+
+#: admin/Pages.php:158
+msgid "New Window"
+msgstr "Новое окно"
+
+#: inc/metaslider.widget.class.php:113
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: admin/views/slides/tabs/crop.php:20
+msgid "Top Center"
+msgstr "Сверху по центру"
+
+#: admin/views/slides/tabs/crop.php:19
+msgid "Top Left"
+msgstr "Слева вверху"
+
+#: admin/views/slides/tabs/crop.php:21
+msgid "Top Right"
+msgstr "Справа вверху"
+
+#: admin/views/pages/parts/slider-settings.php:1075
+msgid "Smart Crop"
+msgstr "Умное кадрирование"
+
+#: admin/views/pages/parts/slider-settings.php:1070
+msgid "Image Crop"
+msgstr "Кадрирование изображения"
+
+#: inc/slide/metaslide.image.class.php:563
+msgid "SEO"
+msgstr "SEO"
+
+#: admin/Table.php:210 admin/assets/dist/js/app.js:2
+msgid "Title"
+msgstr "Заголовок"
+
+#: admin/Pages.php:156 admin/views/slides/tabs/link.php:15
+msgid "URL"
+msgstr "URL"

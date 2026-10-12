@@ -1,0 +1,2021 @@
+# Copyright (C) 2026 WPZOOM
+# This file is distributed under the GNU General Public License v2.0 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Social Icons, Share Buttons & Click to Chat by WPZOOM 4.6.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/social-icons-widget-by-wpzoom\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-08-10T11:02:45+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: social-icons-widget-by-wpzoom\n"
+
+#. Plugin Name of the plugin
+#: social-icons-widget-by-wpzoom.php
+msgid "Social Icons, Share Buttons & Click to Chat by WPZOOM"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: social-icons-widget-by-wpzoom.php
+msgid "https://www.wpzoom.com/plugins/social-share/"
+msgstr ""
+
+#. Description of the plugin
+#: social-icons-widget-by-wpzoom.php
+msgid "Add social icons, share buttons, and a floating Click to Chat button to your website. Link to your social profiles, let visitors share your content, and connect instantly via WhatsApp, Telegram, Messenger, and Viber. Supports 400+ icons, customizable colors, and drag-and-drop sorting."
+msgstr ""
+
+#. Author of the plugin
+#: social-icons-widget-by-wpzoom.php
+msgid "WPZOOM"
+msgstr ""
+
+#. Author URI of the plugin
+#: social-icons-widget-by-wpzoom.php
+msgid "https://www.wpzoom.com/"
+msgstr ""
+
+#: block/src/init.php:429
+#: block/src/init.php:433
+msgid "Copied!"
+msgstr ""
+
+#: block/src/init.php:495
+msgid "WPZOOM - Blocks"
+msgstr ""
+
+#: elementor/widgets/wpzoom-social-icons-cpt/wpzoom-social-icons-cpt.php:67
+#: elementor/widgets/wpzoom-social-icons-cpt/wpzoom-social-icons-cpt.php:167
+msgid "Social Icon Sets"
+msgstr ""
+
+#. translators: %1$s: opening link tag to the Social Icon Sets page, %2$s: closing link tag.
+#: elementor/widgets/wpzoom-social-icons-cpt/wpzoom-social-icons-cpt.php:194
+#, php-format
+msgid "You can create a new set of icons on the %1$sSocial Icon Sets%2$s page."
+msgstr ""
+
+#: elementor/widgets/wpzoom-social-icons-cpt/wpzoom-social-icons-cpt.php:212
+msgid "Select a Set"
+msgstr ""
+
+#: elementor/wpzoom-social-icons-elementor.php:137
+#: includes/classes/class-zoom-social-icons-widget.php:102
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/block.js:160
+msgid "Social Icons by WPZOOM"
+msgstr ""
+
+#: includes/classes/class-wpzoom-click-to-chat-notice.php:55
+msgid "Let visitors reach you instantly! Add a floating Click to Chat button that connects to WhatsApp, Telegram, Messenger and Viber — perfect for turning visitors into customers."
+msgstr ""
+
+#: includes/classes/class-wpzoom-click-to-chat-notice.php:59
+msgid "Add a Click to Chat Button to Your Site"
+msgstr ""
+
+#: includes/classes/class-wpzoom-click-to-chat-notice.php:69
+msgid "Set Up Click to Chat"
+msgstr ""
+
+#: includes/classes/class-wpzoom-click-to-chat.php:113
+#: includes/classes/class-wpzoom-click-to-chat.php:114
+#: includes/classes/class-wpzoom-click-to-chat.php:230
+msgid "Click to Chat"
+msgstr ""
+
+#: includes/classes/class-wpzoom-click-to-chat.php:224
+msgid "Settings saved."
+msgstr ""
+
+#: includes/classes/class-wpzoom-click-to-chat.php:232
+msgid "One-tap contact buttons for WhatsApp, Telegram & Messenger — floating, always visible."
+msgstr ""
+
+#: includes/classes/class-wpzoom-click-to-chat.php:243
+msgid "Enable Click to Chat"
+msgstr ""
+
+#: includes/classes/class-wpzoom-click-to-chat.php:260
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:478
+msgid "Drag to reorder"
+msgstr ""
+
+#: includes/classes/class-wpzoom-click-to-chat.php:269
+#: includes/classes/class-wpzoom-click-to-chat.php:321
+msgid "Phone Number"
+msgstr ""
+
+#: includes/classes/class-wpzoom-click-to-chat.php:271
+#: includes/classes/class-wpzoom-click-to-chat.php:323
+msgid "Include country code, e.g. +15551234567"
+msgstr ""
+
+#: includes/classes/class-wpzoom-click-to-chat.php:274
+msgid "Pre-filled Message"
+msgstr ""
+
+#: includes/classes/class-wpzoom-click-to-chat.php:276
+msgid "This message will pre-fill the WhatsApp chat window."
+msgstr ""
+
+#: includes/classes/class-wpzoom-click-to-chat.php:288
+msgid "Username or Bot"
+msgstr ""
+
+#: includes/classes/class-wpzoom-click-to-chat.php:304
+msgid "Facebook Page Username"
+msgstr ""
+
+#: includes/classes/class-wpzoom-click-to-chat.php:309
+msgid "Enter your Facebook Page username or ID."
+msgstr ""
+
+#: includes/classes/class-wpzoom-click-to-chat.php:364
+#: includes/classes/class-wpzoom-floating-buttons-upsell.php:138
+#: includes/classes/class-wpzoom-social-sharing-buttons.php:233
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:746
+msgid "Display Settings"
+msgstr ""
+
+#: includes/classes/class-wpzoom-click-to-chat.php:367
+msgid "Button Style"
+msgstr ""
+
+#: includes/classes/class-wpzoom-click-to-chat.php:373
+msgid "Corner Launcher"
+msgstr ""
+
+#: includes/classes/class-wpzoom-click-to-chat.php:377
+msgid "Sidebar Strip"
+msgstr ""
+
+#: includes/classes/class-wpzoom-click-to-chat.php:437
+#: includes/classes/class-wpzoom-floating-buttons-upsell.php:142
+#: includes/classes/class-wpzoom-social-sharing-buttons.php:272
+msgid "Position"
+msgstr ""
+
+#: includes/classes/class-wpzoom-click-to-chat.php:439
+#: includes/classes/class-wpzoom-floating-buttons-upsell.php:147
+#: block/dist/wpzoom-social-icons.js:1
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/components/Inspector.js:281
+#: block/src/social-sharing-block/components/Inspector.js:795
+msgid "Left"
+msgstr ""
+
+#: includes/classes/class-wpzoom-click-to-chat.php:439
+#: includes/classes/class-wpzoom-floating-buttons-upsell.php:148
+#: block/dist/wpzoom-social-icons.js:1
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/components/Inspector.js:295
+#: block/src/social-sharing-block/components/Inspector.js:803
+msgid "Right"
+msgstr ""
+
+#: includes/classes/class-wpzoom-click-to-chat.php:450
+msgid "Widget size"
+msgstr ""
+
+#: includes/classes/class-wpzoom-click-to-chat.php:451
+msgid "Controls the diameter of the chat buttons"
+msgstr ""
+
+#: includes/classes/class-wpzoom-click-to-chat.php:464
+msgid "Launcher Color"
+msgstr ""
+
+#: includes/classes/class-wpzoom-click-to-chat.php:470
+msgid "Open Icon"
+msgstr ""
+
+#: includes/classes/class-wpzoom-click-to-chat.php:487
+msgid "Close Icon"
+msgstr ""
+
+#: includes/classes/class-wpzoom-click-to-chat.php:505
+msgid "Show on Mobile"
+msgstr ""
+
+#: includes/classes/class-wpzoom-click-to-chat.php:519
+msgid "Save Settings"
+msgstr ""
+
+#: includes/classes/class-wpzoom-click-to-chat.php:759
+msgid "Chat on WhatsApp"
+msgstr ""
+
+#: includes/classes/class-wpzoom-click-to-chat.php:765
+msgid "Chat on Telegram"
+msgstr ""
+
+#: includes/classes/class-wpzoom-click-to-chat.php:771
+msgid "Message us on Facebook"
+msgstr ""
+
+#: includes/classes/class-wpzoom-click-to-chat.php:778
+msgid "Chat on Viber"
+msgstr ""
+
+#: includes/classes/class-wpzoom-click-to-chat.php:819
+msgid "Open chat options"
+msgstr ""
+
+#: includes/classes/class-wpzoom-floating-buttons-upsell.php:52
+#: includes/classes/class-wpzoom-floating-buttons-upsell.php:53
+msgid "Floating Icons"
+msgstr ""
+
+#: includes/classes/class-wpzoom-floating-buttons-upsell.php:85
+#: includes/classes/class-wpzoom-social-icons-upsell.php:240
+#: includes/classes/class-wpzoom-social-icons-upsell.php:245
+msgid "Floating Buttons"
+msgstr ""
+
+#: includes/classes/class-wpzoom-floating-buttons-upsell.php:85
+#: includes/classes/class-wpzoom-share-analytics-upsell.php:107
+#: includes/classes/class-wpzoom-social-icons-settings.php:195
+msgid "Pro"
+msgstr ""
+
+#: includes/classes/class-wpzoom-floating-buttons-upsell.php:86
+msgid "Display social sharing icons as a fixed floating bar on your website."
+msgstr ""
+
+#: includes/classes/class-wpzoom-floating-buttons-upsell.php:145
+msgid "Horizontal:"
+msgstr ""
+
+#: includes/classes/class-wpzoom-floating-buttons-upsell.php:152
+msgid "Vertical:"
+msgstr ""
+
+#: includes/classes/class-wpzoom-floating-buttons-upsell.php:154
+msgid "Top"
+msgstr ""
+
+#: includes/classes/class-wpzoom-floating-buttons-upsell.php:155
+msgid "Middle"
+msgstr ""
+
+#: includes/classes/class-wpzoom-floating-buttons-upsell.php:156
+msgid "Bottom"
+msgstr ""
+
+#: includes/classes/class-wpzoom-floating-buttons-upsell.php:163
+msgid "Layout"
+msgstr ""
+
+#: includes/classes/class-wpzoom-floating-buttons-upsell.php:165
+msgid "Vertical"
+msgstr ""
+
+#: includes/classes/class-wpzoom-floating-buttons-upsell.php:166
+msgid "Horizontal"
+msgstr ""
+
+#: includes/classes/class-wpzoom-floating-buttons-upsell.php:171
+msgid "Show On"
+msgstr ""
+
+#: includes/classes/class-wpzoom-floating-buttons-upsell.php:173
+msgid "Posts"
+msgstr ""
+
+#: includes/classes/class-wpzoom-floating-buttons-upsell.php:174
+msgid "Pages"
+msgstr ""
+
+#: includes/classes/class-wpzoom-floating-buttons-upsell.php:175
+#: includes/classes/class-wpzoom-social-sharing-buttons.php:300
+msgid "Front Page"
+msgstr ""
+
+#: includes/classes/class-wpzoom-floating-buttons-upsell.php:180
+msgid "Mobile Settings"
+msgstr ""
+
+#: includes/classes/class-wpzoom-floating-buttons-upsell.php:182
+msgid "Show on mobile devices"
+msgstr ""
+
+#: includes/classes/class-wpzoom-floating-buttons-upsell.php:185
+msgid "Mobile breakpoint:"
+msgstr ""
+
+#: includes/classes/class-wpzoom-floating-buttons-upsell.php:197
+#: includes/classes/class-wpzoom-share-analytics-upsell.php:238
+#: includes/classes/class-wpzoom-social-icons-settings.php:647
+msgid "Pro Feature"
+msgstr ""
+
+#: includes/classes/class-wpzoom-floating-buttons-upsell.php:198
+msgid "Unlock Floating Buttons"
+msgstr ""
+
+#: includes/classes/class-wpzoom-floating-buttons-upsell.php:199
+msgid "Display your social sharing icons as a fixed floating bar on the side of your website. Visitors can share your content from anywhere on the page without scrolling back to find the share buttons."
+msgstr ""
+
+#: includes/classes/class-wpzoom-floating-buttons-upsell.php:201
+msgid "Fixed position on screen edge"
+msgstr ""
+
+#: includes/classes/class-wpzoom-floating-buttons-upsell.php:202
+msgid "Configurable position (left/right, top/middle/bottom)"
+msgstr ""
+
+#: includes/classes/class-wpzoom-floating-buttons-upsell.php:203
+msgid "Vertical or horizontal layout"
+msgstr ""
+
+#: includes/classes/class-wpzoom-floating-buttons-upsell.php:204
+msgid "Show on specific post types"
+msgstr ""
+
+#: includes/classes/class-wpzoom-floating-buttons-upsell.php:205
+msgid "Mobile-responsive with custom breakpoint"
+msgstr ""
+
+#: includes/classes/class-wpzoom-floating-buttons-upsell.php:206
+msgid "Works with all sharing platforms"
+msgstr ""
+
+#: includes/classes/class-wpzoom-floating-buttons-upsell.php:209
+#: includes/classes/class-wpzoom-share-analytics-upsell.php:250
+#: includes/classes/class-wpzoom-sharing-buttons-notice.php:101
+#: includes/classes/class-wpzoom-social-icons-settings.php:656
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:438
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: includes/classes/class-wpzoom-share-analytics-upsell.php:53
+#: includes/classes/class-wpzoom-share-analytics-upsell.php:54
+msgid "Analytics"
+msgstr ""
+
+#: includes/classes/class-wpzoom-share-analytics-upsell.php:107
+#: includes/classes/class-wpzoom-social-icons-upsell.php:132
+#: includes/classes/class-wpzoom-social-icons-upsell.php:137
+msgid "Share Analytics"
+msgstr ""
+
+#: includes/classes/class-wpzoom-share-analytics-upsell.php:108
+msgid "Track how visitors share your content across social platforms."
+msgstr ""
+
+#: includes/classes/class-wpzoom-share-analytics-upsell.php:119
+msgid "Total Shares"
+msgstr ""
+
+#: includes/classes/class-wpzoom-share-analytics-upsell.php:126
+msgid "Total Likes"
+msgstr ""
+
+#: includes/classes/class-wpzoom-share-analytics-upsell.php:133
+msgid "This Week"
+msgstr ""
+
+#: includes/classes/class-wpzoom-share-analytics-upsell.php:140
+msgid "Shares Over Time"
+msgstr ""
+
+#: includes/classes/class-wpzoom-share-analytics-upsell.php:163
+msgid "Shares by Platform"
+msgstr ""
+
+#: includes/classes/class-wpzoom-share-analytics-upsell.php:205
+msgid "Top Shared Posts"
+msgstr ""
+
+#: includes/classes/class-wpzoom-share-analytics-upsell.php:209
+msgid "Post Title"
+msgstr ""
+
+#: includes/classes/class-wpzoom-share-analytics-upsell.php:210
+msgid "Shares"
+msgstr ""
+
+#: includes/classes/class-wpzoom-share-analytics-upsell.php:211
+msgid "Likes"
+msgstr ""
+
+#: includes/classes/class-wpzoom-share-analytics-upsell.php:239
+msgid "Unlock Share Analytics"
+msgstr ""
+
+#: includes/classes/class-wpzoom-share-analytics-upsell.php:240
+msgid "Track your social sharing performance with detailed analytics. See which posts are shared the most, which platforms drive the most engagement, and how your content performs over time."
+msgstr ""
+
+#: includes/classes/class-wpzoom-share-analytics-upsell.php:242
+msgid "Track shares across all platforms"
+msgstr ""
+
+#: includes/classes/class-wpzoom-share-analytics-upsell.php:243
+msgid "Like button with engagement tracking"
+msgstr ""
+
+#: includes/classes/class-wpzoom-share-analytics-upsell.php:244
+msgid "Share counts from external sources"
+msgstr ""
+
+#: includes/classes/class-wpzoom-share-analytics-upsell.php:245
+msgid "AI share buttons (ChatGPT, Claude, Perplexity)"
+msgstr ""
+
+#: includes/classes/class-wpzoom-share-analytics-upsell.php:246
+msgid "Dashboard widget with quick stats"
+msgstr ""
+
+#: includes/classes/class-wpzoom-share-analytics-upsell.php:247
+msgid "Custom SVG icon uploads"
+msgstr ""
+
+#: includes/classes/class-wpzoom-sharing-buttons-notice.php:75
+msgid "Let your visitors share your content on social media! Enable sharing buttons that appear automatically on all your posts and pages."
+msgstr ""
+
+#. translators: %s: upgrade link
+#: includes/classes/class-wpzoom-sharing-buttons-notice.php:79
+#, php-format
+msgid "Want more? %s adds AI Share Buttons, Like Button, Share Counts & Analytics."
+msgstr ""
+
+#: includes/classes/class-wpzoom-sharing-buttons-notice.php:80
+#: includes/classes/class-wpzoom-social-icons-upsell.php:134
+#: includes/classes/class-wpzoom-social-icons-upsell.php:157
+#: includes/classes/class-wpzoom-social-icons-upsell.php:174
+#: includes/classes/class-wpzoom-social-icons-upsell.php:191
+#: includes/classes/class-wpzoom-social-icons-upsell.php:208
+#: includes/classes/class-wpzoom-social-icons-upsell.php:225
+#: includes/classes/class-wpzoom-social-icons-upsell.php:262
+#: social-icons-widget-by-wpzoom.php:310
+msgid "PRO"
+msgstr ""
+
+#: includes/classes/class-wpzoom-sharing-buttons-notice.php:86
+msgid "Add Social Sharing Buttons to Your Posts"
+msgstr ""
+
+#: includes/classes/class-wpzoom-sharing-buttons-notice.php:96
+msgid "Configure Sharing Buttons"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:147
+msgid "Social Icons     Page"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:148
+#: social-icons-widget-by-wpzoom.php:301
+msgid "Settings"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:179
+msgid "Social Icons & Sharing Buttons Settings"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:185
+#: includes/classes/class-wpzoom-social-icons-shortcode.php:55
+msgid "Icon Sets"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:189
+msgid "Optimization"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:192
+msgid "Misc."
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:195
+msgid "Upload Icons"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:310
+msgid "Social Icons Widget"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:318
+#: includes/classes/class-wpzoom-social-icons-upsell.php:267
+msgid "Social Icons Block"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:336
+msgid "Preload Fonts"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:354
+#: social-icons-widget-by-wpzoom.php:230
+msgid "Academicons"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:362
+msgid "Font Awesome 3"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:370
+msgid "Font Awesome 5"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:378
+#: social-icons-widget-by-wpzoom.php:226
+msgid "Genericons"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:386
+#: social-icons-widget-by-wpzoom.php:222
+msgid "Dashicons"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:394
+#: social-icons-widget-by-wpzoom.php:218
+msgid "Socicons"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:402
+msgid "Sync Icon Sets"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:468
+#: includes/classes/class-wpzoom-social-icons-settings.php:483
+msgid "Disable"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:470
+msgid "Social Icons Widget module functionality, by default enabled."
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:485
+msgid "Social Icons Block module functionality, by default enabled."
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:498
+msgid "Enable"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:500
+msgid "Preload web fonts using rel=\"preload\" to remove any flash of unstyled text and improve the PageSpeed score."
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:512
+#: includes/classes/class-wpzoom-social-icons-settings.php:525
+#: includes/classes/class-wpzoom-social-icons-settings.php:539
+#: includes/classes/class-wpzoom-social-icons-settings.php:553
+#: includes/classes/class-wpzoom-social-icons-settings.php:566
+#: includes/classes/class-wpzoom-social-icons-settings.php:579
+msgid "Enable this font"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:527
+msgid "Font Awesome 3 is loaded only in the Social Icons Widget"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:541
+msgid "Font Awesome 5 is loaded only in the Social Icons Block."
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:581
+msgid "Main icon set"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:593
+msgid "Enable sync"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:595
+msgid "Sync Icon sets with Block and Widget Settings from popup."
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:612
+msgid "Click to upload or drag & drop SVG icons here"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:615
+msgid "Your Custom Icons"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:648
+msgid "Custom Icon Uploads"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:649
+msgid "Upload your own SVG icons to create a unique social icons set that matches your brand."
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:651
+msgid "Upload unlimited custom SVG icons"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:652
+msgid "Use in widgets, blocks & shortcodes"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-settings.php:653
+msgid "Organize icons in your custom set"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-shortcode.php:49
+msgctxt "post type general name"
+msgid "Social Icon Sets"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-shortcode.php:50
+msgctxt "post type singular name"
+msgid "Social Icon Sets"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-shortcode.php:51
+msgctxt "shortcode"
+msgid "Add New"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-shortcode.php:52
+msgid "Add New Shortcode"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-shortcode.php:53
+msgid "Edit Social Icon Shortcode"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-shortcode.php:54
+msgid "New Social Icon Shortcodes Memeber"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-shortcode.php:56
+msgid "View Shortcodes"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-shortcode.php:57
+msgid "Search Social Icon Shortcodes"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-shortcode.php:58
+msgid "No shortcode found"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-shortcode.php:59
+msgid "No shortcode found in Trash"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-shortcode.php:96
+msgid "Shortcode:"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-shortcode.php:180
+msgid "Shortcode"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:52
+#: includes/classes/class-wpzoom-social-icons-upsell.php:53
+#: includes/classes/class-wpzoom-social-icons-upsell.php:346
+msgid "Upgrade to PRO"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:115
+msgid "Social Icons Widget PRO"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:117
+msgid "Upgrade to Social Icons PRO"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:118
+msgid "Take your social icons and sharing buttons to the next level with powerful Pro features. Track shares, display counts, add AI sharing, and much more."
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:120
+msgid "Upgrade to PRO &rarr;"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:126
+msgid "Unlock powerful PRO features"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:139
+msgid "Track how visitors share your content with a detailed analytics dashboard. See shares by platform, top shared posts, and engagement trends over time."
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:141
+#: includes/classes/class-wpzoom-social-icons-upsell.php:164
+#: includes/classes/class-wpzoom-social-icons-upsell.php:181
+#: includes/classes/class-wpzoom-social-icons-upsell.php:198
+#: includes/classes/class-wpzoom-social-icons-upsell.php:215
+#: includes/classes/class-wpzoom-social-icons-upsell.php:232
+#: includes/classes/class-wpzoom-social-icons-upsell.php:249
+msgid "Without PRO:"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:142
+msgid "No sharing analytics"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:152
+#: includes/classes/class-wpzoom-social-icons-upsell.php:392
+msgid "Like"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:155
+msgid "Click to try it!"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:160
+#: includes/classes/class-wpzoom-social-icons-upsell.php:309
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:563
+msgid "Like Button"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:162
+msgid "Add a like button to posts and pages, letting visitors engage with your content. Includes built-in tracking and display of like counts."
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:165
+msgid "No like functionality"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:172
+#: includes/classes/class-wpzoom-social-icons-upsell.php:177
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:372
+msgid "AI Share Buttons"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:179
+msgid "Let visitors share your content to AI platforms like ChatGPT, Claude, and Perplexity. Stay ahead with the latest sharing options."
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:182
+msgid "Standard sharing platforms only"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:189
+#: includes/classes/class-wpzoom-social-icons-upsell.php:194
+#: includes/classes/class-wpzoom-social-icons-upsell.php:314
+msgid "Share Counts"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:196
+msgid "Display total and individual share counts on sharing buttons. Fetch real share counts from Facebook and Pinterest via the SharedCount API."
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:199
+msgid "No share count display"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:206
+#: includes/classes/class-wpzoom-social-icons-upsell.php:211
+msgid "Custom SVG Uploads"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:213
+msgid "Upload your own custom SVG icons to create unique social icon sets. Perfect for brands with custom icons or niche platforms."
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:216
+msgid "Built-in icons only"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:223
+#: includes/classes/class-wpzoom-social-icons-upsell.php:228
+#: includes/classes/class-wpzoom-social-icons-upsell.php:287
+msgid "Nav Menu Integration"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:230
+msgid "Add social icons directly to your WordPress navigation menus. Icons can be accompanied by text labels for a polished menu design."
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:233
+msgid "Widget and block only"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:242
+msgid "NEW"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:247
+msgid "Display social sharing icons as a fixed floating bar on the side of your website. Visitors can share from anywhere on the page. Configure position, layout, and visibility for specific post types."
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:250
+msgid "No floating share bar"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:257
+msgid "Free vs PRO"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:261
+msgid "FREE"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:272
+msgid "400+ Icons from 5 Icon Sets"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:277
+msgid "Icon Sets & Shortcodes"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:282
+msgid "Custom SVG Icon Uploads"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:294
+msgid "Social Sharing Buttons Block"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:299
+msgid "12+ Sharing Platforms"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:304
+msgid "AI Share Buttons (ChatGPT, Claude, Perplexity)"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:319
+msgid "Floating Buttons Bar"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:319
+msgid "New"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:326
+msgid "Share Analytics Dashboard"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:331
+msgid "Dashboard Stats Widget"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:336
+msgid "Priority Support"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-icons-upsell.php:372
+msgid "Liked"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-sharing-buttons.php:78
+#: includes/classes/class-wpzoom-social-sharing-buttons.php:83
+#: includes/classes/class-wpzoom-social-sharing-buttons.php:84
+#: includes/classes/class-wpzoom-social-sharing-buttons.php:125
+#: includes/classes/class-wpzoom-social-sharing-buttons.php:126
+#: includes/classes/class-wpzoom-social-sharing-buttons.php:158
+#: includes/classes/class-wpzoom-social-sharing-buttons.php:159
+msgid "Sharing Buttons"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-sharing-buttons.php:79
+msgid "Configure sharing buttons that appear automatically"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-sharing-buttons.php:81
+msgctxt "Post Type General Name"
+msgid "Sharing Buttons"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-sharing-buttons.php:82
+msgctxt "Post Type Singular Name"
+msgid "Sharing Buttons"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-sharing-buttons.php:85
+msgid "Add New"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-sharing-buttons.php:86
+msgid "Add New Sharing Configuration"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-sharing-buttons.php:87
+msgid "Edit Sharing Configuration"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-sharing-buttons.php:88
+msgid "View Sharing Configuration"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-sharing-buttons.php:147
+msgid "Sharing Buttons Configuration"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-sharing-buttons.php:277
+msgid "Above content"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-sharing-buttons.php:283
+msgid "Below content"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-sharing-buttons.php:289
+msgid "Above and below content"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-sharing-buttons.php:294
+msgid "Show buttons on"
+msgstr ""
+
+#: includes/classes/class-wpzoom-social-sharing-buttons.php:316
+msgid "Configure the social sharing buttons above, then use these settings to control where they appear on your site."
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:105
+msgid "Sortable widget that supports more than 80+ social networks"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:193
+msgid "Clear"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:194
+msgid "Default"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:195
+msgid "Select Color"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:196
+msgid "Current Color"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:312
+msgid "Close media panel"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:318
+#: block/dist/wpzoom-social-icons.js:1
+#: block/src/block/components/SocialIconsModal.js:157
+msgid "Select Icon"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:328
+msgid "Choose icon color"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:337
+msgid "Choose hover color"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:346
+#: block/dist/wpzoom-social-icons.js:1
+#: block/src/block/components/SocialIconsModal.js:206
+msgid "Select Icon Kit"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:382
+#: block/dist/wpzoom-social-icons.js:1
+#: block/src/block/components/SocialIconsModal.js:223
+msgid "Type to search icon"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:383
+#: block/dist/wpzoom-social-icons.js:1
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/components/SocialIconsModal.js:241
+#: block/src/social-sharing-block/components/Edit.js:235
+msgid "Save"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:705
+msgid "Title:"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:710
+msgid "Text above icons:"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:714
+msgid "You can add here a text above the icons. Basic HTML allowed."
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:719
+msgid "Show icon labels? "
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:724
+msgid "Open links in new tab? "
+msgstr ""
+
+#. translators: %s: the rel attribute that gets added, wrapped in a <code> tag.
+#: includes/classes/class-zoom-social-icons-widget.php:728
+#: includes/classes/class-zoom-social-icons-widget.php:733
+#: includes/classes/class-zoom-social-icons-widget.php:738
+#: includes/classes/class-zoom-social-icons-widget.php:742
+#, php-format
+msgid "Add %s to links"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:745
+msgid "Recommended if links or icons open in a new tab"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:749
+#: block/dist/wpzoom-social-icons.js:1
+#: block/src/block/components/Inspector.js:271
+msgid "Icons Alignment:"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:752
+msgid "None"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:753
+msgid "Align Left"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:754
+msgid "Align Center"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:755
+msgid "Align Right"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:760
+msgid "Icon Style:"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:763
+msgid "Color Background / White Icon"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:764
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/block.js:353
+msgid "Color Icon / No Background"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:769
+msgid "Icon Background Style:"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:771
+msgid "Round"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:772
+msgid "Rounded Corners"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:773
+msgid "Square"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:778
+msgid "This option has no effect if the <i>Color Icon / No Background</i> icon style is selected."
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:782
+msgid "Icon Padding (pixels):"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:788
+msgid "Icon Size (pixels):"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:798
+#: block/dist/wpzoom-social-icons.js:1
+#: block/src/block/components/Inspector.js:434
+msgid "Set color for all icons"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:804
+#: block/dist/wpzoom-social-icons.js:1
+#: block/src/block/components/Inspector.js:473
+msgid "Set hover color for all icons"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:809
+msgid "Icons:"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:884
+msgid "Start typing the URL..."
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:885
+#: block/dist/wpzoom-social-icons.js:1
+#: block/src/block/components/SocialIconsModal.js:173
+msgid "Label"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:893
+msgid "Edit"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:894
+msgid "Remove"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:895
+msgid "Expand"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:900
+msgid "description"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:906
+msgid "This is used to provide a description of this icon to screen reader users (for accessibility purposes)."
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:917
+msgid "Add more"
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:921
+msgid "To add an icon with an email address, use the <strong><em>mailto:mail@example.com</em></strong> format."
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:925
+msgid "Note that the icons above may not look the same on the front end. This is just for reference."
+msgstr ""
+
+#: includes/classes/class-zoom-social-icons-widget.php:942
+msgid "Follow us"
+msgstr ""
+
+#: includes/social-sharing-icons.php:213
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/utils/labels.js:45
+msgid "Share on X"
+msgstr ""
+
+#: includes/social-sharing-icons.php:215
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/utils/labels.js:47
+msgid "Email"
+msgstr ""
+
+#: includes/social-sharing-icons.php:217
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/utils/labels.js:49
+msgid "Copy Link"
+msgstr ""
+
+#: includes/social-sharing-icons.php:219
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/utils/labels.js:51
+msgid "Print"
+msgstr ""
+
+#: social-icons-widget-by-wpzoom.php:237
+msgid "Font Awesome"
+msgstr ""
+
+#: social-icons-widget-by-wpzoom.php:244
+msgid "Font Awesome Brands"
+msgstr ""
+
+#: social-icons-widget-by-wpzoom.php:248
+msgid "Font Awesome Regular"
+msgstr ""
+
+#: social-icons-widget-by-wpzoom.php:252
+msgid "Font Awesome Solid"
+msgstr ""
+
+#: social-icons-widget-by-wpzoom.php:342
+msgid "View Documentation"
+msgstr ""
+
+#: social-icons-widget-by-wpzoom.php:342
+msgid "Documentation"
+msgstr ""
+
+#: social-icons-widget-by-wpzoom.php:365
+msgid "Dismiss this notice."
+msgstr ""
+
+#. translators: %s The heading title
+#: social-icons-widget-by-wpzoom.php:375
+msgid "The Ultimate Social Media Icons Plugin for WordPress 🤩&nbsp;"
+msgstr ""
+
+#. translators: %s The pro version features
+#: social-icons-widget-by-wpzoom.php:380
+#, php-format
+msgid "Upgrade to the PRO version to unlock unique features such as the %s"
+msgstr ""
+
+#. translators: %s The pro version features
+#: social-icons-widget-by-wpzoom.php:380
+msgid "Custom SVG Icons Uploader, Loading Icons in SVG format, Adding Icons to Menus, and more!"
+msgstr ""
+
+#: social-icons-widget-by-wpzoom.php:384
+msgid "Get Social Icons Widget PRO &rarr;"
+msgstr ""
+
+#: social-icons-widget-by-wpzoom.php:473
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: social-icons-widget-by-wpzoom.php:477
+msgid "You do not have the necessary permission to perform this action."
+msgstr ""
+
+#: assets/js/social-sharing-editor.js:86
+msgid "Configure Your Social Sharing Buttons"
+msgstr ""
+
+#: assets/js/social-sharing-editor.js:87
+msgid "These buttons will automatically appear on your content based on the settings in the sidebar. Customize the buttons below, then use the \"Display Settings\" panel to control where they appear."
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:1
+#: block/src/block/components/SocialIconsModal.js:163
+msgid "URL"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:1
+#: block/src/block/components/SocialIconsModal.js:184
+msgid "Pick icon color"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:1
+#: block/src/block/components/SocialIconsModal.js:195
+msgid "Pick hover color"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:1
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/components/Edit.js:820
+#: block/src/block/components/SocialIconsModal.js:237
+msgid "Delete Icon"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:1
+#: block/src/block/components/Inspector.js:60
+msgid "Turquoise"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:1
+#: block/src/block/components/Inspector.js:64
+msgid "Charcoal"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:1
+#: block/src/block/components/Inspector.js:67
+msgid "White"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:1
+#: block/src/block/components/Inspector.js:69
+msgid "Dodger blue"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:1
+#: block/src/block/components/Inspector.js:72
+msgid "Red"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:1
+#: block/src/block/components/Inspector.js:74
+msgid "Orange"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:1
+#: block/src/block/components/Inspector.js:91
+msgid "Icon Labels Settings"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:1
+#: block/src/block/components/Inspector.js:98
+#: block/src/block/components/Inspector.js:105
+msgid " Show icon labels?"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:1
+#: block/src/block/components/Inspector.js:120
+#: block/src/block/components/Inspector.js:127
+msgid "Open links in new tab?"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:1
+#: block/src/block/components/Inspector.js:146
+#: block/src/block/components/Inspector.js:153
+msgid "Add rel=\"nofollow\" to links"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:1
+#: block/src/block/components/Inspector.js:168
+#: block/src/block/components/Inspector.js:175
+msgid "Add rel=\"noreferrer\" to links"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:1
+#: block/src/block/components/Inspector.js:190
+#: block/src/block/components/Inspector.js:197
+msgid "Add rel=\"noopener\" to links"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:1
+#: block/src/block/components/Inspector.js:212
+#: block/src/block/components/Inspector.js:219
+msgid "Add rel=\"me\" to links"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:1
+#: block/src/block/components/Inspector.js:237
+msgid "Icon Styling Settings"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:1
+#: block/src/block/components/Inspector.js:246
+msgid "Icons Border Radius:"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:1
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/components/Inspector.js:288
+#: block/src/social-sharing-block/components/Inspector.js:799
+msgid "Center"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:1
+#: block/src/block/components/Inspector.js:301
+msgid "Icons Font Size:"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:1
+#: block/src/block/components/Inspector.js:319
+msgid "Icons Label Font Size:"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:1
+#: block/src/block/components/Inspector.js:345
+msgid "Icons Padding Horizontal:"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:1
+#: block/src/block/components/Inspector.js:367
+msgid "Icons Padding Vertical:"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:1
+#: block/src/block/components/Inspector.js:387
+msgid "Icons Margin Horizontal:"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:1
+#: block/src/block/components/Inspector.js:407
+msgid "Icons Margin Vertical:"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:1
+#: block/src/block/components/Inspector.js:427
+msgid "Icon Color Settings"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:1
+#: block/src/block/components/Inspector.js:512
+msgid "Set color for all label icons"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:1
+#: block/src/block/components/Inspector.js:539
+msgid "Set hover color for all label icons"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:1
+#: block/src/block/components/PopoverSearch.js:37
+msgid "https://example.com"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:1
+#: block/src/block/components/PopoverSearch.js:46
+msgid "Detect Icon"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:1
+#: block/src/block/legacy-widget-transform/transform-to-block.js:138
+msgid "Title"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:1
+#: block/src/block/legacy-widget-transform/transform-to-block.js:143
+msgid "Text above icons"
+msgstr ""
+
+#. translators: %d: the number of the block that has been converted
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/legacy-widget-transform/transform-to-block.js:170
+#, js-format
+msgid "%d legacy widget \"Social Icons\" successfully converted to block"
+msgid_plural "%d legacy widgets \"Social Icons\" successfully converted to block"
+msgstr[0] ""
+msgstr[1] ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/legacy-widget-transform/transform-to-block.js:38
+msgid "Legacy Social Icons Widget has been detected on this page. Since our plugin includes a Social Icons Block, supported by WordPress 5.8, we highly recommend transforming legacy widgets to blocks. You can do that by clicking on the \"Convert to block\" button. You can also disable the new block-based widget screen by installing the Classic Widgets plugin."
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/legacy-widget-transform/transform-to-block.js:53
+msgid "Manage in Customizer"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/legacy-widget-transform/transform-to-block.js:64
+msgid "Convert to block"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/legacy-widget-transform/transform-to-block.js:74
+msgid "Converting process is starting. Please wait…"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/block.js:161
+msgid "Display icons with links to social media platforms."
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/block.js:177
+msgid "Social Icons"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/block.js:178
+msgid "icon"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/block.js:179
+msgid "svg"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/block.js:180
+msgid "share"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/block.js:181
+msgid "sharing"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/block.js:182
+msgid "Fontawesome"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/block.js:331
+msgid "Color Background / Round White Icon"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/block.js:339
+msgid "Color Background / Rounded White Icon"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/block.js:346
+msgid "Color Background / Squared White Icon"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/block.js:357
+msgid "Color Icon / No Background with border"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/block.js:364
+msgid "Color Background / Rounded White Icon with label"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/block.js:371
+msgid "Color Icon / No Background with label"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/components/Edit.js:645
+msgid "Social Icon Settings"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/components/Edit.js:655
+msgid "URL & ICON"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/components/Edit.js:658
+msgid "Enter a website URL to automatically detect its icon"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/components/Edit.js:684
+msgid "Icon detected and applied!"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/components/Edit.js:688
+msgid "No matching icon found. Choose manually below."
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/components/Edit.js:696
+#: block/src/block/components/Edit.js:714
+msgid "Or"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/components/Edit.js:706
+msgid "Choose Icon & Edit Details"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/components/Edit.js:723
+#: block/src/block/components/Edit.js:937
+msgid "Insert Custom SVG Icon"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/components/Edit.js:734
+msgid "COLORS"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/components/Edit.js:739
+#: block/src/block/components/Edit.js:774
+msgid "Change color"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/components/Edit.js:745
+msgid "Normal:"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/components/Edit.js:751
+#: block/src/social-sharing-block/components/Inspector.js:1000
+msgid "Icon Color"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/components/Edit.js:780
+msgid "Hover:"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/components/Edit.js:786
+msgid "Hover Color"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/components/Edit.js:946
+msgid "Paste your SVG code below. Make sure it's clean and valid SVG code for security reasons."
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/components/Edit.js:952
+msgid "SVG Code"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/components/Edit.js:956
+msgid "Paste SVG code here. For security reasons, scripts and event handlers will be removed."
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/components/Edit.js:970
+msgid "Preview:"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/components/Edit.js:571
+msgid "Custom Icon"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/components/Edit.js:992
+msgid "Apply SVG Icon"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/block/components/Edit.js:1001
+#: block/src/social-sharing-block/components/Edit.js:229
+msgid "Cancel"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:326
+#: block/src/social-sharing-block/components/Inspector.js:533
+msgid "Pro Features"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:344
+msgid "Show Like Button"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:350
+msgid "Show Share Counts"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:356
+msgid "Show Individual Counts"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:447
+msgid "Unlock analytics, like buttons, AI sharing & more"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:452
+msgid "Sharing Networks"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:454
+msgid "Select which platforms to display. Drag handles to reorder networks."
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:502
+msgid "Move Up"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:510
+msgid "Move Down"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:605
+msgid "ChatGPT"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:647
+msgid "Claude"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:689
+msgid "Perplexity"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:710
+msgid "Unlock all features →"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:717
+msgid "Auto-Display Configuration"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:719
+msgid "Want sharing buttons to appear automatically in all posts/pages?"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:722
+msgid "Configure automatic sharing button display settings for your entire site."
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:731
+msgid "Open Sharing Buttons Settings →"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:735
+msgid "Sharing configuration not found. Please save this block first."
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:739
+msgid "Note: This will open the admin settings page where you can configure automatic display of sharing buttons across your site."
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:748
+msgid "You are editing the global Sharing Buttons configuration."
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:751
+msgid "To control where these buttons appear automatically on your site, click on the button below."
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:781
+msgid "Jump to Display Settings"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:786
+msgid "Display Options"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:788
+msgid "Alignment"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:810
+msgid "Show Labels"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:819
+msgid "X/Twitter Username"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:820
+msgid "When sharing to X, this will be added as \"via @username\""
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:832
+msgid "Size & Spacing"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:834
+msgid "Icon Size"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:846
+msgid "Label Size"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:860
+msgid "Vertical Padding"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:871
+msgid "Horizontal Padding"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:884
+msgid "Vertical Margin"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:895
+msgid "Horizontal Margin"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:906
+msgid "Shape"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:908
+msgid "Border Radius"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:919
+msgid "Border radius is set to 0 for square styles."
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:921
+msgid "Border radius is set to 50 for pill styles."
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:923
+msgid "Border radius is not applicable for minimal style."
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:929
+msgid "Add Border"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:935
+msgid "Border is always enabled for outlined styles."
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:937
+msgid "Border is not applicable for minimal style."
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:945
+msgid "Border Width"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:957
+#: block/src/social-sharing-block/components/Inspector.js:971
+msgid "Border Color"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:970
+msgid "Border & Icon Color"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:973
+msgid "For outlined styles, border color matches icon color"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:984
+msgid "Color Settings"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:991
+msgid "One Tone Background Color"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:994
+msgid "Changes the background color of all icons."
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:995
+msgid "This option is only available with the One Tone style."
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:1002
+msgid "This color will be applied to icons for outlined and minimal styles"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:1007
+msgid "Icon Hover Color"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:1013
+msgid "Label Color"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:1015
+msgid "This color will be applied to labels for outlined and minimal styles"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Inspector.js:1020
+msgid "Label Hover Color"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/block.js:41
+msgid "Social Sharing Buttons"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/block.js:42
+msgid "Add social sharing buttons to allow visitors to share your content."
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/block.js:52
+msgid "Social Sharing"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/block.js:53
+msgid "Share"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/block.js:54
+msgid "Buttons"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/block.js:55
+msgid "Social Media"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/block.js:215
+msgid "Default (Circle)"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/block.js:220
+msgid "Square / Filled"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/block.js:224
+msgid "Rounded / Filled"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/block.js:228
+msgid "Outlined / Pill"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/block.js:232
+msgid "Outlined / Square"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/block.js:236
+msgid "Minimal"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/block.js:240
+msgid "One Tone"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Edit.js:217
+msgid "Edit Label"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Edit.js:220
+msgid "Label Text"
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Edit.js:247
+msgid "Select sharing networks in the block sidebar."
+msgstr ""
+
+#: block/dist/wpzoom-social-icons.js:3
+#: block/src/social-sharing-block/components/Edit.js:258
+msgid "Click on any icon to edit its label"
+msgstr ""
+
+#: elementor/assets/js/wpzoom-social-icons-select2-i18n.js:30
+msgid "The results could not be loaded."
+msgstr ""
+
+#. translators: %d: number of characters that have to be removed.
+#: elementor/assets/js/wpzoom-social-icons-select2-i18n.js:37
+#, js-format
+msgid "Please delete %d character"
+msgid_plural "Please delete %d characters"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %d: number of characters that still have to be typed.
+#: elementor/assets/js/wpzoom-social-icons-select2-i18n.js:51
+#, js-format
+msgid "Please enter %d or more character"
+msgid_plural "Please enter %d or more characters"
+msgstr[0] ""
+msgstr[1] ""
+
+#: elementor/assets/js/wpzoom-social-icons-select2-i18n.js:61
+msgid "Loading more results…"
+msgstr ""
+
+#. translators: %d: maximum number of items that can be selected.
+#: elementor/assets/js/wpzoom-social-icons-select2-i18n.js:66
+#, js-format
+msgid "You can only select %d item"
+msgid_plural "You can only select %d items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: elementor/assets/js/wpzoom-social-icons-select2-i18n.js:76
+msgid "No results found"
+msgstr ""
+
+#: elementor/assets/js/wpzoom-social-icons-select2-i18n.js:79
+msgid "Searching…"
+msgstr ""
+
+#: elementor/assets/js/wpzoom-social-icons-select2-i18n.js:82
+msgid "Remove all items"
+msgstr ""

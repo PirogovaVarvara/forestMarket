@@ -1,0 +1,91 @@
+# Translation of Plugins - Klaviyo - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Klaviyo - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-07-28 07:39:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.1.0\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Klaviyo - Stable (latest release)\n"
+
+#. Plugin Name of the plugin
+#: klaviyo.php
+msgid "Klaviyo"
+msgstr "Klaviyo"
+
+#. Plugin URI of the plugin
+#: klaviyo.php
+msgid "https://wordpress.org/plugins/klaviyo/"
+msgstr "https://wordpress.org/plugins/klaviyo/"
+
+#. Author of the plugin
+#: klaviyo.php
+msgid "Klaviyo, Inc."
+msgstr "Klaviyo, Inc."
+
+#. Author URI of the plugin
+#: klaviyo.php
+msgid "https://www.klaviyo.com"
+msgstr "https://www.klaviyo.com"
+
+#: inc/kla-widgets.php:211
+msgid "Title:"
+msgstr "Название:"
+
+#: klaviyo.php:151 klaviyo.php:160
+msgid "Cheatin&#8217; huh?"
+msgstr "Хакер, что ли?"
+
+#: includes/blocks/StoreApi.php:94
+msgid "Subscribe to email newsletter."
+msgstr "Подпишитесь на рассылку email."
+
+#: includes/blocks/build/block.json
+msgctxt "block description"
+msgid "Klaviyo's marketing consent checkbox."
+msgstr "Флажок согласия на маркетинг Klaviyo."
+
+#: inc/kla-widgets.php:125
+msgid "List ID:"
+msgstr "ID списка:"
+
+#: inc/kla-widgets.php:126
+msgid "Button Styles:"
+msgstr "Стили кнопки:"
+
+#: includes/blocks/CheckoutIntegration.php:114
+msgid "Sign me up to receive email updates and news (optional)"
+msgstr "Зарегистрируйте меня, чтобы получать обновления и новости email (опционально)"
+
+#: includes/blocks/CheckoutIntegration.php:139
+msgid "By checking this box and entering your phone number above, you consent to receive marketing text messages (such as [promotion codes] and [cart reminders]) from [company name] at the number provided, including messages sent by autodialer. Consent is not a condition of any purchase. Message and data rates may apply. Message frequency varies. You can unsubscribe at any time by replying STOP or clicking the unsubscribe link (where available) in one of our messages. View our Privacy Policy [link] and Terms of Service [link]"
+msgstr "Отметив этот бокс и введя свой номер телефона выше, Вы соглашаетесь получать маркетинговые текстовые сообщения (такие как [промокоды] и [напоминания о корзине]) от [название компании] на указанный номер, включая сообщения, отправленные автодозвоном. Согласие не является условием какой-либо покупки. Могут применяться рейтинги сообщений и данных. Частота сообщений варьируется. Вы можете отказаться от подписки в любое время, ответив STOP или нажав на ссылку \"Отказаться от подписки\" (если она доступна) в одном из наших сообщений. Ознакомьтесь с нашей Политикой конфиденциальности [ссылка] и Условиями предоставления услуг [ссылка]"
+
+#. Description of the plugin
+#: klaviyo.php
+msgid "A plugin to automatically sync your WooCommerce sales, products and customers with Klaviyo. With Klaviyo you can set up abandoned cart emails, collect emails for your newsletter to grow your business."
+msgstr "Плагин для автоматической синхронизации Ваших продаж, товаров и клиентов WooCommerce с Klaviyo. С помощью Klaviyo Вы можете настроить рассылку писем о брошенных корзинах, собирать электронные письма для Вашей рассылки, чтобы развивать свой бизнес."
+
+#: inc/kla-widgets.php:122
+msgid "List Description:"
+msgstr "Описание списка:"
+
+#: inc/kla-widgets.php:124
+msgid "Button Text:"
+msgstr "Текст кнопки:"
+
+#: inc/kla-widgets.php:212
+msgid "Form ID:"
+msgstr "ID формы:"
+
+#: includes/class-wck-install.php:158
+msgid "Security check failed"
+msgstr "Проверка безопасности не удалась"
+
+#: includes/blocks/build/block.json
+msgctxt "block title"
+msgid "Klaviyo"
+msgstr "Klaviyo"

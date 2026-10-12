@@ -1,0 +1,968 @@
+# Loco Gettext template
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: cubewp-framework\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-06 15:10+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: cland <cubewp@gmail.com>\n"
+"Language-Team: Cridio <contact@cubewp.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"POT-Revision-Date: Tue Mar 08 2016 16:05:54 GMT+0500 (Pakistan Standard Time)\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 3.7\n"
+"X-Poedit-KeywordsList: "
+"_:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: cube/classes/class-cubewp-forms-custom.php:128
+#: cube/classes/class-cubewp-forms-ui.php:79 cubewp-forms.php:82
+msgid "CubeWP Forms"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-custom.php:135
+msgid "Custom Forms"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-custom.php:141
+msgid "All Leads"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-custom.php:147
+msgid "Templates"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-custom.php:157
+msgid "Mailchimp API Errors"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-dashboard.php:92
+msgid "No Leads Found"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-dashboard.php:93
+msgid "There are no leads found."
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-dashboard.php:213
+msgid "Submitted By"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-dashboard.php:224
+msgid "Date"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-dashboard.php:230
+#: cube/classes/class-cubewp-forms-data-table.php:73
+msgid "View Details"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-dashboard.php:257
+#: cube/classes/class-cubewp-forms-frontend-custom-form.php:242
+msgid "Sorry! Security Verification Failed."
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-dashboard.php:323
+#: cube/classes/class-cubewp-forms-leads.php:80
+msgid "Lead Details"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-dashboard.php:324
+msgid "Close"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-data-table.php:55
+#: cube/classes/class-cubewp-forms-table.php:58
+#: cube/classes/class-cubewp-forms-ui.php:456
+msgid "Form Name"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-data-table.php:56
+msgid "Lead ID"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-data-table.php:57
+#: cube/classes/class-cubewp-forms-emails.php:358
+msgid "User"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-data-table.php:58
+msgid "Single Post (If available)"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-data-table.php:59
+msgid "Date & Time"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-data-table.php:74
+#: cube/classes/class-cubewp-forms-table.php:101
+msgid "Delete"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-data-table.php:99
+#: cube/classes/class-cubewp-forms-table.php:124
+msgctxt "List table bulk action"
+msgid "Delete"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-data-table.php:174
+msgid "No User Data"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-data-table.php:224
+msgid "All Forms"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-elementor.php:79
+#: cube/classes/class-cubewp-forms-elementor.php:86
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-elementor.php:79
+#: cube/classes/class-cubewp-forms-elementor.php:86
+msgid "CubeWP"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-elementor.php:79
+msgid "Elementor"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-elementor.php:86
+msgid "PHP"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-elementor.php:130
+#, php-format
+msgid "%1$s%2$s%3$s Class Doesn't Exist."
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-emails.php:134
+msgid "Email Template updated."
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-emails.php:135
+msgid "Email Template published."
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-emails.php:136
+msgid "Email Template submitted."
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-emails.php:137
+msgid "Email Template draft updated."
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-emails.php:154
+#: cube/classes/class-cubewp-forms-emails.php:349
+msgid "Email Recipient"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-emails.php:155
+msgid "Email Type"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-emails.php:179
+msgid "Email Content"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-emails.php:189
+msgid "Email Subject"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-emails.php:198
+msgid "Shortcodes"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-emails.php:233
+msgid "Website Title"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-emails.php:237
+msgid "Website URL"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-emails.php:248
+msgid "Email Templates"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-emails.php:249
+msgid "Email Template"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-emails.php:296
+msgid "Email Template Settings"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-emails.php:357
+msgid "Admin"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-emails.php:382
+msgid "No forms found. Please create a form first."
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-emails.php:385
+msgid "Form Type"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-frontend-custom-form.php:103
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:887
+msgid "Submit"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-frontend-custom-form.php:300
+msgid "Form Entry Details"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-frontend-custom-form.php:391
+msgid "Success! The submission was successful."
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-frontend-custom-form.php:454
+#, php-format
+msgid "You have received a new entry from %s"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-leads.php:41
+#: cube/classes/class-cubewp-forms-ui.php:59
+msgid "Security check failed. Please try again."
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-leads.php:48
+#: cube/classes/class-cubewp-forms-leads.php:73
+msgid "CubeWP Leads"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-leads.php:95
+msgid "Information"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-leads.php:104
+msgid "How to manage leads from frontend?"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-leads.php:110
+#, php-format
+msgid "Try %s to unlock powerful front-end features."
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-leads.php:113
+msgid "Frontend User Dashboard Builder"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-leads.php:115
+msgid "Frontend User Profile Form Builder"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-leads.php:117
+msgid "Frontend Post Types Form Builder"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-leads.php:119
+msgid "Frontend User Signup Form Builder"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-leads.php:121
+msgid "Frontend Single-post Template Editor"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-leads.php:123
+msgid "And several advanced features."
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-leads.php:128
+msgid "Learn More"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-leads.php:280
+msgid "Form Name:"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-leads.php:283
+msgid "Lead ID:"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-leads.php:286
+msgid "User:"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-leads.php:289
+msgid "Source:"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-leads.php:292
+msgid "Date:"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-leads.php:295
+msgid "Time:"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-rest-api.php:79
+msgid "The Array with all data."
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-table.php:59
+msgid "Form slug"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-table.php:60
+#: cube/classes/class-cubewp-forms-ui.php:481
+msgid "Description"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-table.php:61
+msgid "Form Shortcode"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-table.php:100
+msgid "Edit"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:80
+msgid "Add New"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:174
+msgid "Save Your Form"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:188
+msgid "Form's Frontend Settings"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:202
+msgid "Email"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:205
+msgid "Enter Email"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:209
+msgid ""
+"Please enter email or emails separated by \",\". These emails will receive "
+"submission notifications."
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:217
+msgid "Form CSS ID"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:224
+msgid "This option will add CSS id for this form on submission."
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:232
+msgid "User Email Field Name"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:235
+msgid "Enter Custom Field Name"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:239
+msgid ""
+"Please specify the custom field name that will be used to retrieve the user's "
+"email value."
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:256
+msgid "Redirect After Submission"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:260
+msgid "Select Page"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:264
+msgid ""
+"Provide the page ID for redirection after form submission, or leave blank for "
+"Same Page redirection."
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:277
+msgid "Recaptcha"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:280
+msgid "Enable"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:281
+msgid "Disable"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:284
+msgid "Enable/Disable Recaptcha"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:289
+msgid "This option will enable recaptcha only on this form. "
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:298
+msgid "Form Submit Button Text"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:305
+msgid "This option will replace submit button text for this form on submission."
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:313
+msgid "Form Submit Button Class"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:320
+msgid "This option will add class for submit button on form submission."
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:328
+msgid "Form Submit Button Width"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:335
+msgid ""
+"This option will add width for submit button on form submission. Give width in "
+"% or px."
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:343
+msgid "Form Submit Button Position"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:346
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:155
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:178
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:851
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:871
+msgid "Center"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:347
+msgid "Left"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:348
+msgid "Right"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:351
+msgid "Select Position"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:356
+msgid "This option will select position for submit button on form submission. "
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:364
+msgid "Restrict form submission only for logged-in users"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:373
+msgid ""
+"By enabling this option, only logged-in users will be able to submit this form."
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:381
+msgid "Display Form name and description"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:390
+msgid ""
+"By enabling this option, form title and form description will be visible on "
+"single page."
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:402 cube/functions/functions.php:501
+msgid "Mailchimp Integration"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:411
+msgid ""
+"By enabling this option, mailchimp integration will be enabled for this form"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:419
+msgid "Mailchimp Audience ID"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:429
+msgid ""
+"Please add audience list id in which you want to send user data of this form to "
+"mailchimp list."
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:442
+msgid "Basic Settings"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:455
+msgid "Type new group name here.."
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:468
+msgid "Set group order"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:469
+msgid "Form Slug"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:480
+msgid "Write group description to identify the group"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:492
+msgid "Default"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:493
+msgid "Form Style"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:496
+msgid "Style 1"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:497
+msgid "Style 2"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:498
+msgid "Style 3"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:499
+msgid "Style 4"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:500
+msgid "Style 5"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:501
+msgid "Style 6"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:502
+msgid "Style 7"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:503
+msgid "Style 8"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:504
+msgid "Style 9"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:505
+msgid "Style 10"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:523
+msgid "Field Label"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:526
+msgid "Field Name"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:529
+msgid "Field Type"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:533
+msgid "Actions"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:560
+msgid "Edit Form"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:562
+msgid "Create New Form"
+msgstr ""
+
+#: cube/classes/class-cubewp-forms-ui.php:579
+msgid "Save"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:23
+msgid "Cubewp Forms"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:64
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:102
+msgid "Form Container"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:75
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:86
+msgid "Select Form"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:111
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:828
+msgid "Display"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:115
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:832
+msgid "Block"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:116
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:833
+msgid "Flex"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:117
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:834
+msgid "Inline Block"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:128
+msgid "Flex Direction"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:132
+msgid "Row"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:133
+msgid "Column"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:134
+msgid "Row Reverse"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:135
+msgid "Column Reverse"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:149
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:845
+msgid "Justify Content"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:153
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:176
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:849
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:869
+msgid "Start"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:154
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:177
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:850
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:870
+msgid "End"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:156
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:852
+msgid "Space Between"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:157
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:853
+msgid "Space Around"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:158
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:854
+msgid "Space Evenly"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:172
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:865
+msgid "Align Items"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:179
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:872
+msgid "Stretch"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:180
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:873
+msgid "Baseline"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:195
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:275
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:405
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:621
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:1028
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:1105
+msgid "Background"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:205
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:286
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:415
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:631
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:1038
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:1115
+msgid "Border"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:213
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:295
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:423
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:705
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:1046
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:1123
+msgid "Border Radius"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:226
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:309
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:436
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:1059
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:1136
+msgid "Box Shadow"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:234
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:318
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:444
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:786
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:1157
+msgid "Padding"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:246
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:331
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:378
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:456
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:522
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:806
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:1170
+msgid "Margin"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:262
+msgid "Form Section Content"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:346
+msgid "Tab Content"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:357
+msgid "Width"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:393
+msgid "Field Container"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:471
+msgid "Labels"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:480
+msgid "Show Labels"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:483
+msgid "Show"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:484
+msgid "Hide"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:486
+msgid "block"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:497
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:549
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:992
+msgid "Typography"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:508
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:589
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:1000
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:1077
+msgid "Text Color"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:540
+msgid "Input & Select Fields"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:574
+msgid "Placeholder Typography"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:608
+msgid "Placeholder Color"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:642
+msgid "Border (Focus)"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:667
+msgid "Background (Focus)"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:675
+msgid "Border Radius (Focus)"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:690
+msgid "Box Shadow (Focus)"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:726
+msgid "Height"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:760
+msgid "Textarea Height"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:820
+msgid "Submit Button"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:885
+msgid "Button Text"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:898
+msgid "Icon"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:911
+msgid "Icon Position"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:915
+msgid "Before"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:916
+msgid "After"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:927
+msgid "Icon Size"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:953
+msgid "Icon Spacing"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:984
+msgid "Normal"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:1012
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:1089
+msgid "Icon Color"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:1070
+msgid "Hover"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:1144
+msgid "Hover Animation"
+msgstr ""
+
+#: cube/classes/elementor-widgets/class-cubewp-forms-widget.php:1183
+msgid "Button Container Width"
+msgstr ""
+
+#: cube/functions/functions.php:447
+msgid "reCAPTCHA Config"
+msgstr ""
+
+#: cube/functions/functions.php:454
+msgid "Enable reCAPTCHA"
+msgstr ""
+
+#: cube/functions/functions.php:456
+msgid "Enable if you reCAPTCHA on your CubeWP forms."
+msgstr ""
+
+#: cube/functions/functions.php:461
+msgid "Select reCAPTCHA Type"
+msgstr ""
+
+#: cube/functions/functions.php:463
+msgid "Select the type of reCAPTCHA you want to use on to your CubeWP forms."
+msgstr ""
+
+#: cube/functions/functions.php:465
+msgid "Google reCAPTCHA v2 Checkbox"
+msgstr ""
+
+#: cube/functions/functions.php:475
+msgid "Site Key"
+msgstr ""
+
+#: cube/functions/functions.php:477
+msgid "Please enter google reCAPTCHA v2 Or v3 site key here."
+msgstr ""
+
+#: cube/functions/functions.php:485
+msgid "Secret Key"
+msgstr ""
+
+#: cube/functions/functions.php:487
+msgid "Please enter google reCAPTCHA v2 Or v3 secret key here."
+msgstr ""
+
+#: cube/functions/functions.php:495
+msgid "Mailchimp"
+msgstr ""
+
+#: cube/functions/functions.php:502
+msgid "Enable if you want to enable mailchimp integration with CubeWP Forms."
+msgstr ""
+
+#: cube/functions/functions.php:508
+msgid "Mailchimp Key"
+msgstr ""
+
+#: cube/functions/functions.php:509
+msgid "Please enter api key you have for mailchimp account."
+msgstr ""
+
+#: cube/functions/functions.php:517
+msgid "Mailchimp Server Prefix"
+msgstr ""
+
+#: cube/functions/functions.php:518
+msgid "Please enter Your Mailchimp Server Prefix  of your mailchimp account."
+msgstr ""
+
+#: cube/functions/functions.php:572
+msgid "Mailchimp Field ID"
+msgstr ""
+
+#: cubewp-forms.php:88
+#, php-format
+msgid "%s is required to run CubeWP Forms."
+msgstr ""
+
+#: cubewp-forms.php:92
+msgid "CubeWP Framework"
+msgstr ""

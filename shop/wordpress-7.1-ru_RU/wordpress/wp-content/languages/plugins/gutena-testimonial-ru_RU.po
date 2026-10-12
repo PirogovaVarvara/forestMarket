@@ -1,0 +1,83 @@
+# Translation of Plugins - Gutena Testimonial Slider - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Gutena Testimonial Slider - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-08-03 13:35:09+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Gutena Testimonial Slider - Stable (latest release)\n"
+
+#: build/block.json
+msgctxt "block keyword"
+msgid "client review"
+msgstr "отзыв клиента"
+
+#: build/block.json
+msgctxt "block keyword"
+msgid "testimonials"
+msgstr "отзывы"
+
+#: build/block.json
+msgctxt "block keyword"
+msgid "testimonial slider"
+msgstr "слайдер с отзывами"
+
+#: build/block.json
+msgctxt "block keyword"
+msgid "review"
+msgstr "обзор"
+
+#: build/block.json
+msgctxt "block keyword"
+msgid "testimonial"
+msgstr "отзыв"
+
+#: build/block.json
+msgctxt "block title"
+msgid "Testimonial Slider"
+msgstr "Слайдер отзывов"
+
+#: build/block.json
+msgctxt "block description"
+msgid "Testimonial Slider Block by Gutena"
+msgstr "Блок \"Слайдер отзывов\" от Gutena"
+
+#: includes/gutena/gutena-ecosys-onboard/gutena-ecosys-onboard.php:152
+msgid "gutena kit install CTA dismissed successfully."
+msgstr "установка \"Gutena kit CTA\" завершена успешно."
+
+#: includes/gutena/gutena-ecosys-onboard/gutena-ecosys-onboard.php:141
+msgid "Something went wrong. Please try later"
+msgstr "Что-то пошло не так, попробуйте позже"
+
+#: includes/gutena/gutena-ecosys-onboard/gutena-ecosys-onboard.php:128
+msgid "Gutena kit already activated"
+msgstr "\"Gutena kit\" уже активирован"
+
+#: gutena-testimonial.php:150 build/index.js:1
+msgid "Gutena"
+msgstr "Gutena"
+
+#. Author URI of the plugin
+#: gutena-testimonial.php
+msgid "https://expresstech.io"
+msgstr "https://expresstech.io"
+
+#. Author of the plugin
+#: gutena-testimonial.php
+msgid "ExpressTech"
+msgstr "ExpressTech"
+
+#. Description of the plugin
+#: gutena-testimonial.php
+msgid "Gutena Testimonial Slider block allows you to display client testimonial slider on websites. This plugin provides a user-friendly interface to add, manage, and display testimonials in a visually appealing way."
+msgstr "Блок Gutena Testimonial Slider позволяет отображать слайдер отзывов клиентов на веб-сайтах. Этот плагин предоставляет удобный интерфейс для добавления отзывов, управления ими и их отображения визуально привлекательным способом."
+
+#. Plugin Name of the plugin
+#: gutena-testimonial.php
+msgid "Gutena Testimonial Slider"
+msgstr "Gutena Testimonial Slider"

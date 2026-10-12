@@ -1,0 +1,1635 @@
+.cwp-custom-form .cwp-frontend-section-container {
+    margin-bottom: 30px;
+}
+
+.cwp-frontend-form-container .cwp-custom-form input[type=submit] {
+    margin: 20px auto;
+}
+
+.cwp-frontend-form-container .cwp-custom-form .cwp-from-submit.position-right {
+    float: right;
+}
+
+.cwp-frontend-form-container .cwp-custom-form .cwp-from-submit.position-left {
+    float: left;
+}
+
+.cwp-frontend-form-container .cwp-custom-form .cwp-from-submit.position-center {
+    display: block;
+}
+
+.cwp-custom-form .cwp-frontend-section-heading-container {
+    border-bottom: 0;
+}
+
+.cwp-frontend-form-container .cwp-custom-form .cwp-frontend-section-container .cwp-frontend-section-content-container {
+    border-top: 1px solid #e0e0e0;
+}
+
+.ui-datepicker td a {
+    padding: 10px !important;
+}
+
+.ui-datepicker-header.ui-widget-header.ui-helper-clearfix.ui-corner-all {
+    background: #fff !important;
+    padding: 20px;
+}
+
+.cwp-ui-datepicker .ui-datepicker .ui-datepicker-buttonpane.ui-widget-content button {
+    background: #007bff;
+    border: 1px solid #2271b1;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0 16px 15px 16px;
+    padding: 8px 15px;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 2px;
+}
+
+.cwp-ui-datepicker .ui-datepicker .ui-timepicker-div .ui_tpicker_hour .ui_tpicker_hour_slider select,
+.cwp-ui-datepicker .ui-datepicker .ui-timepicker-div .ui_tpicker_minute .ui_tpicker_minute_slider select,
+.cwp-ui-datepicker .ui-datepicker .ui-timepicker-div .ui_tpicker_second .ui_tpicker_second_slider select {
+    padding: 2px;
+    max-width: 70px;
+    margin-right: 0;
+    border-radius: 0;
+    box-shadow: unset !important;
+    margin-top: 11px;
+    font-size: 12px;
+}
+
+.cwp-ui-datepicker .ui-datepicker .ui-datepicker-header .ui-datepicker-title .ui-datepicker-year,
+.cwp-ui-datepicker .ui-datepicker .ui-datepicker-header .ui-datepicker-title .ui-datepicker-month {
+    border: 1px solid #dcd7ca;
+    height: 25px;
+    padding: 0 5px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000 !important;
+    border-radius: 0;
+    box-shadow: unset;
+    width: calc(100% / 2 - 15px) !important;
+}
+
+.ui-datepicker th {
+    padding: 6px;
+    text-align: center;
+    font-weight: 700;
+    border: 0;
+    width: 5px !important;
+}
+.cwp-ui-datepicker .ui-datepicker tbody tr td.ui-state-disabled {
+    background: #fff0 !important;
+}
+
+.cwp-ui-datepicker .ui-datepicker tbody tr td {
+    padding:  5px 0 !important;
+    text-align: center;
+    border: unset !important;
+    background: #f3f3f3;
+}
+#ui-datepicker-div.ui-widget {
+    width: 340px;
+}
+
+.ui-timepicker-div dl {
+    padding: 0 15px;
+}
+
+.ui-datepicker .ui-datepicker-title {
+    border: unset;
+    margin-top: 16px;
+}
+
+
+/* cwp-forms-style1 */
+.cwp-forms-style1 {
+    background: #FFFFFF;
+    border-radius: 18px;
+    padding: 36px;
+	border: 1px solid #afb5bf;
+}
+
+.cwp-forms-style1 .cwp-frontend-section-container {
+    margin-bottom: 0;
+}
+
+.cwp-forms-style1 .cwp-frontend-section-heading-container {
+    background: #ffffff;
+    border: none;
+    padding: 0;
+	margin-bottom: 12px;
+}
+
+.cwp-forms-style1 .cwp-frontend-section-heading-container h2 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: -0.3px;
+    color: #023047;
+}
+
+.cwp-forms-style1 .cwp-frontend-section-heading-container p {
+    display: none;
+}
+
+.cwp-frontend-form-container .cwp-forms-style1 .cwp-frontend-section-container .cwp-frontend-section-content-container {
+    border: none;
+    padding: 0;
+}
+
+.cwp-forms-style1 .cwp-frontend-section-container .cwp-field-container {
+    padding: 0;
+}
+
+.cwp-forms-style1 .cwp-frontend-section-container .cwp-field-text label,
+.cwp-forms-style1 .cwp-frontend-section-container .cwp-field-email label,
+.cwp-forms-style1 .cwp-frontend-section-container .cwp-field-number label,
+.cwp-forms-style1 .cwp-frontend-section-container .cwp-field-dropdown label,
+.cwp-forms-style1 .cwp-frontend-section-container .cwp-field-textarea label,
+.cwp-forms-style1 .cwp-frontend-section-container .cwp-field-repeating_field label{
+    display: none;
+	font-size: 14px;
+    color: #333;
+    font-weight: 700;
+}
+
+.cwp-forms-style1 .cwp-field-container input,
+.cwp-forms-style1 .cwp-field-container textarea,
+.cwp-forms-style1 .cwp-field-container select,
+.cwp-forms-style1 .cwp-field-container .select2-container--default .select2-selection--single {
+    border: 1px solid #7A7573;
+    border-radius: 3px;
+    padding: 12px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.cwp-forms-style1 .cwp-field-container .cwp-field-checkbox-container label,
+.cwp-forms-style1 .cwp-field-container .cwp-field-radio-container label {
+    font-size: 14px !important;
+    color: #333;
+}
+
+.cwp-frontend-form-container .cwp-forms-style1 .cwp-frontend-section-container .cwp-field-container.cwp-field-repeating_field .cwp-add-new-repeating-field {
+    margin: 0;
+    border: 1px solid #023047;
+	border-radius: 3px;
+    color: #023047;
+    padding: 14px 0;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+	transition: .2s;
+}
+
+.cwp-frontend-form-container .cwp-forms-style1 .cwp-frontend-section-container .cwp-field-container.cwp-field-repeating_field .cwp-add-new-repeating-field:hover {
+    background: #023047;
+    color: #ffffff;
+}
+
+.cwp-frontend-form-container .cwp-forms-style1 input[type=submit] {
+    border-radius: 8px;
+    background: #023047;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 19px;
+    padding: 14px 0;
+    margin: 0 !important;
+	transition: .2s;
+}
+
+.cwp-frontend-form-container .cwp-forms-style1 input[type=submit]:hover {
+    color: #023047;
+    background: #fff;
+    border: 1px solid #023047;
+}
+
+.cwp-forms-style1 .cwp-field-container.cwp-field-range input[type=range] {
+    padding: 0;
+}
+
+.cwp-frontend-form-container .cwp-forms-style1 .cwp-frontend-section-container .cwp-field-container.cwp-field-repeating_field .cwp-repeating-single-field {
+    padding: 0;
+}
+
+.cwp-forms-style1 .cwp-repeating-single-field-actions.cubewp-collapse {
+    border-radius: 3px 3px 0 0;
+    border-bottom: none;
+	background-color: transparent;
+}
+
+.cwp-forms-style1 .cwp-repeating-single-field-actions {
+    border-radius: 3px;
+}
+
+.cwp-frontend-form-container .cwp-forms-style1 .cwp-frontend-section-container .cwp-field-container.cwp-field-repeating_field .cwp-repeating-single-field .cwp-repeating-single-field-content {
+    border: 1px solid #7A7573;
+}
+
+.cwp-forms-style1 .cwp-repeating-single-field-actions {
+    background: #f4f4f400;
+    border: 1px solid #7A7573;
+}
+
+.cwp-forms-style1 .cwp-frontend-section-container .cwp-field-container.cwp-field-repeating_field label {
+    display: block;
+}
+
+.cwp-forms-style1 .cwp-frontend-section-container .cwp-frontend-section-content-container .cwp-field-container .cwp-required-field-notice p {
+    margin: 0;
+}
+
+.cwp-forms-style1 .cwp-file-field-container .cwp-file-field {
+    border: 1px solid #7A7573;
+	border-radius: 3px;
+}
+
+.cwp-forms-style1 input[type="checkbox"], .cwp-forms-style2 input[type="checkbox"], .cwp-forms-style3 input[type="checkbox"],
+.cwp-forms-style4 input[type="checkbox"], .cwp-forms-style5 input[type="checkbox"], .cwp-forms-style6 input[type="checkbox"]
+.cwp-forms-style7 input[type="checkbox"], .cwp-forms-style9 input[type="checkbox"], .cwp-forms-style8 input[type="checkbox"] 
+, .cwp-forms-style10 input[type="checkbox"]{
+    padding: 8px;
+    -webkit-appearance: checkbox;
+}
+
+/* cwp-forms-style2 */
+.cwp-forms-style2 {
+    background: #001B60;
+    padding: 95px 75px;
+}
+
+.cwp-forms-style2 .cwp-frontend-section-heading-container {
+    margin-bottom: 62px;
+    background: transparent;
+    border: none;
+    color: #fff;
+	text-align: center;
+}
+
+.cwp-forms-style2 .cwp-frontend-section-heading-container h2 {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 55px;
+    color: #FFFFFF;
+}
+
+.cwp-forms-style2 .cwp-frontend-section-heading-container p {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #CECECE;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style2 .cwp-frontend-section-container .cwp-frontend-section-content-container {
+    border-top: 1px solid #e0e0e0;
+    border: none;
+    background: transparent;
+    color: #fff;
+    padding: 0;
+    gap: 27px;
+}
+
+.cwp-forms-style2 .cwp-frontend-section-container .cwp-field-container {
+    padding: 0;
+}
+
+.cwp-forms-style2 .cwp-frontend-section-container .cwp-field-text label,
+.cwp-forms-style2 .cwp-frontend-section-container .cwp-field-email label,
+.cwp-forms-style2 .cwp-frontend-section-container .cwp-field-number label,
+.cwp-forms-style2 .cwp-frontend-section-container .cwp-field-dropdown label,
+.cwp-forms-style2 .cwp-frontend-section-container .cwp-field-textarea label,
+.cwp-forms-style2 .cwp-frontend-section-container .cwp-field-repeating_field label{
+    display: none;
+	font-size: 14px;
+    color: #FFF;
+    font-weight: 700;
+}
+
+.cwp-forms-style2 .cwp-field-container input,
+.cwp-forms-style2 .cwp-field-container textarea,
+.cwp-forms-style2 .cwp-field-container select,
+.cwp-forms-style2 .cwp-field-container .select2-container--default .select2-selection--single {
+    border-bottom: 1px solid #676767 !important;
+    background: transparent;
+    border: none;
+    border-radius: 0px;
+    padding: 0px 0px 6px 0px;
+    font-size: 16px;
+    line-height: 32px;
+	color: #fff;
+}
+
+.cwp-forms-style2 .cwp-field-container input::placeholder,
+.cwp-forms-style2 .cwp-field-container textarea::placeholder{
+	color: #ffffff8c;
+}
+
+.cwp-forms-style2 .cwp-field-container .cwp-field-checkbox-container label,
+.cwp-forms-style2 .cwp-field-container .cwp-field-radio-container label {
+    color: #ffffff85;
+    font-size: 13px;
+}
+
+.cwp-forms-style2 span.select2-selection.select2-selection--single span.select2-selection__rendered {
+    font-size: 16px;
+    padding: 0;
+    line-height: 22px;
+}
+
+.cwp-forms-style2 span.select2-selection.select2-selection--single span.select2-selection__rendered span {
+    color: #ffffff8c;
+}
+
+.cwp-forms-style2 .cwp-field-container.cwp-field-range .cubewp-current-value{
+	color: #333;
+}
+
+.cwp-forms-style2 .cwp-field-container.cwp-field-range input[type=range] {
+    padding: 0;
+}
+
+.cwp-forms-style2 .cwp-file-field-container .cwp-file-field {
+    border: 1px solid #ffffff;
+	border-radius: 0px;
+}
+
+.cwp-forms-style2 .cwp-frontend-section-container .cwp-field-container.cwp-field-google_address input {
+    padding: 6px 10px;
+    background: #fff;
+    font-size: 14px;
+    border-radius: 0px;
+}
+
+.cwp-frontend-form-container .cwp-forms-style2 .cwp-frontend-section-container .cwp-field-container.cwp-field-repeating_field .cwp-add-new-repeating-field {
+    margin: 0;
+    border: 1px solid #023047;
+    color: #023047;
+    padding: 14px 0;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+	transition: .2s;
+	border-radius: 0px;
+}
+
+.cwp-frontend-form-container .cwp-forms-style2 .cwp-frontend-section-container .cwp-field-container.cwp-field-repeating_field .cwp-add-new-repeating-field:hover {
+    background: #00000000;
+    color: #ffffff;
+    border: 1px solid #fff;
+}
+
+.cwp-forms-style2 .cwp-form-submit-container{
+	position: relative;
+}
+
+.cwp-frontend-form-container .cwp-forms-style2 input[type=submit] {
+    margin: 0 !important;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    background: transparent;
+    border: none;
+}
+
+.cwp-frontend-form-container .cwp-forms-style2 input[type=submit]:hover{
+	color:#001B60 !important;
+	background-color:#fff !important;
+}
+.cwp-forms-style2 .cwp-form-submit-container:hover::after{
+	color:#001B60 !important;
+}
+
+.cwp-forms-style2 .cwp-form-submit-container::after {
+	content: '→';     
+	top: 0px;
+    position: absolute;
+    right: 24%;
+    font-family: 'Font Awesome 6 Free';
+    font-size: 35px;
+    color: #FFFFFF;
+    font-weight: 900;
+    display: inline-block;
+}
+
+.cwp-frontend-form-container .cwp-forms-style2 .cwp-frontend-section-container .cwp-field-container.cwp-field-repeating_field .cwp-repeating-single-field {
+    padding: 0;
+}
+
+.cwp-forms-style2 .cwp-repeating-single-field-actions.cubewp-collapse {
+    border-radius: 0px;
+    border-bottom: none;
+	background-color: transparent;
+}
+
+.cwp-forms-style2 .cwp-repeating-single-field-actions {
+    border-radius: 0px;
+	background: transparent;
+}
+
+.cwp-forms-style2 .cwp-frontend-section-container .cwp-frontend-section-content-container .cwp-field-container .cwp-required-field-notice p {
+    margin: 0;
+}
+
+.cwp-frontend-form-container .cwp-forms-style2 .cwp-frontend-section-container .cwp-field-container.cwp-field-repeating_field .cwp-repeating-single-field .cwp-repeating-single-field-content {
+    padding: 20px;
+}
+
+.cwp-frontend-form-container .cwp-forms-style2 .cwp-frontend-section-container .cwp-field-container.cwp-field-repeating_field .cwp-repeating-single-field .cwp-repeating-single-field-move svg {
+    fill: #fff;
+}
+
+/* cwp-forms-style3 */
+
+.cwp-forms-style3 {
+    padding: 50px;
+    border-radius: 30px;
+    background: #fff;
+	border: 1px solid #afb5bf;
+}
+
+.cwp-forms-style3 .tab-content {
+    margin-bottom: 0px;
+}
+
+.cwp-frontend-form-container .cwp-forms-style3 .cwp-frontend-section-container .cwp-frontend-section-content-container {
+    padding: 0;
+    border: none;
+    gap: 30px;
+}
+
+.cwp-forms-style3 .cwp-frontend-section-container .cwp-field-container {
+    margin: 0;
+    padding: 0;
+}
+
+.cwp-frontend-form-container .cwp-forms-style3 .cwp-frontend-section-container .cwp-field-container > label {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 3px;
+}
+
+.cwp-forms-style3 .cwp-field-container input,
+.cwp-forms-style3 .cwp-field-container textarea,
+.cwp-forms-style3 .cwp-field-container select,
+.cwp-forms-style3 .cwp-field-container .select2-container--default .select2-selection--single {
+    box-shadow: 0px 2px 6px 0px #4250661A;
+    border: 1px solid #42506666;
+    padding: 12px 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    color: #000000;
+	border-radius: 6px;
+}
+
+.cwp-forms-style3 .cwp-field-container.cwp-field-range input {
+    box-shadow: none;
+    border: none;
+    padding: 0;
+}
+
+.cwp-forms-style3 .cwp-field-container .cwp-field-checkbox-container label,
+.cwp-forms-style3 .cwp-field-container .cwp-field-radio-container label {
+    font-size: 13px;
+    font-weight: 600 !important;
+    line-height: 36px;
+    color: #000000;
+}
+
+.cwp-frontend-form-container .cwp-forms-style3 .cwp-frontend-section-container .cwp-field-container.cwp-field-repeating_field .cwp-add-new-repeating-field {
+    color: #136AF3;
+    border: 1px solid #136AF3;
+    padding: 14px 0;
+    margin: 0;
+	border-radius: 6px;
+	font-size: 16px;
+    font-weight: 700;
+	transition: .2s;
+}
+
+.cwp-frontend-form-container .cwp-forms-style3 .cwp-frontend-section-container .cwp-field-container.cwp-field-repeating_field .cwp-add-new-repeating-field:hover {
+    background: #136AF3;
+    color: #fff;
+}
+.cwp-forms-style3 .cwp-frontend-section-heading-container {
+    margin-bottom: 20px;
+    background: none;
+    border: none;
+    padding: 0px;
+}
+.cwp-frontend-form-container .cwp-forms-style3 input[type=submit] {
+    margin: 0 !important;
+    background: #136AF3;
+    border-radius: 6px;
+    border: 1px solid #136AF3;
+    width: fit-content;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #FFFFFF;
+	transition: .2s;
+}
+
+.cwp-frontend-form-container .cwp-forms-style3 input[type=submit]:hover{
+	color: #136AF3;
+	background: #fff;
+}
+
+.cwp-frontend-form-container .cwp-custom-form input[type=submit] {
+    margin: 20px auto;
+}
+
+.cwp-frontend-form-container .cwp-forms-style3 .cwp-frontend-section-container .cwp-field-container.cwp-field-repeating_field .cwp-repeating-single-field {
+    padding: 0;
+}
+
+.cwp-forms-style3 .cwp-repeating-single-field-actions.cubewp-collapse {
+    border-radius: 6px 6px 0 0;
+    border-bottom: none;
+	background-color: transparent;
+}
+
+.cwp-forms-style3 .cwp-repeating-single-field-actions {
+    border-radius: 6px;
+	border: 1px solid #42506666;
+	background-color: transparent;
+}
+
+.cwp-forms-style3 .cwp-frontend-section-container .cwp-frontend-section-content-container .cwp-field-container .cwp-required-field-notice p {
+    margin: 0;
+}
+
+.cwp-forms-style3 .cwp-file-field-container .cwp-file-field {
+    border: 1px solid #42506666;
+	border-radius: 6px;
+	box-shadow: 0px 2px 6px 0px #4250661A;
+}
+
+.cwp-frontend-form-container .cwp-forms-style3 .cwp-frontend-section-container .cwp-field-container.cwp-field-repeating_field .cwp-repeating-single-field .cwp-repeating-single-field-content {
+    border: 1px solid #42506666;
+}
+
+/* cwp-forms-style4 */
+
+.cwp-forms-style4 {
+    border: 1px solid #C0C0C0;
+    border-radius: 15px;
+    padding: 70px;
+    background: #fff;
+}
+
+.cwp-frontend-form-container .cwp-forms-style4 .cwp-frontend-section-container .cwp-frontend-section-content-container {
+    padding: 0;
+    border: none;
+}
+
+.cwp-custom-form.cwp-forms-style4 .cwp-frontend-section-container {
+    margin-bottom: 13px;
+}
+
+.cwp-forms-style4 .cwp-frontend-section-container .cwp-field-container {
+    margin: 0 0 12px 0;
+    padding: 0;
+}
+
+.cwp-forms-style4 .cwp-frontend-section-container .cwp-field-text label,
+.cwp-forms-style4 .cwp-frontend-section-container .cwp-field-email label,
+.cwp-forms-style4 .cwp-frontend-section-container .cwp-field-number label,
+.cwp-forms-style4 .cwp-frontend-section-container .cwp-field-dropdown label,
+.cwp-forms-style4 .cwp-frontend-section-container .cwp-field-textarea label,
+.cwp-forms-style4 .cwp-frontend-section-container .cwp-field-repeating_field label{
+    display: none;
+}
+
+.cwp-frontend-form-container .cwp-forms-style4 .cwp-frontend-section-container .cwp-field-container label {
+    font-size: 14px;
+    color: #333;
+    font-weight: 700;
+}
+
+.cwp-forms-style4 .cwp-field-container .cwp-field-checkbox-container label, .cwp-forms-style4 .cwp-field-container .cwp-field-radio-container label {
+    font-size: 13px;
+    color: #000000;
+}
+.cwp-forms-style4 .cwp-frontend-section-heading-container {
+    margin-bottom: 20px;
+    background: none;
+    border: none;
+    padding: 0px;
+}
+.cwp-forms-style4 .cwp-field-container input,
+.cwp-forms-style4 .cwp-field-container textarea,
+.cwp-forms-style4 .cwp-field-container select,
+.cwp-forms-style4 .cwp-field-container .select2-container--default .select2-selection--single {
+    border: 1px solid #D1D1D1;
+    padding: 12px 15px;
+    font-size: 15px;
+    line-height: 26px;
+    color: #333333;
+}
+
+.cwp-forms-style4 .cwp-field-container.cwp-field-range input {
+    box-shadow: none;
+    border: none;
+    padding: 0;
+}
+
+.cwp-frontend-form-container .cwp-forms-style4 .cwp-frontend-section-container .cwp-field-container.cwp-field-repeating_field .cwp-add-new-repeating-field {
+    color: #137499;
+    border: 1px solid #137499;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+    padding: 11px 0;
+	transition: .2s;
+}
+
+.cwp-frontend-form-container .cwp-forms-style4 .cwp-frontend-section-container .cwp-field-container.cwp-field-repeating_field .cwp-add-new-repeating-field:hover {
+    background: #137499;
+    color: #fff;
+}
+
+.cwp-frontend-form-container .cwp-forms-style4 input[type=submit] {
+    margin: 0;
+    background: #137499;
+    border: 1px solid #137499;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #fff;
+    padding: 11px 0;
+    transition: .2s;
+}
+
+.cwp-frontend-form-container .cwp-forms-style4 input[type=submit]:hover {
+    background: #fff;
+    color: #137499;
+}
+
+.cwp-frontend-form-container .cwp-forms-style4 .cwp-frontend-section-container .cwp-field-container.cwp-field-repeating_field .cwp-repeating-single-field {
+    padding: 0;
+}
+
+.cwp-forms-style4 .cwp-repeating-single-field-actions.cubewp-collapse {
+    border-radius: 5px 5px 0 0;
+    border-bottom: none;
+	background-color: transparent;
+}
+
+.cwp-forms-style4 .cwp-repeating-single-field-actions {
+    border-radius: 5px;
+	background-color: transparent;
+	border: 1px solid #D1D1D1;
+}
+
+.cwp-forms-style4 .cwp-frontend-section-container .cwp-frontend-section-content-container .cwp-field-container .cwp-required-field-notice p {
+    margin: 0;
+}
+
+.cwp-forms-style4 .cwp-file-field-container .cwp-file-field {
+    border: 1px solid #D1D1D1;
+	border-radius: 6px;
+}
+
+.cwp-frontend-form-container .cwp-forms-style4 .cwp-frontend-section-container .cwp-field-container.cwp-field-repeating_field .cwp-repeating-single-field .cwp-repeating-single-field-content {
+    border: 1px solid #D1D1D1;
+}
+
+/* cwp-forms-style5 */
+
+.cwp-forms-style5 {
+    border: 1px solid #E8E8E8;
+    border-radius: 16px;
+    background: #FFFFFFCC;
+    padding: 40px;
+}
+
+.cwp-custom-form.cwp-forms-style5 .cwp-frontend-section-container {
+    margin-bottom: 0px;
+}
+
+.cwp-forms-style5 .cwp-frontend-section-heading-container {
+    margin-bottom: 30px;
+    background: transparent;
+    padding: 0;
+    border: none;
+}
+
+.cwp-forms-style5 .cwp-frontend-section-heading-container h2 {
+    color: #000000;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0em;
+    margin-bottom: 10px;
+    font-family: Poppins;
+}
+
+.cwp-forms-style5 .cwp-frontend-section-heading-container p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #555555;
+}
+
+.cwp-frontend-form-container .cwp-forms-style5 .cwp-frontend-section-container .cwp-frontend-section-content-container {
+    padding: 0;
+    background: transparent;
+    border: none;
+}
+
+.cwp-forms-style5 .cwp-frontend-section-container .cwp-field-container {
+    padding: 0;
+}
+
+.cwp-forms-style5 .cwp-frontend-section-container .cwp-field-text label,
+.cwp-forms-style5 .cwp-frontend-section-container .cwp-field-email label,
+.cwp-forms-style5 .cwp-frontend-section-container .cwp-field-number label,
+.cwp-forms-style5 .cwp-frontend-section-container .cwp-field-dropdown label,
+.cwp-forms-style5 .cwp-frontend-section-container .cwp-field-textarea label,
+.cwp-forms-style5 .cwp-frontend-section-container .cwp-field-repeating_field label{
+    display: none;
+}
+
+.cwp-frontend-form-container .cwp-forms-style5 .cwp-frontend-section-container .cwp-field-container label {
+    font-size: 14px;
+    color: #333;
+    font-weight: 700;
+}
+
+.cwp-forms-style5 .cwp-field-container .cwp-field-checkbox-container label,
+.cwp-forms-style5 .cwp-field-container .cwp-field-radio-container label {
+    font-size: 13px;
+    color: #000000;
+}
+
+.cwp-forms-style5 .cwp-field-container input,
+.cwp-forms-style5 .cwp-field-container textarea,
+.cwp-forms-style5 .cwp-field-container select,
+.cwp-forms-style5 .cwp-field-container .select2-container--default .select2-selection--single {
+    border: 1px solid #E8E8E8;
+    padding: 18px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #424242;
+}
+
+.cwp-forms-style5 .cwp-field-container.cwp-field-range input {
+    border: none;
+    padding: 0;
+}
+
+
+.cwp-frontend-form-container .cwp-forms-style5 .cwp-frontend-section-container .cwp-field-container.cwp-field-repeating_field .cwp-add-new-repeating-field {
+    color: #1ECBBC;
+    border: 1px solid #1ECBBC;
+    padding: 12px 0;
+    transition: .2s;
+    margin: 0;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.cwp-frontend-form-container .cwp-forms-style5 .cwp-frontend-section-container .cwp-field-container.cwp-field-repeating_field .cwp-add-new-repeating-field:hover {
+    background: #1ECBBC;
+    color: #fff;
+}
+
+.cwp-frontend-form-container .cwp-forms-style5 input[type=submit] {
+    margin: 0;
+    background: #1ECBBC;
+    border: 1px solid #1ECBBC;
+    border-radius: 8px;
+    color: #fff;
+    padding: 12px 30px;
+    transition: .2s;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 26px;
+    width: fit-content;
+}
+
+.cwp-frontend-form-container .cwp-forms-style5 input[type=submit]:hover {
+    background: #fff;
+    color: #1ECBBC;
+}
+
+.cwp-frontend-form-container .cwp-forms-style5 .cwp-frontend-section-container .cwp-field-container.cwp-field-repeating_field .cwp-repeating-single-field {
+    padding: 0;
+}
+
+.cwp-forms-style5 .cwp-repeating-single-field-actions.cubewp-collapse {
+    border-radius: 8px 8px 0 0;
+    border-bottom: none;
+	background: transparent;
+}
+
+.cwp-forms-style5 .cwp-repeating-single-field-actions {
+    border-radius: 8px;
+	border: 1px solid #E8E8E8;
+	background: transparent;
+}
+
+.cwp-forms-style5 .cwp-frontend-section-container .cwp-frontend-section-content-container .cwp-field-container .cwp-required-field-notice p {
+    margin: 0;
+}
+
+.cwp-forms-style5 .cwp-file-field-container .cwp-file-field {
+    border: 1px solid #E8E8E8;
+	border-radius: 8px;
+}
+
+.cwp-frontend-form-container .cwp-forms-style5 .cwp-frontend-section-container .cwp-field-container.cwp-field-repeating_field .cwp-repeating-single-field .cwp-repeating-single-field-content {
+    border: 1px solid #E8E8E8;
+}
+
+/* cwp-forms-style6 */
+
+.cwp-forms-style6 {
+    background: #fff;
+	padding: 10px;
+	border: 1px solid #afb5bf;
+	padding:40px;
+}
+
+.cwp-frontend-form-container .cwp-forms-style6 .cwp-frontend-section-container .cwp-frontend-section-content-container {
+    padding: 0;
+    border: none;
+	background: transparent;
+}
+
+.cwp-custom-form.cwp-forms-style6 .cwp-frontend-section-container {
+    margin-bottom: 0px;
+}
+
+.cwp-forms-style6 .cwp-frontend-section-heading-container {
+    margin-bottom: 20px;
+    background: none;
+    border: none;
+    padding: 0px;
+}
+
+.cwp-forms-style6 .cwp-frontend-section-container .cwp-field-container {
+    margin: 0 0 28px 0;
+    padding: 0;
+}
+
+.cwp-frontend-form-container .cwp-forms-style6 .cwp-frontend-section-container .cwp-field-container label {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.cwp-frontend-form-container .cwp-forms-style6 .cwp-field-container .cwp-field-checkbox-container label,
+.cwp-frontend-form-container .cwp-forms-style6 .cwp-field-container .cwp-field-radio-container label {
+    font-size: 13px;
+}
+
+.cwp-forms-style6 .cwp-field-container input,
+.cwp-forms-style6 .cwp-field-container textarea,
+.cwp-forms-style6 .cwp-field-container select,
+.cwp-forms-style6 .cwp-field-container .select2-container--default .select2-selection--single {
+    background: #F7F7F7;
+    border: none;
+    border-radius: 0px;
+    padding: 12px 16px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+.cwp-forms-style6 .cwp-field-container.cwp-field-range input {
+    padding: 0;
+}
+
+.cwp-forms-style6 .cwp-field-container input::placeholder,
+.cwp-forms-style6 .cwp-field-container textarea::placeholder{
+	color: #B2B2B2;
+}
+
+.cwp-frontend-form-container .cwp-forms-style6 .cwp-frontend-section-container .cwp-field-container.cwp-field-repeating_field .cwp-add-new-repeating-field {
+    color: #000000;
+    border: 1px solid #000000;
+    padding: 13px 0;
+    transition: .2s;
+    margin: 0;
+    border-radius: 0px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.cwp-frontend-form-container .cwp-forms-style6 .cwp-frontend-section-container .cwp-field-container.cwp-field-repeating_field .cwp-add-new-repeating-field:hover {
+    background: #000000;
+    color: #fff;
+}
+
+.cwp-frontend-form-container .cwp-forms-style6 input[type=submit] {
+    margin: 0;
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 0px;
+    color: #fff;
+    padding: 13px 0px;
+    transition: .2s;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.cwp-frontend-form-container .cwp-forms-style6 input[type=submit]:hover {
+    background: #fff;
+    color: #000000;
+}
+
+.cwp-frontend-form-container .cwp-forms-style6 .cwp-frontend-section-container .cwp-field-container.cwp-field-repeating_field .cwp-repeating-single-field {
+    padding: 0;
+}
+
+.cwp-forms-style6 .cwp-repeating-single-field-actions.cubewp-collapse {
+    border-radius: 0px;
+    border-bottom: none;
+	background: #F7F7F7;
+}
+
+.cwp-forms-style6 .cwp-repeating-single-field-actions {
+    border-radius: 0px;
+	background: #F7F7F7;
+}
+
+.cwp-forms-style6 .cwp-frontend-section-container .cwp-frontend-section-content-container .cwp-field-container .cwp-required-field-notice p {
+    margin: 0;
+}
+
+.cwp-forms-style6 .cwp-file-field-container .cwp-file-field {
+    border: 1px solid #E8E8E8;
+	border-radius: 0px;
+}
+
+.cwp-frontend-form-container .cwp-forms-style6 .cwp-frontend-section-container .cwp-field-container.cwp-field-repeating_field .cwp-repeating-single-field .cwp-repeating-single-field-content {
+    border: 1px solid #E8E8E8;
+}
+
+/* cwp-forms-style7 */
+
+.cwp-forms-style7 {
+    background: #fff;
+	padding: 40px;
+	border: 1px solid #afb5bf;
+}
+
+.cwp-frontend-form-container .cwp-forms-style7 .cwp-frontend-section-container .cwp-frontend-section-content-container {
+    padding: 0;
+    border: none;
+	background: transparent;
+}
+
+.cwp-custom-form.cwp-forms-style7 .cwp-frontend-section-container {
+    margin-bottom: 0px;
+}
+
+.cwp-forms-style7 .cwp-frontend-section-container .cwp-field-container {
+    padding: 0;
+}
+
+.cwp-frontend-form-container .cwp-forms-style7 .cwp-frontend-section-container .cwp-field-container label {
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 16px;
+	letter-spacing: 0.05em;
+	color: #665351;
+    margin-bottom: 6px;
+}
+
+.cwp-forms-style7 .cwp-frontend-section-heading-container {
+    margin-bottom: 20px;
+    background: none;
+    border: none;
+    padding: 0px;
+}
+
+.cwp-frontend-form-container .cwp-forms-style7 .cwp-field-container .cwp-field-checkbox-container label,
+.cwp-frontend-form-container .cwp-forms-style7 .cwp-field-container .cwp-field-radio-container label {
+    font-size: 13px;
+}
+
+.cwp-forms-style7 .cwp-field-container input,
+.cwp-forms-style7 .cwp-field-container textarea,
+.cwp-forms-style7 .cwp-field-container select,
+.cwp-forms-style7 .cwp-field-container .select2-container--default .select2-selection--single {
+    background: #F7F7F7;
+    border-radius: 4px;
+    padding: 20px 16px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #34332e;
+    border: 1px solid #EAE7DF;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.cwp-forms-style7 .cwp-field-container input::placeholder,
+.cwp-forms-style7 .cwp-field-container textarea::placeholder{
+	color: #B2B2B2;
+}
+
+.cwp-forms-style7 .cwp-field-container.cwp-field-range input {
+    padding: 0;
+	border: none;
+    background: transparent;
+}
+
+.cwp-forms-style7 .cwp-field-container input:focus,
+.cwp-forms-style7 .cwp-field-container textarea:focus,
+.cwp-forms-style7 .cwp-field-container select:focus,
+.cwp-forms-style7 .cwp-field-container .select2-container--default .select2-selection--single:focus {
+    border: 1px solid #ADE8AD;
+    background: #F9FFF9;
+}
+
+.cwp-frontend-form-container .cwp-forms-style7 .cwp-frontend-section-container .cwp-field-container.cwp-field-repeating_field .cwp-add-new-repeating-field {
+    color: #FD3014;
+    border: 1px solid #FD3014;
+    padding: 16px 0;
+    transition: .2s;
+    margin: 0;
+    border-radius: 4px;
+	font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+}
+
+.cwp-frontend-form-container .cwp-forms-style7 .cwp-frontend-section-container .cwp-field-container.cwp-field-repeating_field .cwp-add-new-repeating-field:hover {
+    background: #FD3014;
+    color: #fff;
+}
+
+.cwp-frontend-form-container .cwp-forms-style7 input[type=submit] {
+    margin: 0;
+    background: #FD3014;
+    border: 1px solid #FD3014;
+    border-radius: 12px;
+    color: #fff;
+    padding: 16px 0px;
+    transition: .2s;
+	font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+}
+
+.cwp-frontend-form-container .cwp-forms-style7 input[type=submit]:hover {
+    background: #fff;
+    color: #FD3014;
+}
+
+.cwp-frontend-form-container .cwp-forms-style7 .cwp-frontend-section-container .cwp-field-container.cwp-field-repeating_field .cwp-repeating-single-field {
+    padding: 0;
+}
+
+.cwp-forms-style7 .cwp-repeating-single-field-actions.cubewp-collapse {
+    border-radius: 4px 4px 0 0;
+    border-bottom: none;
+}
+
+.cwp-forms-style7 .cwp-repeating-single-field-actions {
+    border-radius: 4px;
+	border: 1px solid #EAE7DF;
+}
+
+.cwp-forms-style7 .cwp-frontend-section-container .cwp-frontend-section-content-container .cwp-field-container .cwp-required-field-notice p {
+    margin: 0;
+}
+
+.cwp-forms-style7 .cwp-file-field-container .cwp-file-field {
+    border: 1px solid #EAE7DF;
+	border-radius: 4px;
+}
+
+.cwp-frontend-form-container .cwp-forms-style7 .cwp-frontend-section-container .cwp-field-container.cwp-field-repeating_field .cwp-repeating-single-field .cwp-repeating-single-field-content {
+    border: 1px solid #EAE7DF;
+}
+
+/* cwp-forms-style8 */
+.cwp-forms-style8 {
+    border-radius: 24px;
+    background: #fff;
+    padding: 30px !important;
+    box-shadow: 1px 1px 20px 0px #656ed324;
+}
+
+.cwp-forms-style8.cwp-custom-form .cwp-frontend-section-container .cwp-frontend-section-content-container {
+    border: unset;
+    padding: 10px 0 0 0;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-content-container .wp-editor-container::placeholder,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-content-container .cwp-field-google-address-input-container input::placeholder,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-content-container .cwp-file-field-container .cwp-file-field::placeholder,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-content-container span.select2-selection.select2-selection--single::placeholder,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-content-container .comment-form input:not([type=submit])::placeholder,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-content-container .comment-form textarea::placeholder,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-content-container .wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper::placeholder,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-content-container input:read-write::placeholder,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-content-container select::placeholder,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-content-container textarea::placeholder {
+    color: #959595;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-content-container .wp-editor-container,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-content-container .cwp-field-google-address-input-container input,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-content-container .cwp-file-field-container .cwp-file-field,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-content-container span.select2-selection.select2-selection--single,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-content-container .comment-form input:not([type=submit]),
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-content-container .comment-form textarea,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-content-container .wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-content-container input:read-write,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-content-container select,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-content-container textarea {
+    border: unset;
+    outline: unset;
+    border-bottom: 2px solid #959595;
+    border-radius: 0;
+    color: #959595;
+    padding: 15px;
+    transition: 0.3s;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: nunito;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-content-container .wp-editor-container:focus,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-content-container .cwp-field-google-address-input-container input:focus,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-content-container .cwp-file-field-container .cwp-file-field:focus,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-content-container span.select2-selection.select2-selection--single:focus,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-content-container .comment-form input:not([type=submit]):focus,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-content-container .comment-form textarea:focus,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-content-container .wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper:focus,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-content-container input:read-write:focus,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-content-container select:focus,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-content-container textarea:focus {
+    border-color: #0066FF;
+    color: #5f5e5e;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-content-container .cwp-field-container label {
+    font-size: 16px;
+    transition: 0.3s;
+    margin-bottom: 4px;
+    color: #CDCDCD;
+    font-weight: 400;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-field-radio-container input {
+    position: absolute;
+    opacity: 0;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-field-radio-container label {
+    border: 1px solid #787878;
+    font-size: 16px !important;
+    padding: 7px 24px;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-field-radio-container {
+    gap: 10px;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-field-radio-container .cwp-field-radio {
+    margin-right: 0;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-field-radio-container input:checked+label {
+    background-color: #0066FF;
+    color: #fff;
+}
+
+.cwp-frontend-form-container .cwp-frontend-section-container .cwp-field-container.cwp-field-repeating_field .cwp-add-new-repeating-field,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-from-submit {
+    margin-bottom: 10px;
+    border: unset;
+    font-family: open sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    min-width: 172px !important;
+    text-align: center;
+    margin-top: 0;
+    color: #fff;
+    background: #0066FF;
+    background-position: left top;
+    background-size: 201% 100%;
+    transition: 0.3s ease-in-out;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-field-container.cwp-field-repeating_field .cwp-add-new-repeating-field:hover,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-from-submit:hover {
+    opacity: 0.8;
+    background: #0066FF;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-container .cwp-field-container.cwp-field-repeating_field {
+    border-bottom: 2px solid #959595;
+    padding: 7px 14px;
+    font-size: 17px !important;
+    color: #777777;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-container .cwp-frontend-section-heading-container {
+    padding: 0;
+    background: #fff;
+    border: unset;
+    margin-bottom: 30px;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-content-container .wp-editor-container,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-content-container textarea,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-content-container .cwp-file-field-container .cwp-file-field {
+    height: auto !important;
+    border-radius: 12px;
+    border: 2px solid #959595;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-content-container .wp-editor-container {
+    height: auto !important;
+    padding: 0;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-container .cwp-repeating-single-field-actions {
+    border: unset;
+    border-radius: 0;
+    background: #656ed317;
+    padding: 12px 16px;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-field-container .cwp-required-field-notice p {
+    font-size: 11px;
+    padding: 3px 10px;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-container .cwp-repeating-single-field-content {
+    border: unset !IMPORTANT;
+    padding: 24px !important;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-container .cwp-repeating-single-field {
+    padding: 0 !IMPORTANT;
+    overflow: hidden;
+    border: 2px solid #959595;
+    border-radius: 12px;
+    font-size: 17px !important;
+    color: #777777;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-frontend-section-content-container span.select2-selection.select2-selection--single {
+    padding: 17px 14px;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-field-container:focus-within label {
+    color: #000000;
+}
+
+.cwp-forms-style8 .cwp-frontend-section-container .cwp-field-container {
+    margin: 0 0 30px 0;
+    padding: 0;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style8 .cwp-field-checkbox .cwp-field-checkbox-container label {
+    color: #959595 !important;
+}
+
+/* cwp-forms-style9 */
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style9 .cwp-frontend-section-content-container .wp-editor-container,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style9 .cwp-frontend-section-content-container .cwp-field-google-address-input-container input,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style9 .cwp-frontend-section-content-container .cwp-file-field-container .cwp-file-field,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style9 .cwp-frontend-section-content-container span.select2-selection.select2-selection--single,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style9 .cwp-frontend-section-content-container .comment-form input:not([type=submit]),
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style9 .cwp-frontend-section-content-container .comment-form textarea,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style9 .cwp-frontend-section-content-container .wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style9 .cwp-frontend-section-content-container input:read-write,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style9 .cwp-frontend-section-content-container select,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style9 .cwp-frontend-section-content-container textarea {
+    border: 1px solid #777777;
+    border-radius: 3px;
+    padding: 7px 14px;
+    font-size: 17px !important;
+    height: 50px;
+    color: #777777;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style9 .cwp-frontend-section-content-container label {
+    font-family: open sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5em;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 3px;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style9 .cwp-frontend-section-container .cwp-field-container {
+    margin: 0px 0 27px 0;
+    width: 100%;
+    padding: 0;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style9 .cwp-frontend-section-container .cwp-field-container {
+    margin: 0 0 27px 0;
+    width: 100%;
+    padding: 0;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style9 .cwp-frontend-section-container .cwp-frontend-section-content-container,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style9 .cwp-frontend-section-container {
+    margin-bottom: 0;
+    padding: 0 !important;
+    border: unset;
+}
+
+.cwp-forms-style9 {
+    font-size: 17px !important;
+    color: #777777;
+    padding: 60px;
+    background: #fff;
+    border-radius: 9px;
+	border: 1px solid #afb5bf;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style9 .cwp-field-container.cwp-field-repeating_field .cwp-add-new-repeating-field,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style9 .cwp-from-submit {
+    margin-bottom: 10px;
+    border: unset;
+    font-family: open sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    min-width: 172px !important;
+    text-align: center;
+    margin-top: 0;
+    color: #fff;
+    border-radius: 2px;
+    background: #3E3AFF;
+    background-position: left top;
+    background-size: 201% 100%;
+    transition: 0.3s ease-in-out;
+    width: 100%;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style9 .cwp-field-container.cwp-field-repeating_field .cwp-add-new-repeating-field:hover,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style9 .cwp-from-submit:hover {
+    opacity: 0.8;
+    background: #3E3AFF;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style9 .cwp-frontend-section-container .cwp-field-container.cwp-field-repeating_field {
+    border: 1px solid #777777;
+    border-radius: 3px;
+    padding: 7px 14px;
+    font-size: 17px !important;
+    color: #777777;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style9 .cwp-frontend-section-container .cwp-frontend-section-heading-container {
+    padding: 0;
+    background: #fff;
+    border: unset;
+    margin-bottom: 30px;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style9 .cwp-frontend-section-content-container .wp-editor-container,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style9 .cwp-frontend-section-content-container textarea,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style9 .cwp-frontend-section-content-container .cwp-file-field-container .cwp-file-field {
+    height: auto !important;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style9 .cwp-frontend-section-content-container .wp-editor-container {
+    height: auto !important;
+    padding: 0;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style9 .cwp-frontend-section-container .cwp-repeating-single-field-actions {
+    border: unset;
+    border-radius: 0;
+    background: #656ed317;
+    padding: 12px 16px;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style9 .cwp-field-container .cwp-required-field-notice p {
+    font-size: 11px;
+    padding: 3px 10px;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style9 .cwp-frontend-section-container .cwp-repeating-single-field-content {
+    border: unset !IMPORTANT;
+    padding: 24px !important;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style9 .cwp-frontend-section-container .cwp-repeating-single-field {
+    padding: 0 !IMPORTANT;
+    overflow: hidden;
+    border: 1px solid #777777;
+    border-radius: 3px;
+    font-size: 17px !important;
+    color: #777777;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style9 .cwp-frontend-section-content-container span.select2-selection.select2-selection--single {
+    padding: 17px 14px;
+}
+
+/* cwp-forms-style10 */
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-frontend-section-content-container .wp-editor-container,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-frontend-section-content-container .cwp-field-google-address-input-container input,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-frontend-section-content-container .cwp-file-field-container .cwp-file-field,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-frontend-section-content-container span.select2-selection.select2-selection--single,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-frontend-section-content-container .comment-form input:not([type=submit]),
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-frontend-section-content-container .comment-form textarea,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-frontend-section-content-container .wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-frontend-section-content-container input:read-write,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-frontend-section-content-container select,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-frontend-section-content-container textarea {
+    border: 1px solid #656ED3;
+    border-radius: 50px;
+    padding: 7px 24px;
+    font-size: 16px;
+    height: 45px;
+    font-size: 14px;
+    color: #656ED3;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-frontend-section-content-container span.select2-selection.select2-selection--single {
+    padding: 14px;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-frontend-section-content-container .wp-editor-container::placeholder,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-frontend-section-content-container .cwp-field-google-address-input-container input::placeholder,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-frontend-section-content-container .cwp-file-field-container .cwp-file-field::placeholder,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-frontend-section-content-container span.select2-selection.select2-selection--single::placeholder,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-frontend-section-content-container .comment-form input:not([type=submit])::placeholder,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-frontend-section-content-container .comment-form textarea::placeholder,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-frontend-section-content-container .wp-block-search.wp-block-search__button-inside .wp-block-search__inside-wrapper::placeholder,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-frontend-section-content-container input:read-write::placeholder,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-frontend-section-content-container select::placeholder,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-frontend-section-content-container textarea::placeholder {
+    font-size: 14px;
+    color: #00000077;
+    font-weight: 400;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-frontend-section-content-container label {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-frontend-section-content-container .wp-editor-container {
+    overflow: hidden;
+    border-radius: 20px;
+    padding: 0;
+    height: auto;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-frontend-section-content-container .cwp-file-field-container .cwp-file-field {
+    height: auto;
+    border-radius: 20px;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-frontend-section-content-container textarea {
+    overflow: hidden;
+    border-radius: 20px;
+    height: auto;
+    padding: 15px;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-frontend-section-container .cwp-field-container {
+    margin: 0 0 27px 0;
+    width: 100%;
+    padding: 0;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-frontend-section-container .cwp-frontend-section-content-container,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-frontend-section-container {
+    margin-bottom: 0;
+    padding: 0 !important;
+    border: unset;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-frontend-section-container .cwp-field-container.cwp-field-repeating_field .cwp-add-new-repeating-field,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-from-submit {
+    margin-bottom: 0;
+    border: unset;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    min-width: 172px !important;
+    width: auto !important;
+    float: right;
+    text-align: center;
+    margin-top: 0;
+    border-radius: 12px;
+    background: #656ED3;
+    color: #fff;
+    background-image: linear-gradient(to right, #656ED3 50%, transparent 50%);
+    background-position: left top;
+    background-size: 201% 100%;
+    transition: 0.3s ease-in-out;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-frontend-section-container .cwp-field-container.cwp-field-repeating_field .cwp-add-new-repeating-field:hover,
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-from-submit:hover {
+    background-position: right top;
+    color: #656ED3;
+    background-color: #656ed317 !important;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-frontend-section-container .cwp-field-container.cwp-field-repeating_field {
+    border: 1px solid #656ED3;
+    border-radius: 30px;
+    padding: 20px;
+    color: #656ED3;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-frontend-section-container .cwp-frontend-section-heading-container {
+    padding: 0;
+    background: #fff;
+    border: unset;
+    margin-bottom: 30px;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-frontend-section-container .cwp-repeating-single-field-actions {
+    border: unset;
+    border-radius: 0;
+    background: #656ed317;
+    padding: 12px 16px;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-field-container .cwp-required-field-notice {
+    border-radius: 8px;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-field-container .cwp-required-field-notice p {
+    font-size: 11px;
+    padding: 3px 10px;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-frontend-section-container .cwp-repeating-single-field-content {
+    border: unset !IMPORTANT;
+    padding: 24px !important;
+}
+
+.cwp-frontend-form-container .cwp-custom-form.cwp-forms-style10 .cwp-frontend-section-container .cwp-repeating-single-field {
+    border: 1px solid #656ED3;
+    border-radius: 20px;
+    color: #656ED3;
+    padding: 0 !IMPORTANT;
+    overflow: hidden;
+    background: #656ed317;
+}
+
+.cwp-forms-style10 {
+    border-radius: 30px;
+    color: #656ED3;
+    overflow: hidden;
+    background: #fff;
+    padding: 40px !important;
+    box-shadow: 1px 1px 20px 0px #656ed324;
+}
+
+.cwp-forms-style10 .cwp-switch .cwp-switch-field:checked~.cwp-switch-slider {
+    background: #656ED3;
+}

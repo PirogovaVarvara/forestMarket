@@ -1,0 +1,68 @@
+Xtreme Slider – Free Plugin License
+
+Effective Date: August 14, 2025
+Plugin Name: Xtreme Slider
+Author: Xtreme Plugins Inc
+
+1. License Grant (GPL-Based)
+
+Xtreme Slider is licensed under the GNU General Public License v2.0 or later (GPL v2+).
+
+You are free to:
+
+Use the plugin for personal and commercial projects
+Modify the plugin code
+Distribute the plugin
+Share it with others
+
+2. No Warranty
+
+This plugin is provided "as is", without warranty of any kind.
+
+We do not guarantee that:
+
+The plugin will be error-free
+The plugin will work with all themes or plugins
+The plugin will meet your specific needs
+
+3. Limitation of Liability
+
+Under no circumstances shall the author be held liable for:
+
+Website damage or downtime
+Data loss
+Conflicts with other plugins/themes
+Any direct or indirect damages
+
+4. Support
+
+Because Xtreme Slider is a free plugin:
+
+Support is not guaranteed
+Help may be provided via:
+WordPress.org support forum
+Email: contact@xtremeplugins.com
+
+5. Updates
+
+Updates may be released at any time, but are not guaranteed.
+
+6. Third-Party Libraries
+
+Xtreme Slider may include third-party libraries or assets, which remain under their respective licenses.
+
+7. Usage Restrictions
+
+You may NOT:
+
+Claim the plugin as your own original work
+Misrepresent the source of the plugin
+Remove attribution if required by included components
+
+8. Termination
+
+This license automatically terminates if you violate its terms.
+
+9. Acceptance of Terms
+
+By installing or using Xtreme Slider, you agree to the terms of this license.

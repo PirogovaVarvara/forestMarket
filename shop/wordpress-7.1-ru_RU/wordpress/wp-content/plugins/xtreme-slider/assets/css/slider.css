@@ -1,0 +1,834 @@
+/* ==========================================================================
+   XtremeSlider — Frontend Styles
+   Three layouts: Default (full-bleed), Simple (card-based), 3D (perspective)
+   ========================================================================== */
+
+/* --- Reset & base --------------------------------------------------------- */
+.xs-slider-wrap {
+    position: relative;
+    padding: 40px 20px;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.xs-slider-wrap * {
+    box-sizing: border-box;
+}
+
+/* --- Fullscreen ----------------------------------------------------------- */
+.xs-slider-wrap.xs-fullscreen {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* --- Image Ratio ---------------------------------------------------------- */
+.xs-ratio-16-10 .xs-slide-image {
+    aspect-ratio: 16 / 10;
+    height: auto !important;
+}
+
+.xs-ratio-1-1 .xs-slide-image {
+    aspect-ratio: 1 / 1;
+    height: auto !important;
+}
+
+/* --- Optional square corners --------------------------------------------- */
+.xs-slider-wrap.xs-square-corners .xs-slider-viewport,
+.xs-slider-wrap.xs-square-corners .xs-slide-inner,
+.xs-slider-wrap.xs-square-corners .xs-slide-image {
+    border-radius: 0 !important;
+}
+
+/* ==========================================================================
+   DEFAULT LAYOUT — Full-bleed, square edges, vertical text, bracket arrows
+   ========================================================================== */
+.xs-layout-default {
+    padding: 0;
+    background: #fff;
+}
+
+.xs-layout-default .xs-slider-viewport {
+    overflow: hidden;
+    width: 100%;
+    cursor: grab;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.xs-layout-default .xs-slider-viewport:active {
+    cursor: grabbing;
+}
+
+.xs-layout-default .xs-slider-track {
+    display: flex;
+    transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    will-change: transform;
+}
+
+.xs-layout-default .xs-slide {
+    flex: 0 0 auto;
+    padding: 0 22px;
+    position: relative;
+    cursor: pointer;
+}
+
+.xs-layout-default .xs-slide-inner {
+    border-radius: 0;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.xs-layout-default .xs-slide-image {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.xs-layout-default .xs-slide-inner:hover .xs-slide-image {
+    transform: scale(1.05);
+}
+
+.xs-layout-default .xs-slide-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+/* Vertical title text on image */
+.xs-caption-vertical {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    color: #fff;
+    font-family: "Sora", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 50px;
+    line-height: normal;
+    font-weight: 300;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+    z-index: 2;
+}
+
+/* Title shadow modifier — applied when "Add shadow" is enabled per slide */
+.xs-caption-shadow {
+    text-shadow:
+        0 0 18px rgba(0, 0, 0, 0.95),
+        0 2px 6px rgba(0, 0, 0, 0.9),
+        0 0 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Below-image info: caption + description — only visible on active center slide */
+.xs-layout-default .xs-slide-info {
+    padding: 20px 4px 10px;
+    background: #fff;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.4s ease, max-height 0.4s ease;
+}
+
+.xs-layout-default .xs-slide.xs-center .xs-slide-info {
+    opacity: 1;
+    max-height: 200px;
+}
+
+.xs-slide-info {
+    padding: 20px 4px 10px;
+    background: #fff;
+}
+
+.xs-slide-info-caption {
+    font-family: "Sora", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #1a1d2e;
+    margin: 0 0 10px 0;
+    border-bottom: 2px solid #1a1d2e;
+    display: inline-block;
+    transition: border-color 0.3s ease;
+}
+
+.xs-slide-info-caption:hover,
+.xs-slide-link:hover .xs-slide-info-caption {
+    border-bottom-color: var(--xs-link-hover, #ee212b);
+}
+
+.xs-slide-info-desc {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #434749;
+    margin: 0;
+}
+
+/* Default layout arrows — square bracket style, positioned on peek slides */
+.xs-layout-default .xs-nav {
+    width: 50px;
+    height: 60px;
+    border-radius: 0;
+    background: rgba(255, 255, 255, 0.9);
+    color: #1a1d2e;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: none;
+    top: 40%;
+}
+
+.xs-layout-default .xs-nav svg {
+    width: 22px;
+    height: 22px;
+}
+
+.xs-layout-default .xs-nav:hover {
+    background: #fff;
+    transform: translateY(-50%);
+}
+
+.xs-layout-default .xs-nav-prev { left: 8px; }
+.xs-layout-default .xs-nav-next { right: 8px; }
+
+/* ==========================================================================
+   COOL LAYOUT
+   ========================================================================== */
+.xs-layout-cool {
+    border-radius: 0;
+    padding: 50px 40px;
+}
+
+/* No background gradient set — strip the wrapper padding and card shadows
+   so the slider sits flush against the page with no visible container. */
+.xs-layout-cool.xs-no-gradient {
+    padding: 0;
+    background: transparent !important;
+}
+
+.xs-layout-cool.xs-no-gradient .xs-slide-inner {
+    background: transparent;
+    box-shadow: none;
+}
+
+.xs-layout-cool.xs-no-gradient .xs-slide-inner:hover {
+    box-shadow: none;
+}
+
+.xs-layout-cool .xs-slider-viewport {
+    overflow: hidden;
+    border-radius: 16px;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+.xs-layout-cool .xs-slider-track {
+    display: flex;
+    transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    will-change: transform;
+}
+
+.xs-layout-cool .xs-slide {
+    flex: 0 0 auto;
+    padding: 0 8px;
+}
+
+.xs-layout-cool .xs-slide-inner {
+    border-radius: 16px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+.xs-layout-cool .xs-slide-inner:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 14px 40px rgba(0, 0, 0, 0.25);
+}
+
+.xs-layout-cool .xs-slide-image {
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+    display: block;
+}
+
+.xs-layout-cool .xs-slide-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 14px 18px;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.xs-layout-cool .xs-slide-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+/* ==========================================================================
+   3D LAYOUT
+   ========================================================================== */
+.xs-layout-3d {
+    background: #0a0a0a;
+    padding: 60px 20px;
+}
+
+.xs-layout-3d .xs-slider-viewport {
+    perspective: 1200px;
+    overflow: visible;
+    max-width: 1400px;
+    margin: 0 auto;
+    position: relative;
+    height: 450px;
+}
+
+.xs-layout-3d .xs-slider-track {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+}
+
+.xs-layout-3d .xs-slide {
+    position: absolute;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+    transform-style: preserve-3d;
+}
+
+.xs-layout-3d .xs-slide-inner {
+    border-radius: 16px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+    transition: box-shadow 0.4s ease;
+}
+
+.xs-layout-3d .xs-slide.xs-active .xs-slide-inner {
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.5);
+}
+
+.xs-layout-3d .xs-slide-image {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    display: block;
+}
+
+.xs-layout-3d.xs-ratio-fixed .xs-slide {
+    width: auto;
+}
+
+.xs-layout-3d.xs-ratio-fixed .xs-slide-inner {
+    height: auto;
+    width: auto;
+}
+
+.xs-layout-3d.xs-ratio-fixed .xs-slide-image {
+    width: auto;
+    height: auto;
+    max-height: var(--xs-fixed-height, 420px);
+    object-fit: contain;
+}
+
+.xs-layout-3d .xs-slide-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+        135deg,
+        rgba(115, 3, 192, 0.15) 0%,
+        rgba(236, 56, 188, 0.1) 50%,
+        transparent 100%
+    );
+    transition: opacity 0.4s ease;
+    pointer-events: none;
+}
+
+.xs-layout-3d .xs-slide.xs-active .xs-slide-overlay {
+    opacity: 0.3;
+}
+
+.xs-layout-3d .xs-slide-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px 24px;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.8));
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+.xs-layout-3d .xs-slide.xs-active .xs-slide-caption {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.xs-layout-3d .xs-slide-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+/* ==========================================================================
+   NAVIGATION ARROWS
+   ========================================================================== */
+.xs-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    transition: all 0.3s ease;
+}
+
+.xs-nav-prev { left: 16px; }
+.xs-nav-next { right: 16px; }
+
+/* Simple layout arrows */
+.xs-layout-cool .xs-nav {
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.xs-layout-cool .xs-nav:hover {
+    background: #fff;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.2);
+    transform: translateY(-50%) scale(1.05);
+}
+
+/* 3D layout arrows — glassmorphism */
+.xs-layout-3d .xs-nav {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.xs-layout-3d .xs-nav:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.3);
+    transform: translateY(-50%) scale(1.1);
+}
+
+/* Optional black arrows */
+.xs-slider-wrap.xs-black-arrows .xs-nav {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background: #111;
+    color: #fff;
+    border: none;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.28);
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+}
+
+.xs-slider-wrap.xs-black-arrows .xs-nav:hover {
+    background: #000;
+    color: #fff;
+    border: none;
+    transform: translateY(-50%) scale(1.06);
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.34);
+}
+
+.xs-layout-default.xs-black-arrows .xs-nav {
+    top: 50%;
+}
+
+.xs-layout-default.xs-black-arrows .xs-nav svg {
+    width: 18px;
+    height: 18px;
+}
+
+/* Fullscreen arrow positioning */
+.xs-fullscreen .xs-nav-prev { left: 30px; }
+.xs-fullscreen .xs-nav-next { right: 30px; }
+
+/* ==========================================================================
+   PAGINATION DOTS
+   ========================================================================== */
+.xs-dots {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 24px;
+    padding: 0;
+}
+
+.xs-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    transition: all 0.3s ease;
+}
+
+/* Simple layout dots */
+.xs-layout-cool .xs-dot {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+.xs-layout-cool .xs-dot.active {
+    background: #fff;
+    transform: scale(1.3);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.xs-layout-cool .xs-dot:hover {
+    background: rgba(255, 255, 255, 0.7);
+}
+
+/* 3D layout dots */
+.xs-layout-3d .xs-dot {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.xs-layout-3d .xs-dot.active {
+    background: #ec38bc;
+    transform: scale(1.3);
+    box-shadow: 0 0 14px rgba(236, 56, 188, 0.5);
+}
+
+.xs-layout-3d .xs-dot:hover {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+/* ==========================================================================
+   RESPONSIVE
+   ========================================================================== */
+@media (max-width: 1024px) {
+    .xs-layout-default .xs-slide-image {
+        height: 400px;
+    }
+    .xs-layout-cool .xs-slide-image {
+        height: 280px;
+    }
+    .xs-layout-3d .xs-slide-image {
+        height: 350px;
+    }
+    .xs-layout-3d .xs-slider-viewport {
+        height: 380px;
+    }
+}
+
+@media (max-width: 768px) {
+    .xs-slider-wrap {
+        padding: 30px 10px;
+    }
+    .xs-layout-default {
+        padding: 0;
+    }
+    .xs-layout-default .xs-slide-image {
+        height: 300px;
+    }
+    .xs-caption-vertical {
+        font-size: 20px;
+        letter-spacing: 6px;
+        left: 14px;
+    }
+    .xs-slide-info {
+        padding: 16px 4px 8px;
+    }
+    .xs-slide-info-caption {
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+    .xs-slide-info-desc {
+        font-size: 15px;
+    }
+    .xs-layout-default .xs-nav {
+        width: 36px;
+        height: 46px;
+    }
+    .xs-layout-cool {
+        padding: 30px 16px;
+    }
+    .xs-layout-cool .xs-slide-image {
+        height: 220px;
+    }
+    .xs-layout-3d {
+        padding: 40px 10px;
+    }
+    .xs-layout-3d .xs-slide-image {
+        height: 280px;
+    }
+    .xs-layout-3d .xs-slider-viewport {
+        height: 310px;
+    }
+    .xs-nav {
+        width: 38px;
+        height: 38px;
+    }
+    .xs-nav svg {
+        width: 18px;
+        height: 18px;
+    }
+    .xs-nav-prev { left: 8px; }
+    .xs-nav-next { right: 8px; }
+    .xs-fullscreen .xs-nav-prev { left: 12px; }
+    .xs-fullscreen .xs-nav-next { right: 12px; }
+}
+
+/* ==========================================================================
+   FIXED HEIGHT RATIO
+   ========================================================================== */
+.xs-ratio-fixed .xs-slide-inner {
+    aspect-ratio: unset;
+}
+.xs-ratio-fixed .xs-slide-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Cool layout — fixed-height: keep each image's natural aspect ratio at the
+   given height instead of cropping to a uniform slot width. */
+.xs-layout-cool.xs-ratio-fixed .xs-slide {
+    width: auto !important;
+    flex: 0 0 auto;
+}
+.xs-layout-cool.xs-ratio-fixed .xs-slide-inner {
+    height: var(--xs-fixed-height, 340px);
+    width: auto;
+    aspect-ratio: unset;
+}
+.xs-layout-cool.xs-ratio-fixed .xs-slide-inner img,
+.xs-layout-cool.xs-ratio-fixed .xs-slide-image {
+    width: auto;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    display: block;
+}
+
+.xs-ratio-default .xs-slide-image {
+    aspect-ratio: auto !important;
+    height: auto !important;
+}
+
+.xs-layout-3d.xs-ratio-default .xs-slide-image {
+    max-height: 420px;
+    object-fit: contain;
+}
+
+@media (max-width: 480px) {
+    .xs-layout-default .xs-slide-image {
+        height: 240px;
+    }
+    .xs-caption-vertical {
+        font-size: 16px;
+        letter-spacing: 4px;
+        left: 8px;
+    }
+    .xs-slide-info-caption {
+        font-size: 9px;
+        letter-spacing: 2px;
+    }
+    .xs-slide-info-desc {
+        font-size: 11px;
+    }
+    .xs-layout-cool .xs-slide-image {
+        height: 180px;
+    }
+    .xs-layout-3d .xs-slide-image {
+        height: 220px;
+    }
+    .xs-layout-3d .xs-slider-viewport {
+        height: 250px;
+    }
+}
+
+/* ==========================================================================
+   OPTIONS LAYOUT — Clickable cards with HTML detail panel
+   ========================================================================== */
+.xs-layout-options {
+    --xs-opt-bg: #ffffff;
+    --xs-opt-card-bg: #ffffff;
+    --xs-opt-text: #0f0f0f;
+    --xs-opt-text-muted: #6b7280;
+    --xs-opt-border: rgba(0, 0, 0, 0.06);
+    --xs-opt-shadow: 0 1px 3px rgba(0, 0, 0, 0.04), 0 10px 40px rgba(0, 0, 0, 0.04);
+    --xs-opt-shadow-hover: 0 4px 12px rgba(0, 0, 0, 0.08), 0 20px 60px rgba(0, 0, 0, 0.08);
+    --xs-opt-accent: #0f0f0f;
+
+    font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif;
+    background: var(--xs-opt-bg);
+    color: var(--xs-opt-text);
+    padding: 2rem 1rem;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+}
+
+.xs-layout-options .xs-options-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.25rem;
+    margin-bottom: 2rem;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.xs-layout-options .xs-option-card {
+    background: var(--xs-opt-card-bg);
+    border: 1px solid var(--xs-opt-border);
+    border-radius: 20px;
+    padding: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                border-color 0.3s ease;
+    box-shadow: var(--xs-opt-shadow);
+    overflow: hidden;
+    position: relative;
+    user-select: none;
+}
+
+.xs-layout-options .xs-option-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--xs-opt-shadow-hover);
+}
+
+.xs-layout-options .xs-option-card.active {
+    border-color: var(--xs-opt-accent);
+    transform: translateY(-4px);
+    box-shadow: var(--xs-opt-shadow-hover);
+}
+
+.xs-layout-options .xs-option-image {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    border-radius: 14px;
+    overflow: hidden;
+    margin-bottom: 0.875rem;
+    background: var(--xs-opt-bg);
+}
+
+.xs-layout-options.xs-ratio-1-1 .xs-option-image {
+    aspect-ratio: 1 / 1;
+}
+
+.xs-layout-options.xs-ratio-16-10 .xs-option-image {
+    aspect-ratio: 16 / 10;
+}
+
+.xs-layout-options.xs-ratio-default .xs-option-image {
+    aspect-ratio: auto;
+    height: auto;
+}
+
+.xs-layout-options.xs-ratio-fixed .xs-option-image {
+    aspect-ratio: auto;
+    height: var(--xs-opt-image-height, 240px);
+}
+
+.xs-layout-options .xs-option-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.xs-layout-options.xs-ratio-default .xs-option-image img {
+    height: auto;
+    object-fit: contain;
+}
+
+.xs-layout-options .xs-option-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    color: var(--xs-opt-text);
+}
+
+.xs-layout-options .xs-option-meta {
+    font-size: 1.125rem;
+    line-height: 1.4;
+    color: var(--xs-opt-text-muted);
+}
+
+.xs-layout-options .xs-options-detail {
+    background: var(--xs-opt-card-bg);
+    border: 1px solid var(--xs-opt-border);
+    border-radius: 24px;
+    padding: 2.5rem;
+    min-height: 200px;
+    box-shadow: var(--xs-opt-shadow);
+    position: relative;
+    overflow: hidden;
+    max-width: 1100px;
+    margin: 0 auto;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.xs-layout-options .xs-options-detail-empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 160px;
+    color: var(--xs-opt-text-muted);
+    font-size: 0.95rem;
+    text-align: center;
+}
+
+.xs-layout-options .xs-options-detail-content {
+    opacity: 0;
+    transform: translateY(12px);
+    animation: xs-opt-fadeInUp 0.5s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+@keyframes xs-opt-fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 640px) {
+    .xs-layout-options {
+        padding: 1.5rem 0.75rem;
+    }
+    .xs-layout-options .xs-options-detail {
+        padding: 1.5rem;
+    }
+}

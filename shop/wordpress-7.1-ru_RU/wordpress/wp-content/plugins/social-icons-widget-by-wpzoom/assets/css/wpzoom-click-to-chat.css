@@ -1,0 +1,426 @@
+/* ==========================================================================
+   WPZOOM Click-to-Chat — Frontend Styles
+   ========================================================================== */
+
+#wpzoom-ctc-widget {
+	position: fixed;
+	z-index: 99999;
+	line-height: 1;
+	font-size: 0;
+}
+
+/* --------------------------------------------------------------------------
+   Platform button colors
+   -------------------------------------------------------------------------- */
+
+.wpzoom-ctc-btn--whatsapp  { background-color: #25d366; }
+.wpzoom-ctc-btn--telegram  { background-color: #229ED9; }
+.wpzoom-ctc-btn--messenger { background-color: #0084ff; }
+.wpzoom-ctc-btn--viber     { background-color: #7360f2; }
+.wpzoom-ctc-btn--yamidoo   { background-color: #fe551b; }
+
+/* The AI Chat channel opens the panel in place, so it is a <button>. Strip the
+   UA button styling that themes and browsers add, so it matches the anchors. */
+button.wpzoom-ctc-btn {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font: inherit;
+	cursor: pointer;
+	-webkit-appearance: none;
+	appearance: none;
+	box-shadow: none;
+}
+button.wpzoom-ctc-btn:focus-visible {
+	outline: 2px solid currentColor;
+	outline-offset: 2px;
+}
+
+
+/* --------------------------------------------------------------------------
+   Corner Launcher mode
+   -------------------------------------------------------------------------- */
+
+.wpzoom-ctc--corner.wpzoom-ctc--right {
+	bottom: 24px;
+	right: 24px;
+}
+.wpzoom-ctc--corner.wpzoom-ctc--left {
+	bottom: 24px;
+	left: 24px;
+}
+
+/* Launcher FAB */
+.wpzoom-ctc-launcher {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 56px;
+	height: 56px;
+	border-radius: 50%;
+	border: none;
+	cursor: pointer;
+	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+	position: relative;
+	z-index: 2;
+	padding: 0;
+}
+.wpzoom-ctc-launcher:hover {
+	transform: scale(1.08);
+	box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+.wpzoom-ctc-launcher:focus-visible {
+	outline: 3px solid #005fcc;
+	outline-offset: 3px;
+}
+
+.wpzoom-ctc-launcher-icon {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+/* The inline SVG icons paint with currentColor, so they follow whatever `color`
+   the launcher ends up with. Themes set that on the bare element — Inspiro uses
+   `button { color: #444 }` and `button:hover { color: <accent> }` — and a
+   single-class selector loses to `button:hover`, which turned the icon dark and
+   then the theme's accent on hover. Pinning the colour on the icon itself ends
+   the specificity race: nothing the theme does to the button can reach it. */
+.wpzoom-ctc-launcher,
+.wpzoom-ctc-launcher:hover,
+.wpzoom-ctc-launcher:focus,
+.wpzoom-ctc-launcher:active {
+	color: #fff;
+}
+.wpzoom-ctc-launcher-icon svg {
+	color: #fff;
+}
+.wpzoom-ctc-launcher-icon .social-icon,
+.wpzoom-ctc-launcher-icon .dashicons {
+	font-size: 22px;
+	width: 22px;
+	height: 22px;
+	color: #fff;
+	line-height: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* override plugin's default background/border-radius from wpzoom-social-icons-styles.css */
+	background: transparent !important;
+	border-radius: 0 !important;
+	padding: 0 !important;
+}
+
+/* Icon toggle */
+.wpzoom-ctc-launcher-icon--close {
+	display: none;
+}
+.wpzoom-ctc--corner.is-open .wpzoom-ctc-launcher-icon--open {
+	display: none;
+}
+.wpzoom-ctc--corner.is-open .wpzoom-ctc-launcher-icon--close {
+	display: block;
+}
+
+/* Platform buttons stack */
+.wpzoom-ctc-buttons {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 12px;
+	/* collapsed state */
+	opacity: 0;
+	pointer-events: none;
+	transform: translateY(10px);
+	transition: opacity 0.2s ease, transform 0.2s ease;
+}
+.wpzoom-ctc--corner.is-open .wpzoom-ctc-buttons {
+	opacity: 1;
+	pointer-events: auto;
+	transform: translateY(0);
+}
+
+/* Single-button corner mode: render as a full-size FAB */
+.wpzoom-ctc--corner .wpzoom-ctc-btn--solo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 56px;
+	height: 56px;
+	border-radius: 50%;
+	text-decoration: none;
+	box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.wpzoom-ctc--corner .wpzoom-ctc-btn--solo svg {
+	width: 26px;
+	height: 26px;
+	fill: #fff;
+	color: #fff;
+}
+.wpzoom-ctc--corner .wpzoom-ctc-btn--solo:hover {
+	transform: scale(1.08);
+	box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Corner buttons (multi) */
+.wpzoom-ctc--corner .wpzoom-ctc-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 46px;
+	height: 46px;
+	border-radius: 50%;
+	text-decoration: none;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+	transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.wpzoom-ctc--corner .wpzoom-ctc-btn:hover {
+	transform: scale(1.1);
+	box-shadow: 0 4px 14px rgba(0, 0, 0, 0.28);
+}
+.wpzoom-ctc--corner .wpzoom-ctc-btn svg {
+	width: 22px;
+	height: 22px;
+	fill: #fff;
+	color: #fff;
+}
+
+/* Reverse order for left-side so buttons still grow upward */
+.wpzoom-ctc--corner.wpzoom-ctc--left .wpzoom-ctc-buttons {
+	align-items: center;
+}
+
+/* --------------------------------------------------------------------------
+   Sidebar Strip mode
+   -------------------------------------------------------------------------- */
+
+.wpzoom-ctc--sidebar {
+	top: 50%;
+	transform: translateY(-50%);
+	display: flex;
+	flex-direction: column;
+	gap: 0;
+	position: fixed;
+}
+.wpzoom-ctc--sidebar.wpzoom-ctc--right {
+	right: 0;
+	border-radius: 6px 0 0 6px;
+	align-items: flex-end;
+}
+.wpzoom-ctc--sidebar.wpzoom-ctc--left {
+	left: 0;
+	border-radius: 0 6px 6px 0;
+	align-items: flex-start;
+}
+
+.wpzoom-ctc--sidebar .wpzoom-ctc-btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 48px;
+	height: 48px;
+	text-decoration: none;
+	transition: filter 0.22s ease, border-radius 0.22s ease;
+}
+/* Hover feedback: the label chip does the explaining, so the button only lifts
+   in brightness and rounds its inner edge — it must not change width, or the
+   label anchored to that edge would slide while the visitor reads it. */
+.wpzoom-ctc--sidebar.wpzoom-ctc--right .wpzoom-ctc-btn:hover,
+.wpzoom-ctc--sidebar.wpzoom-ctc--right .wpzoom-ctc-btn:first-child:hover,
+.wpzoom-ctc--sidebar.wpzoom-ctc--right .wpzoom-ctc-btn:last-child:hover {
+	filter: brightness(1.12);
+	border-radius: 6px 0 0 6px;
+}
+
+.wpzoom-ctc--sidebar.wpzoom-ctc--left .wpzoom-ctc-btn:hover,
+.wpzoom-ctc--sidebar.wpzoom-ctc--left .wpzoom-ctc-btn:first-child:hover,
+.wpzoom-ctc--sidebar.wpzoom-ctc--left .wpzoom-ctc-btn:last-child:hover {
+	filter: brightness(1.12);
+	border-radius: 0 6px 6px 0;
+}
+.wpzoom-ctc--sidebar.wpzoom-ctc--right .wpzoom-ctc-btn:first-child {
+	border-radius: 6px 0 0 0;
+}
+.wpzoom-ctc--sidebar.wpzoom-ctc--right .wpzoom-ctc-btn:last-child {
+	border-radius: 0 0 0 6px;
+}
+.wpzoom-ctc--sidebar.wpzoom-ctc--left .wpzoom-ctc-btn:first-child {
+	border-radius: 0 6px 0 0;
+}
+.wpzoom-ctc--sidebar.wpzoom-ctc--left .wpzoom-ctc-btn:last-child {
+	border-radius: 0 0 6px 0;
+}
+
+
+.wpzoom-ctc--sidebar .wpzoom-ctc-btn svg,
+.wpzoom-ctc--sidebar .wpzoom-ctc-btn .social-icon,
+.wpzoom-ctc--sidebar .wpzoom-ctc-btn .dashicons {
+	width: 22px;
+	height: 22px;
+	fill: #fff;
+	color: #fff;
+	flex-shrink: 0;
+}
+
+/* --------------------------------------------------------------------------
+   Sizes — button dimensions + proportional icon sizes
+   Sidebar btn / corner platform btn → launcher = btn + 8px
+   -------------------------------------------------------------------------- */
+
+/* Helper: all icon elements inside a button */
+.wpzoom-ctc-btn svg,
+.wpzoom-ctc-btn .social-icon,
+.wpzoom-ctc-btn .dashicons,
+.wpzoom-ctc-launcher-icon svg,
+.wpzoom-ctc-launcher-icon .social-icon,
+.wpzoom-ctc-launcher-icon .dashicons {
+	transition: width 0.15s, height 0.15s, font-size 0.15s;
+}
+
+/* S  — sidebar 40px, corner platform 38px, launcher 46px, icon 16px */
+.wpzoom-ctc--size-S.wpzoom-ctc--sidebar .wpzoom-ctc-btn                           { width: 40px; height: 40px; }
+.wpzoom-ctc--size-S.wpzoom-ctc--corner  .wpzoom-ctc-btn                           { width: 38px; height: 38px; }
+.wpzoom-ctc--size-S.wpzoom-ctc--corner  .wpzoom-ctc-launcher,
+.wpzoom-ctc--size-S.wpzoom-ctc--corner  .wpzoom-ctc-btn--solo                     { width: 46px; height: 46px; }
+.wpzoom-ctc--size-S .wpzoom-ctc-btn svg,
+.wpzoom-ctc--size-S .wpzoom-ctc-btn .social-icon,
+.wpzoom-ctc--size-S .wpzoom-ctc-btn .dashicons                                    { width: 16px; height: 16px; font-size: 16px; }
+.wpzoom-ctc--size-S .wpzoom-ctc-launcher-icon .social-icon,
+.wpzoom-ctc--size-S .wpzoom-ctc-launcher-icon svg,
+.wpzoom-ctc--size-S .wpzoom-ctc-launcher-icon .dashicons                          { width: 18px; height: 18px; font-size: 18px; }
+
+/* M — default sizes already defined above, icon overrides for completeness */
+.wpzoom-ctc--size-M .wpzoom-ctc-btn svg,
+.wpzoom-ctc--size-M .wpzoom-ctc-btn .social-icon,
+.wpzoom-ctc--size-M .wpzoom-ctc-btn .dashicons                                    { width: 20px; height: 20px; font-size: 20px; }
+.wpzoom-ctc--size-M .wpzoom-ctc-launcher-icon .social-icon,
+.wpzoom-ctc--size-M .wpzoom-ctc-launcher-icon svg,
+.wpzoom-ctc--size-M .wpzoom-ctc-launcher-icon .dashicons                          { width: 22px; height: 22px; font-size: 22px; }
+
+/* L  — sidebar 56px, corner platform 52px, launcher 64px, icon 24px */
+.wpzoom-ctc--size-L.wpzoom-ctc--sidebar .wpzoom-ctc-btn                           { width: 56px; height: 56px; }
+.wpzoom-ctc--size-L.wpzoom-ctc--corner  .wpzoom-ctc-btn                           { width: 52px; height: 52px; }
+.wpzoom-ctc--size-L.wpzoom-ctc--corner  .wpzoom-ctc-launcher,
+.wpzoom-ctc--size-L.wpzoom-ctc--corner  .wpzoom-ctc-btn--solo                     { width: 64px; height: 64px; }
+.wpzoom-ctc--size-L .wpzoom-ctc-btn svg,
+.wpzoom-ctc--size-L .wpzoom-ctc-btn .social-icon,
+.wpzoom-ctc--size-L .wpzoom-ctc-btn .dashicons                                    { width: 24px; height: 24px; font-size: 24px; }
+.wpzoom-ctc--size-L .wpzoom-ctc-launcher-icon .social-icon,
+.wpzoom-ctc--size-L .wpzoom-ctc-launcher-icon svg,
+.wpzoom-ctc--size-L .wpzoom-ctc-launcher-icon .dashicons                          { width: 28px; height: 28px; font-size: 28px; }
+
+/* XL — sidebar 64px, corner platform 58px, launcher 72px, icon 28px */
+.wpzoom-ctc--size-XL.wpzoom-ctc--sidebar .wpzoom-ctc-btn                          { width: 64px; height: 64px; }
+.wpzoom-ctc--size-XL.wpzoom-ctc--corner  .wpzoom-ctc-btn                          { width: 58px; height: 58px; }
+.wpzoom-ctc--size-XL.wpzoom-ctc--corner  .wpzoom-ctc-launcher,
+.wpzoom-ctc--size-XL.wpzoom-ctc--corner  .wpzoom-ctc-btn--solo                    { width: 72px; height: 72px; }
+.wpzoom-ctc--size-XL .wpzoom-ctc-btn svg,
+.wpzoom-ctc--size-XL .wpzoom-ctc-btn .social-icon,
+.wpzoom-ctc--size-XL .wpzoom-ctc-btn .dashicons                                   { width: 28px; height: 28px; font-size: 28px; }
+.wpzoom-ctc--size-XL .wpzoom-ctc-launcher-icon .social-icon,
+.wpzoom-ctc--size-XL .wpzoom-ctc-launcher-icon svg,
+.wpzoom-ctc--size-XL .wpzoom-ctc-launcher-icon .dashicons                         { width: 32px; height: 32px; font-size: 32px; }
+
+/* XXL — sidebar 72px, corner platform 64px, launcher 80px, icon 32px */
+.wpzoom-ctc--size-XXL.wpzoom-ctc--sidebar .wpzoom-ctc-btn                         { width: 72px; height: 72px; }
+.wpzoom-ctc--size-XXL.wpzoom-ctc--corner  .wpzoom-ctc-btn                         { width: 64px; height: 64px; }
+.wpzoom-ctc--size-XXL.wpzoom-ctc--corner  .wpzoom-ctc-launcher,
+.wpzoom-ctc--size-XXL.wpzoom-ctc--corner  .wpzoom-ctc-btn--solo                   { width: 80px; height: 80px; }
+.wpzoom-ctc--size-XXL .wpzoom-ctc-btn svg,
+.wpzoom-ctc--size-XXL .wpzoom-ctc-btn .social-icon,
+.wpzoom-ctc--size-XXL .wpzoom-ctc-btn .dashicons                                  { width: 32px; height: 32px; font-size: 32px; }
+.wpzoom-ctc--size-XXL .wpzoom-ctc-launcher-icon .social-icon,
+.wpzoom-ctc--size-XXL .wpzoom-ctc-launcher-icon svg,
+.wpzoom-ctc--size-XXL .wpzoom-ctc-launcher-icon .dashicons                        { width: 36px; height: 36px; font-size: 36px; }
+
+/* --------------------------------------------------------------------------
+   Mobile hide
+   -------------------------------------------------------------------------- */
+
+@media (max-width: 768px) {
+	#wpzoom-ctc-widget.wpzoom-ctc--hide-mobile {
+		display: none !important;
+	}
+}
+
+/* --------------------------------------------------------------------------
+   Hover labels
+   The chip sits on the side away from the screen edge: to the LEFT of the
+   button when the launcher is on the right, and to the RIGHT when it is on the
+   left, so it always opens into the page instead of off-screen.
+   -------------------------------------------------------------------------- */
+
+.wpzoom-ctc-btn {
+	position: relative;
+}
+
+.wpzoom-ctc-btn-label {
+	position: absolute;
+	top: 50%;
+	z-index: 1;
+	white-space: nowrap;
+	max-width: 45vw;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	background: #23282d;
+	color: #fff;
+	font-family: inherit;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 1.4;
+	letter-spacing: normal;
+	text-transform: none;
+	padding: 6px 10px;
+	border-radius: 4px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.22);
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+	transition: opacity 0.15s ease, visibility 0.15s ease;
+}
+
+.wpzoom-ctc--right .wpzoom-ctc-btn-label {
+	right: calc(100% + 10px);
+	transform: translateY(-50%);
+	transform-origin: right center;
+}
+.wpzoom-ctc--left .wpzoom-ctc-btn-label {
+	left: calc(100% + 10px);
+	transform: translateY(-50%);
+	transform-origin: left center;
+}
+
+/* Corner buttons scale up on hover; the chip cancels that out so the text is
+   rendered at its real size instead of a blurry enlargement. */
+.wpzoom-ctc--corner .wpzoom-ctc-btn:hover .wpzoom-ctc-btn-label {
+	transform: translateY(-50%) scale(0.909);
+}
+.wpzoom-ctc--corner .wpzoom-ctc-btn--solo:hover .wpzoom-ctc-btn-label {
+	transform: translateY(-50%) scale(0.926);
+}
+
+/* Shown on hover where hovering exists, and always on keyboard focus. */
+@media (hover: hover) {
+	.wpzoom-ctc-btn:hover .wpzoom-ctc-btn-label {
+		opacity: 1;
+		visibility: visible;
+	}
+}
+.wpzoom-ctc-btn:focus-visible .wpzoom-ctc-btn-label {
+	opacity: 1;
+	visibility: visible;
+}
+
+/* Screen reader only */
+.wpzoom-ctc-btn .screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	width: 1px;
+	margin: -1px;
+	overflow: hidden;
+	position: absolute;
+	word-wrap: normal !important;
+}

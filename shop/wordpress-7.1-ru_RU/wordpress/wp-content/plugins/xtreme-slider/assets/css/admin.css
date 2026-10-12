@@ -1,0 +1,1340 @@
+/* ==========================================================================
+   XtremeSlider — Admin Styles (Neumorphic Design System)
+   Scoped under body.xs-admin-page to avoid affecting other WP admin pages.
+   ========================================================================== */
+
+/* --- Design tokens (neumorphic light) ------------------------------------- */
+:root {
+    --xs-bg:           rgb(224 229 236);
+    --xs-surface-0:    rgb(224 229 236);
+    --xs-surface-1:    rgb(228 233 240);
+    --xs-surface-2:    rgb(232 236 242);
+    --xs-surface-3:    rgb(218 223 230);
+
+    --xs-neu-raised:   6px 6px 12px #b8bec7, -6px -6px 12px #ffffff;
+    --xs-neu-raised-sm: 3px 3px 6px #b8bec7, -3px -3px 6px #ffffff;
+    --xs-neu-inset:    inset 3px 3px 6px #b8bec7, inset -3px -3px 6px #ffffff;
+
+    --xs-accent:       #7303c0;
+    --xs-accent-dim:   rgba(115, 3, 192, 0.10);
+    --xs-accent2:      #ec38bc;
+    --xs-profit:       #2dce89;
+    --xs-profit-dim:   rgba(45, 206, 137, 0.15);
+    --xs-blue:         #3b82f6;
+    --xs-amber:        #ffaa00;
+    --xs-danger:       #ff4466;
+    --xs-danger-dim:   rgba(255, 68, 102, 0.15);
+
+    --xs-text:         #2d3436;
+    --xs-text-heading:  #1a1d1e;
+    --xs-muted:        #636e72;
+    --xs-disabled:     #95a5a6;
+
+    --xs-radius:       12px;
+    --xs-radius-lg:    16px;
+    --xs-radius-sm:    8px;
+
+    --xs-font-display: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --xs-font-body:    -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    --xs-font-mono:    "Fira Code", monospace;
+}
+
+/* ==========================================================================
+   1. PAGE-LEVEL THEME
+   ========================================================================== */
+body.xs-admin-page,
+body.xs-admin-page #wpwrap,
+body.xs-admin-page #wpcontent,
+body.xs-admin-page #wpbody,
+body.xs-admin-page #wpbody-content {
+    background: var(--xs-bg) !important;
+}
+
+/* ==========================================================================
+   2. WRAP RESET
+   ========================================================================== */
+.xs-admin-wrap {
+    margin: 0;
+    padding: 24px 28px;
+    max-width: 1300px;
+    font-family: var(--xs-font-body);
+    color: var(--xs-text);
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.xs-admin-wrap h1,
+.xs-admin-wrap h2,
+.xs-admin-wrap h3 {
+    font-family: var(--xs-font-display);
+    color: var(--xs-text-heading);
+}
+
+/* ==========================================================================
+   3. PAGE HEADER
+   ========================================================================== */
+.xs-admin-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 28px;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.xs-admin-header h1 {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: -0.3px;
+}
+
+/* Admin Logo */
+.xs-admin-logo {
+    display: flex;
+    align-items: center;
+}
+
+.xs-admin-logo img {
+    height: 48px;
+    width: auto;
+    display: block;
+}
+
+/* ==========================================================================
+   4. BUTTONS
+   ========================================================================== */
+.xs-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 16px;
+    border-radius: var(--xs-radius);
+    font-size: 12px;
+    font-weight: 700;
+    font-family: var(--xs-font-display);
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s;
+    line-height: 1.4;
+}
+
+.xs-btn-primary {
+    background: #1a1d1e;
+    color: #fff;
+    box-shadow: var(--xs-neu-raised-sm);
+}
+
+.xs-btn-primary:hover {
+    transform: translateY(-1px);
+    box-shadow: var(--xs-neu-raised);
+    color: #fff;
+}
+
+/* Save button loading state */
+.xs-btn-saving {
+    pointer-events: none;
+    opacity: 0.7;
+}
+
+.xs-btn-saving .xs-spinner {
+    display: inline-block;
+}
+
+.xs-spinner {
+    display: none;
+    width: 14px;
+    height: 14px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-top-color: #fff;
+    border-radius: 50%;
+    animation: xs-spin 0.6s linear infinite;
+}
+
+@keyframes xs-spin {
+    to { transform: rotate(360deg); }
+}
+
+.xs-btn-secondary {
+    background: var(--xs-surface-0);
+    color: var(--xs-text);
+    box-shadow: var(--xs-neu-raised-sm);
+}
+
+.xs-btn-secondary:hover {
+    box-shadow: var(--xs-neu-raised);
+    color: var(--xs-text);
+}
+
+.xs-btn-disabled,
+.xs-btn[disabled] {
+    pointer-events: none;
+    opacity: 0.55;
+    cursor: not-allowed;
+    transform: none !important;
+    box-shadow: var(--xs-neu-inset);
+}
+
+.xs-btn-lg { padding: 10px 22px; font-size: 13px; }
+.xs-btn-full { width: 100%; justify-content: center; }
+
+/* ==========================================================================
+   5. FORM SECTIONS — Neumorphic raised cards
+   ========================================================================== */
+.xs-form-section {
+    background: var(--xs-surface-0);
+    border-radius: var(--xs-radius-lg);
+    padding: 24px;
+    margin-bottom: 20px;
+    box-shadow: var(--xs-neu-raised);
+}
+
+.xs-form-section h2 {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 0 14px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid transparent;
+    background-image: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.06), transparent);
+    background-size: 100% 1px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 10px;
+    color: var(--xs-muted);
+}
+
+.xs-form-desc {
+    color: var(--xs-muted);
+    font-size: 11px;
+    margin: -8px 0 14px 0;
+}
+
+.xs-form-hint {
+    margin-top: 6px;
+    color: var(--xs-muted);
+    font-size: 10px;
+    line-height: 1.45;
+}
+
+.xs-form-row {
+    margin-bottom: 14px;
+}
+
+.xs-form-row label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 11px;
+    font-family: var(--xs-font-display);
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    color: var(--xs-muted);
+}
+
+.xs-form-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+}
+
+/* Neumorphic inset inputs (sidebar) */
+.xs-form-row input[type="text"],
+.xs-form-row input[type="number"],
+.xs-form-row input[type="url"],
+.xs-form-row select {
+    width: 100%;
+    padding: 8px 12px;
+    border: none;
+    border-radius: var(--xs-radius-sm);
+    font-size: 13px;
+    font-family: var(--xs-font-body);
+    background: rgba(0, 0, 0, 0.03);
+    box-shadow: var(--xs-neu-inset);
+    color: var(--xs-text);
+    transition: box-shadow 0.2s;
+}
+
+.xs-form-row input:focus,
+.xs-form-row select:focus {
+    outline: none;
+    box-shadow: var(--xs-neu-inset), 0 0 0 2px rgba(45, 206, 137, 0.25);
+}
+
+.xs-input-full {
+    width: 100% !important;
+    padding: 10px 14px !important;
+    border: none !important;
+    border-radius: var(--xs-radius-sm) !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    font-family: var(--xs-font-display) !important;
+    background: rgba(0, 0, 0, 0.03) !important;
+    box-shadow: var(--xs-neu-inset) !important;
+    color: var(--xs-text-heading) !important;
+    transition: box-shadow 0.2s !important;
+}
+
+.xs-input-full:focus {
+    outline: none !important;
+    box-shadow: var(--xs-neu-inset), 0 0 0 2px rgba(45, 206, 137, 0.25) !important;
+}
+
+.xs-input-sm {
+    width: 80px;
+    padding: 6px 10px;
+    border: none;
+    border-radius: var(--xs-radius-sm);
+    font-size: 13px;
+    background: rgba(0, 0, 0, 0.03);
+    box-shadow: var(--xs-neu-inset);
+    color: var(--xs-text);
+}
+
+.xs-input-sm:focus {
+    outline: none;
+    box-shadow: var(--xs-neu-inset), 0 0 0 2px rgba(45, 206, 137, 0.25);
+}
+
+/* ==========================================================================
+   STATUS TOGGLE SWITCH
+   ========================================================================== */
+.xs-status-toggle {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.xs-status-toggle input[type="checkbox"] {
+    display: none;
+}
+
+.xs-status-toggle .xs-toggle-track {
+    position: relative;
+    width: 44px;
+    height: 24px;
+    background: var(--xs-disabled);
+    border-radius: 12px;
+    transition: background 0.2s;
+    flex-shrink: 0;
+}
+
+.xs-status-toggle .xs-toggle-track::after {
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 18px;
+    height: 18px;
+    background: #fff;
+    border-radius: 50%;
+    transition: transform 0.2s;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+.xs-status-toggle input:checked + .xs-toggle-track {
+    background: var(--xs-profit);
+}
+
+.xs-status-toggle input:checked + .xs-toggle-track::after {
+    transform: translateX(20px);
+}
+
+.xs-status-toggle .xs-toggle-text {
+    font-size: 13px;
+    font-weight: 600;
+    font-family: var(--xs-font-display);
+    color: var(--xs-text);
+}
+
+.xs-status-toggle .xs-toggle-text::after {
+    content: 'Draft';
+}
+
+.xs-status-toggle input:checked ~ .xs-toggle-text::after {
+    content: 'Active';
+}
+
+.xs-toggle-label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    text-transform: none;
+    font-size: 13px;
+    color: var(--xs-text);
+}
+
+.xs-form-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.xs-form-actions .xs-btn-full {
+    flex: 1 1 220px;
+    width: auto;
+    min-width: 0;
+}
+
+.xs-save-feedback {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-height: 42px;
+    padding: 0 14px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.55);
+    box-shadow: var(--xs-neu-raised-sm);
+    color: var(--xs-text);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+    backdrop-filter: blur(10px);
+}
+
+.xs-save-feedback::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: currentColor;
+    opacity: 0.9;
+}
+
+.xs-save-feedback.is-success {
+    color: #1f8f5f;
+}
+
+.xs-save-feedback.is-error {
+    color: #c2415b;
+}
+
+/* Title + Status row */
+.xs-title-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.xs-title-field {
+    flex: 1;
+    min-width: 0;
+}
+
+.xs-title-status {
+    flex-shrink: 0;
+}
+
+/* ==========================================================================
+   6. EDIT PAGE LAYOUT
+   ========================================================================== */
+.xs-edit-layout {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 24px;
+    align-items: start;
+}
+
+@media (max-width: 960px) {
+    .xs-edit-layout {
+        grid-template-columns: 1fr;
+    }
+}
+
+.xs-settings-layout {
+    max-width: 700px;
+}
+
+.xs-inline-plan {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-left: 8px;
+    padding: 3px 8px;
+    border-radius: 999px;
+    background: rgba(45, 206, 137, 0.12);
+    color: #1f8f5f;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.xs-inline-plan::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: currentColor;
+}
+
+.xs-license-section {
+    position: relative;
+}
+
+.xs-license-input {
+    letter-spacing: 0.06em;
+    font-family: var(--xs-font-mono) !important;
+}
+
+.xs-license-meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.xs-slider-limit-meta {
+    margin: -8px 0 20px;
+}
+
+.xs-plan-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 6px 10px;
+    border-radius: 999px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    box-shadow: var(--xs-neu-raised-sm);
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.xs-plan-badge::before {
+    content: '';
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: currentColor;
+}
+
+.xs-plan-badge.is-premium {
+    color: #1f8f5f;
+}
+
+.xs-plan-badge.is-free {
+    color: #6b7280;
+}
+
+.xs-license-note {
+    color: var(--xs-muted);
+    font-size: 11px;
+    font-weight: 600;
+}
+
+/* ==========================================================================
+   7. RADIO CARDS (Layout picker) — Neumorphic toggle buttons
+   ========================================================================== */
+.xs-radio-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.xs-radio-cards-3 {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.xs-radio-cards-4 {
+    grid-template-columns: 1fr 1fr;
+}
+
+@media (min-width: 600px) {
+    .xs-radio-cards-4 {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.xs-radio-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    padding: 14px 8px;
+    border-radius: var(--xs-radius);
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s;
+    background: rgba(0, 0, 0, 0.03);
+    box-shadow: var(--xs-neu-raised-sm);
+}
+
+.xs-radio-card input { display: none; }
+
+.xs-radio-card:hover {
+    box-shadow: var(--xs-neu-raised);
+}
+
+.xs-radio-card.active {
+    box-shadow: var(--xs-neu-inset);
+    background: rgba(0, 0, 0, 0.03);
+}
+
+.xs-radio-card-icon {
+    color: var(--xs-disabled);
+    transition: color 0.2s;
+}
+
+.xs-radio-card.active .xs-radio-card-icon {
+    color: var(--xs-profit);
+}
+
+.xs-radio-card-label {
+    font-size: 10px;
+    font-weight: 700;
+    font-family: var(--xs-font-display);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--xs-muted);
+    transition: color 0.2s;
+}
+
+.xs-radio-card.active .xs-radio-card-label {
+    color: var(--xs-profit);
+}
+
+/* ==========================================================================
+   8. SLIDES GRID
+   ========================================================================== */
+.xs-slides-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 14px;
+    margin-bottom: 16px;
+    min-height: 60px;
+}
+
+.xs-slide-card {
+    background: var(--xs-surface-0);
+    border-radius: var(--xs-radius);
+    border: none;
+    overflow: hidden;
+    position: relative;
+    cursor: grab;
+    box-shadow: var(--xs-neu-raised-sm);
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.xs-slide-card:hover {
+    box-shadow: var(--xs-neu-raised);
+}
+
+.xs-slide-card.ui-sortable-helper {
+    box-shadow: var(--xs-neu-raised), 0 10px 30px rgba(0, 0, 0, 0.12);
+    transform: rotate(2deg) scale(1.02);
+    z-index: 100;
+}
+
+.xs-slide-card.ui-sortable-placeholder {
+    visibility: visible !important;
+    background: var(--xs-profit-dim);
+    border: 2px dashed var(--xs-profit);
+    box-shadow: none;
+}
+
+.xs-slide-img {
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    background: var(--xs-surface-3);
+}
+
+.xs-slide-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.xs-slide-fields {
+    padding: 8px;
+}
+
+.xs-slide-fields input {
+    width: 100%;
+    padding: 6px 10px;
+    border: none;
+    font-size: 11px;
+    margin-bottom: 4px;
+    background: rgba(0, 0, 0, 0.03);
+    color: var(--xs-text);
+    transition: box-shadow 0.2s;
+}
+
+.xs-slide-fields input:focus {
+    outline: none;
+    box-shadow: var(--xs-neu-inset), 0 0 0 2px rgba(45, 206, 137, 0.25);
+}
+
+.xs-slide-remove {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background: rgba(255, 68, 102, 0.85);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    padding: 0;
+    opacity: 0;
+    transition: opacity 0.2s, transform 0.15s;
+    box-shadow: 0 2px 8px rgba(255, 68, 102, 0.3);
+}
+
+.xs-slide-card:hover .xs-slide-remove { opacity: 1; }
+.xs-slide-remove:hover { transform: scale(1.1); }
+
+.xs-slide-counter {
+    font-weight: 400;
+    color: var(--xs-muted);
+    font-size: 13px;
+}
+
+.xs-slides-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.xs-slides-action-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.xs-action-feedback {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    min-height: 40px;
+    padding: 0 12px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.55);
+    box-shadow: var(--xs-neu-raised-sm);
+    color: #1f8f5f;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+}
+
+.xs-action-feedback::before {
+    content: '';
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: currentColor;
+    opacity: 0.9;
+}
+
+.xs-action-feedback.is-error {
+    color: #c2415b;
+}
+
+.xs-action-feedback[hidden] {
+    display: none !important;
+}
+
+/* ==========================================================================
+   9. SHORTCODE DISPLAY
+   ========================================================================== */
+.xs-shortcode-display {
+    background: rgba(0, 0, 0, 0.04);
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 11px;
+    font-family: var(--xs-font-mono);
+    color: var(--xs-accent);
+    user-select: all;
+    box-shadow: inset 1px 1px 3px #b8bec7, inset -1px -1px 3px #ffffff;
+}
+
+.xs-shortcode-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(0, 0, 0, 0.03);
+    padding: 12px 16px;
+    border-radius: var(--xs-radius-sm);
+    border: none;
+    box-shadow: var(--xs-neu-inset);
+}
+
+.xs-shortcode-box code {
+    flex: 1;
+    font-size: 14px;
+    font-family: var(--xs-font-mono);
+    font-weight: 600;
+    color: var(--xs-accent);
+    user-select: all;
+    background: none;
+}
+
+.xs-copy-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 10px;
+    background: var(--xs-surface-0);
+    border: none;
+    border-radius: var(--xs-radius-sm);
+    box-shadow: var(--xs-neu-raised-sm);
+    cursor: pointer;
+    font-size: 11px;
+    font-family: var(--xs-font-display);
+    font-weight: 600;
+    color: var(--xs-muted);
+    transition: all 0.2s;
+}
+
+.xs-copy-btn:hover {
+    color: var(--xs-accent);
+    box-shadow: var(--xs-neu-raised);
+}
+
+.xs-copy-btn.copied {
+    color: var(--xs-profit);
+    box-shadow: var(--xs-neu-inset);
+}
+
+.xs-copy-btn-lg {
+    padding: 8px 16px;
+    font-size: 12px;
+}
+
+/* ==========================================================================
+   10. TABLE — Neumorphic raised
+   ========================================================================== */
+.xs-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: var(--xs-surface-0);
+    border-radius: var(--xs-radius-lg);
+    overflow: hidden;
+    box-shadow: var(--xs-neu-raised);
+}
+
+.xs-table th {
+    text-align: left;
+    padding: 12px 16px;
+    font-size: 10px;
+    font-weight: 700;
+    font-family: var(--xs-font-display);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--xs-muted);
+    background: var(--xs-surface-3);
+}
+
+.xs-table td {
+    padding: 12px 16px;
+    font-size: 13px;
+    border-bottom: 1px solid transparent;
+    background-image: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.04), transparent);
+    background-size: 100% 1px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+.xs-table tr:last-child td {
+    background-image: none;
+}
+
+.xs-link {
+    color: var(--xs-accent);
+    text-decoration: none;
+    font-weight: 600;
+    font-family: var(--xs-font-display);
+}
+
+.xs-link:hover { text-decoration: underline; }
+
+.xs-action-link {
+    color: var(--xs-muted);
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 600;
+    margin-right: 10px;
+    transition: color 0.2s;
+}
+
+.xs-action-link:hover { color: var(--xs-accent); }
+.xs-action-delete:hover { color: var(--xs-danger); }
+
+/* ==========================================================================
+   11. BADGES & STATUS
+   ========================================================================== */
+.xs-badge {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 20px;
+    font-size: 9px;
+    font-weight: 700;
+    font-family: var(--xs-font-display);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.xs-badge-default {
+    background: rgba(59, 130, 246, 0.12);
+    color: var(--xs-blue);
+}
+
+.xs-badge-cool {
+    background: var(--xs-accent-dim);
+    color: var(--xs-accent);
+}
+
+.xs-badge-3d {
+    background: rgba(236, 56, 188, 0.12);
+    color: var(--xs-accent2);
+}
+
+.xs-status {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 20px;
+    font-size: 9px;
+    font-weight: 700;
+    font-family: var(--xs-font-display);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.xs-status-active { background: var(--xs-profit-dim); color: var(--xs-profit); }
+.xs-status-draft { background: rgba(107, 114, 128, 0.1); color: var(--xs-muted); }
+
+/* ==========================================================================
+   12. GRADIENT PREVIEW — Neumorphic inset well
+   ========================================================================== */
+.xs-gradient-preview {
+    width: 100%;
+    height: 44px;
+    border-radius: var(--xs-radius);
+    margin-top: 10px;
+    box-shadow: inset 2px 2px 5px #b8bec7, inset -2px -2px 5px #ffffff;
+}
+
+/* ==========================================================================
+   13. AUTOPLAY SPEED SLIDER
+   ========================================================================== */
+.xs-form-row input[type="range"] {
+    width: 100%;
+    accent-color: var(--xs-profit);
+    margin-top: 4px;
+    height: 6px;
+}
+
+/* ==========================================================================
+   14. EMPTY STATE
+   ========================================================================== */
+.xs-empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    background: var(--xs-surface-0);
+    border-radius: var(--xs-radius-lg);
+    box-shadow: var(--xs-neu-raised);
+}
+
+.xs-empty-icon { margin-bottom: 16px; opacity: 0.4; }
+
+.xs-empty-state h2 {
+    font-size: 18px;
+    margin: 0 0 8px 0;
+}
+
+.xs-empty-state p {
+    color: var(--xs-muted);
+    margin: 0 0 20px 0;
+    font-size: 13px;
+}
+
+/* ==========================================================================
+   15. COLOR PICKER — Modern Inline Design
+   ========================================================================== */
+.xs-form-row .wp-picker-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Color swatch button */
+.xs-form-row .wp-color-result {
+    width: 38px !important;
+    height: 38px !important;
+    min-width: 38px !important;
+    min-height: 38px !important;
+    border-radius: 10px !important;
+    border: 3px solid var(--xs-surface-0) !important;
+    box-shadow: var(--xs-neu-raised-sm), inset 0 0 0 1px rgba(0,0,0,0.08) !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    cursor: pointer !important;
+    transition: transform 0.15s, box-shadow 0.2s !important;
+    overflow: hidden !important;
+}
+
+.xs-form-row .wp-color-result:hover {
+    transform: scale(1.08) !important;
+    box-shadow: var(--xs-neu-raised), inset 0 0 0 1px rgba(0,0,0,0.1) !important;
+}
+
+.xs-form-row .wp-color-result:focus {
+    outline: none !important;
+    box-shadow: var(--xs-neu-raised), 0 0 0 3px rgba(45, 206, 137, 0.3) !important;
+}
+
+/* Hide "Select Color" text — swatch only */
+.xs-form-row .wp-color-result .wp-color-result-text {
+    display: none !important;
+}
+
+/* Picker popup panel */
+.xs-form-row .wp-picker-holder {
+    position: absolute;
+    z-index: 200;
+    left: 0;
+    top: 48px;
+}
+
+/* In the sidebar the picker opens upward so it never overlaps the Save button */
+.xs-edit-sidebar .xs-form-row .wp-picker-holder {
+    top: auto;
+    bottom: 48px;
+}
+
+.xs-form-row .wp-picker-holder .iris-picker {
+    border-radius: 12px !important;
+    overflow: hidden;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15), 0 4px 12px rgba(0, 0, 0, 0.08) !important;
+    border: 1px solid rgba(0, 0, 0, 0.06) !important;
+    background: #fff !important;
+}
+
+.xs-form-row .wp-picker-holder .iris-picker .iris-square {
+    border-radius: 8px 0 0 0 !important;
+}
+
+.xs-form-row .wp-picker-holder .iris-slider {
+    border-radius: 0 8px 0 0 !important;
+}
+
+/* Hex input + buttons row */
+.xs-form-row .wp-picker-input-wrap {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 0;
+}
+
+.xs-form-row .wp-picker-input-wrap input[type="text"].wp-color-picker {
+    width: 82px !important;
+    padding: 5px 8px !important;
+    border: none !important;
+    border-radius: 8px !important;
+    font-family: var(--xs-font-mono) !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    color: var(--xs-text) !important;
+    background: rgba(0, 0, 0, 0.04) !important;
+    box-shadow: var(--xs-neu-inset) !important;
+    text-transform: lowercase !important;
+    letter-spacing: 0.3px !important;
+}
+
+.xs-form-row .wp-picker-input-wrap input[type="text"].wp-color-picker:focus {
+    outline: none !important;
+    box-shadow: var(--xs-neu-inset), 0 0 0 2px rgba(45, 206, 137, 0.25) !important;
+}
+
+.xs-form-row .wp-picker-input-wrap .wp-picker-clear,
+.xs-form-row .wp-picker-input-wrap .wp-picker-default {
+    font-size: 10px !important;
+    font-weight: 600 !important;
+    font-family: var(--xs-font-display) !important;
+    padding: 5px 10px !important;
+    border-radius: 8px !important;
+    background: var(--xs-surface-0) !important;
+    box-shadow: var(--xs-neu-raised-sm) !important;
+    border: none !important;
+    cursor: pointer !important;
+    color: var(--xs-muted) !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.3px !important;
+    transition: all 0.15s !important;
+}
+
+.xs-form-row .wp-picker-input-wrap .wp-picker-clear:hover,
+.xs-form-row .wp-picker-input-wrap .wp-picker-default:hover {
+    color: var(--xs-danger) !important;
+    box-shadow: var(--xs-neu-raised) !important;
+}
+
+/* ==========================================================================
+   16. NOTICE OVERRIDES
+   ========================================================================== */
+body.xs-admin-page .notice {
+    margin: 0 0 16px 0;
+    border-radius: var(--xs-radius);
+    box-shadow: var(--xs-neu-raised-sm);
+    border-left-width: 4px;
+}
+
+/* ==========================================================================
+   17. SCROLLBAR
+   ========================================================================== */
+body.xs-admin-page ::-webkit-scrollbar { width: 6px; height: 6px; }
+body.xs-admin-page ::-webkit-scrollbar-track { background: transparent; }
+body.xs-admin-page ::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.12);
+    border-radius: 3px;
+}
+body.xs-admin-page ::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/* ==========================================================================
+   18. DIVIDERS — gradient style
+   ========================================================================== */
+.xs-divider {
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.08), transparent);
+    margin: 16px 0;
+}
+
+/* ==========================================================================
+   19. SIDEBAR — compact overrides
+   Reduce padding/gaps in the sidebar only so Save button sits higher.
+   ========================================================================== */
+.xs-edit-sidebar .xs-form-section {
+    padding: 14px 16px;
+    margin-bottom: 10px;
+}
+
+.xs-edit-sidebar .xs-form-section h2 {
+    margin: 0 0 10px;
+    padding-bottom: 7px;
+}
+
+.xs-edit-sidebar .xs-form-row {
+    margin-bottom: 10px;
+}
+
+.xs-edit-sidebar .xs-form-row:last-child {
+    margin-bottom: 0;
+}
+
+.xs-edit-sidebar .xs-form-actions {
+    margin-top: 0;
+}
+
+@media (max-width: 960px) {
+    .xs-form-actions {
+        align-items: stretch;
+    }
+
+    .xs-save-feedback {
+        min-height: 38px;
+        justify-content: center;
+    }
+}
+
+/* Smaller color swatches in sidebar */
+.xs-edit-sidebar .xs-form-row .wp-color-result {
+    width: 30px !important;
+    height: 30px !important;
+    min-width: 30px !important;
+    min-height: 30px !important;
+    border-radius: 8px !important;
+}
+
+/* Shorter gradient preview */
+.xs-edit-sidebar .xs-gradient-preview {
+    height: 28px;
+    margin-top: 8px;
+}
+
+/* Autoplay speed: label + value on same line */
+.xs-edit-sidebar .xs-autoplay-speed label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ==========================================================================
+   20. RATIO INLINE — select + height input on one row
+   ========================================================================== */
+.xs-ratio-inline {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.xs-ratio-inline select {
+    flex: 1;
+    min-width: 0;
+}
+
+.xs-fixed-height-inline {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    flex-shrink: 0;
+}
+
+.xs-fixed-height-inline .xs-input-sm {
+    width: 64px;
+}
+
+.xs-unit-label {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--xs-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    white-space: nowrap;
+}
+
+/* Options-specific slide grid tweaks (single column, image-left/html-right per slide) */
+.xs-slides-grid-options {
+    grid-template-columns: 1fr !important;
+}
+
+.xs-slides-grid-options .xs-slide-card {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    gap: 16px;
+    align-items: stretch;
+}
+
+.xs-slides-grid-options .xs-slide-img {
+    width: 100%;
+    height: 100%;
+    min-height: 150px;
+    aspect-ratio: auto;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #f3f4f6;
+}
+
+.xs-slides-grid-options .xs-slide-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.xs-slides-grid-options .xs-slide-fields {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-width: 0;
+}
+
+.xs-field-options-only {
+    margin-top: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.xs-html-label {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--xs-muted, #6b7280);
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    margin-top: 4px;
+}
+
+.xs-html-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 4px;
+}
+
+.xs-html-tabs {
+    display: inline-flex;
+    gap: 2px;
+    background: #f1f5f9;
+    border-radius: 8px;
+    padding: 3px;
+}
+
+.xs-html-tab {
+    border: none;
+    background: transparent;
+    color: #4b5563;
+    padding: 5px 12px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.15s ease, color 0.15s ease;
+}
+
+.xs-html-tab:hover {
+    color: #0f172a;
+}
+
+.xs-html-tab.active {
+    background: #ffffff;
+    color: #0f172a;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.xs-html-preview {
+    width: 100%;
+    min-height: 280px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    background: #ffffff;
+}
+
+.xs-slides-grid-options textarea.xs-slide-html {
+    width: 100%;
+    min-height: 160px;
+    font-family: "SF Mono", "Menlo", "Monaco", "Consolas", monospace;
+    font-size: 12px;
+    line-height: 1.5;
+    padding: 10px 12px;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    background: #fafafa;
+    resize: vertical;
+}
+
+@media (max-width: 640px) {
+    .xs-slides-grid-options .xs-slide-card {
+        grid-template-columns: 1fr;
+    }
+    .xs-slides-grid-options .xs-slide-img {
+        aspect-ratio: 16 / 10;
+    }
+}

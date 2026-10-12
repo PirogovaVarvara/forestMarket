@@ -1,0 +1,555 @@
+/* ==========================================================================
+   WPZOOM Click-to-Chat — Admin Styles
+   ========================================================================== */
+
+.wpzoom-ctc-admin-wrap {
+	max-width: 1100px;
+}
+.wpzoom-ctc-admin-wrap h1 {
+	margin-bottom: 4px;
+}
+.wpzoom-ctc-admin-description {
+	color: #646970;
+	margin-bottom: 24px;
+	font-size: 14px;
+}
+
+/* --------------------------------------------------------------------------
+   Cards
+   -------------------------------------------------------------------------- */
+
+.wpzoom-ctc-card {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-radius: 4px;
+	padding: 20px 24px;
+	margin-bottom: 16px;
+}
+.wpzoom-ctc-card--top {
+	margin-bottom: 20px;
+}
+.wpzoom-ctc-card-title {
+	margin: 0 0 18px;
+	font-size: 14px;
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+/* --------------------------------------------------------------------------
+   Two-column layout
+   -------------------------------------------------------------------------- */
+
+.wpzoom-ctc-two-col {
+	display: flex;
+	gap: 20px;
+	align-items: flex-start;
+}
+.wpzoom-ctc-col {
+	flex: 1;
+	min-width: 0;
+}
+@media (max-width: 900px) {
+	.wpzoom-ctc-two-col {
+		flex-direction: column;
+	}
+}
+
+/* --------------------------------------------------------------------------
+   Toggle switch
+   -------------------------------------------------------------------------- */
+
+.wpzoom-ctc-toggle-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	cursor: pointer;
+	user-select: none;
+}
+.wpzoom-ctc-toggle-row--inline {
+	justify-content: flex-start;
+	align-items: center;
+	gap: 12px;
+}
+.wpzoom-ctc-toggle-label {
+	font-size: 14px;
+	font-weight: 600;
+}
+.wpzoom-ctc-toggle-switch {
+	position: relative;
+	display: inline-flex;
+	width: 44px;
+	height: 24px;
+	flex-shrink: 0;
+	vertical-align: middle;
+}
+.wpzoom-ctc-toggle-switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+	position: absolute;
+}
+.wpzoom-ctc-slider {
+	position: absolute;
+	inset: 0;
+	background: #c3c4c7;
+	border-radius: 24px;
+	cursor: pointer;
+	transition: background 0.2s;
+}
+.wpzoom-ctc-slider::before {
+	content: '';
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	left: 3px;
+	top: 3px;
+	background: #fff;
+	border-radius: 50%;
+	transition: transform 0.2s;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+.wpzoom-ctc-toggle-switch input:checked + .wpzoom-ctc-slider {
+	background: #2271b1;
+}
+.wpzoom-ctc-toggle-switch input:checked + .wpzoom-ctc-slider::before {
+	transform: translateX(20px);
+}
+.wpzoom-ctc-toggle-switch input:focus-visible + .wpzoom-ctc-slider {
+	outline: 3px solid #2271b1;
+	outline-offset: 2px;
+}
+
+/* --------------------------------------------------------------------------
+   Platform cards
+   -------------------------------------------------------------------------- */
+
+.wpzoom-ctc-platform-card {
+	padding: 0;
+	overflow: hidden;
+}
+
+.wpzoom-ctc-drag-handle {
+	display: flex;
+	align-items: center;
+	cursor: grab;
+	opacity: 0.55;
+	margin-right: 4px;
+	flex-shrink: 0;
+}
+.wpzoom-ctc-drag-handle:active { cursor: grabbing; }
+.wpzoom-ctc-drag-handle svg { fill: #fff; }
+
+#wpzoom-ctc-platforms-sortable .wpzoom-ctc-platform-card {
+	transition: box-shadow 0.15s;
+}
+#wpzoom-ctc-platforms-sortable .sortable-ghost {
+	opacity: 0.4;
+}
+#wpzoom-ctc-platforms-sortable .sortable-drag {
+	box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+}
+
+.wpzoom-ctc-platform-header {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	padding: 14px 18px;
+	color: #fff;
+	font-weight: 600;
+	font-size: 14px;
+}
+.wpzoom-ctc-platform-header--whatsapp  { background: #25d366; }
+.wpzoom-ctc-platform-header--telegram  { background: #229ED9; }
+.wpzoom-ctc-platform-header--messenger { background: #0084ff; }
+.wpzoom-ctc-platform-header--viber     { background: #7360f2; }
+.wpzoom-ctc-platform-header--yamidoo   { background: #fe551b; }
+
+.wpzoom-ctc-platform-icon {
+	display: flex;
+	align-items: center;
+	flex-shrink: 0;
+}
+/* Size the icon here rather than relying on width/height attributes in each
+   SVG: an SVG that carries only a viewBox has no intrinsic size and collapses
+   to nothing in this flex row. */
+.wpzoom-ctc-platform-icon svg {
+	width: 22px;
+	height: 22px;
+	display: block;
+}
+.wpzoom-ctc-platform-name {
+	flex: 1;
+}
+.wpzoom-ctc-platform-toggle {
+	margin-left: auto;
+	flex-shrink: 0;
+}
+.wpzoom-ctc-platform-header .wpzoom-ctc-slider {
+	background: rgba(255,255,255,0.35);
+}
+.wpzoom-ctc-platform-header .wpzoom-ctc-slider::before {
+	background: #fff;
+}
+.wpzoom-ctc-platform-header input:checked + .wpzoom-ctc-slider {
+	background: rgba(255,255,255,0.9);
+}
+.wpzoom-ctc-platform-header--whatsapp input:checked + .wpzoom-ctc-slider::before  { background: #25d366; }
+.wpzoom-ctc-platform-header--telegram  input:checked + .wpzoom-ctc-slider::before  { background: #229ED9; }
+.wpzoom-ctc-platform-header--messenger input:checked + .wpzoom-ctc-slider::before  { background: #0084ff; }
+.wpzoom-ctc-platform-header--viber     input:checked + .wpzoom-ctc-slider::before  { background: #7360f2; }
+.wpzoom-ctc-platform-header--yamidoo   input:checked + .wpzoom-ctc-slider::before  { background: #fe551b; }
+
+/* AI Chat channel with no chat connected yet: readable, but clearly not usable. */
+.wpzoom-ctc-platform-card--unavailable .wpzoom-ctc-platform-header {
+	opacity: .55;
+}
+.wpzoom-ctc-platform-card--unavailable .wpzoom-ctc-platform-toggle {
+	cursor: not-allowed;
+}
+
+.wpzoom-ctc-platform-fields {
+	padding: 16px 18px;
+}
+
+/* --------------------------------------------------------------------------
+   Form fields
+   -------------------------------------------------------------------------- */
+
+.wpzoom-ctc-field {
+	margin-bottom: 16px;
+}
+.wpzoom-ctc-field:last-child {
+	margin-bottom: 0;
+}
+.wpzoom-ctc-field > label {
+	display: block;
+	font-weight: 600;
+	margin-bottom: 6px;
+	font-size: 13px;
+}
+.wpzoom-ctc-field .description {
+	margin-top: 4px;
+	color: #646970;
+	font-size: 12px;
+}
+.wpzoom-ctc-field input[type="text"],
+.wpzoom-ctc-field input[type="tel"],
+.wpzoom-ctc-field textarea {
+	width: 100%;
+	max-width: 100%;
+	box-sizing: border-box;
+}
+
+.wpzoom-ctc-input-prefix {
+	display: flex;
+	align-items: center;
+	border: 1px solid #8c8f94;
+	border-radius: 3px;
+	overflow: hidden;
+	background: #fff;
+}
+.wpzoom-ctc-input-prefix span {
+	display: flex;
+	align-items: center;
+	align-self: stretch;
+	padding: 0 10px;
+	background: #f0f0f1;
+	color: #646970;
+	font-size: 13px;
+	border-right: 1px solid #8c8f94;
+	white-space: nowrap;
+}
+.wpzoom-ctc-input-prefix input {
+	border: none !important;
+	box-shadow: none !important;
+	border-radius: 0 !important;
+	flex: 1;
+	min-width: 0;
+}
+
+/* --------------------------------------------------------------------------
+   Large Button Style preview
+   -------------------------------------------------------------------------- */
+
+.wpzoom-ctc-style-preview {
+	position: relative;
+	height: 210px;
+	background: #edf0f3;
+	border-radius: 8px;
+	margin-top: 10px;
+	overflow: hidden;
+	border: 1px solid #dde0e4;
+}
+
+/* Fake page content lines */
+.wpzoom-ctc-sp-lines {
+	position: absolute;
+	inset: 0;
+	padding: 14px 16px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	transition: padding 0.22s ease;
+}
+/* Indent lines away from the button side */
+[data-side="right"] .wpzoom-ctc-sp-lines { padding-right: 52px; }
+[data-side="left"]  .wpzoom-ctc-sp-lines { padding-left:  52px; }
+
+.wpzoom-ctc-sp-lines span {
+	display: block;
+	height: 8px;
+	border-radius: 4px;
+	background: #d4d8de;
+	transition: width 0.22s ease;
+}
+.wpzoom-ctc-sp-lines span:nth-child(1) { width: 90%; }
+.wpzoom-ctc-sp-lines span:nth-child(2) { width: 75%; }
+.wpzoom-ctc-sp-lines span:nth-child(3) { width: 85%; }
+.wpzoom-ctc-sp-lines span:nth-child(4) { width: 60%; }
+
+/* Corner and sidebar panels */
+.wpzoom-ctc-sp-corner,
+.wpzoom-ctc-sp-sidebar {
+	position: absolute;
+	inset: 0;
+	transition: opacity 0.2s;
+}
+[data-type="sidebar"] .wpzoom-ctc-sp-corner  { display: none; }
+[data-type="corner"]  .wpzoom-ctc-sp-sidebar { display: none; }
+
+/* ── Corner: launcher ── */
+.wpzoom-ctc-sp-launcher {
+	position: absolute;
+	bottom: 12px;
+	width: 34px;
+	height: 34px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+	transition: left 0.22s ease, right 0.22s ease;
+}
+.wpzoom-ctc-sp-launcher svg,
+.wpzoom-ctc-sp-launcher .social-icon,
+.wpzoom-ctc-sp-launcher .dashicons {
+	width: 16px;
+	height: 16px;
+	font-size: 16px;
+	fill: #fff;
+	color: #fff;
+	background: transparent !important;
+	border-radius: 0 !important;
+	padding: 0 !important;
+	line-height: 1;
+}
+[data-side="right"] .wpzoom-ctc-sp-launcher { right: 12px; }
+[data-side="left"]  .wpzoom-ctc-sp-launcher { left:  12px; }
+
+/* ── Corner: expanded platform buttons ── */
+.wpzoom-ctc-sp-buttons {
+	position: absolute;
+	bottom: 54px;
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	transition: left 0.22s ease, right 0.22s ease;
+}
+[data-side="right"] .wpzoom-ctc-sp-buttons { right: 12px; align-items: flex-end; }
+[data-side="left"]  .wpzoom-ctc-sp-buttons { left:  12px; align-items: flex-start; }
+
+/* ── Platform icon buttons ── */
+.wpzoom-ctc-sp-btn {
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+}
+.wpzoom-ctc-sp-btn svg { width: 14px; height: 14px; fill: #fff; color: #fff; }
+
+/* ── Sidebar strip ── */
+.wpzoom-ctc-sp-strip {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	display: flex;
+	flex-direction: column;
+	transition: left 0.22s ease, right 0.22s ease;
+}
+[data-side="right"] .wpzoom-ctc-sp-strip { right: 0; }
+[data-side="left"]  .wpzoom-ctc-sp-strip { left:  0; }
+
+.wpzoom-ctc-sp-strip .wpzoom-ctc-sp-btn {
+	border-radius: 0;
+	width: 30px;
+	height: 30px;
+	box-shadow: none;
+}
+[data-side="right"] .wpzoom-ctc-sp-strip .wpzoom-ctc-sp-btn:first-child { border-radius: 5px 0 0 0; }
+[data-side="right"] .wpzoom-ctc-sp-strip .wpzoom-ctc-sp-btn:last-child  { border-radius: 0 0 0 5px; }
+[data-side="left"]  .wpzoom-ctc-sp-strip .wpzoom-ctc-sp-btn:first-child { border-radius: 0 5px 0 0; }
+[data-side="left"]  .wpzoom-ctc-sp-strip .wpzoom-ctc-sp-btn:last-child  { border-radius: 0 0 5px 0; }
+
+
+/* --------------------------------------------------------------------------
+   Size picker  — pill group (matches screenshot)
+   -------------------------------------------------------------------------- */
+
+.wpzoom-ctc-field-label {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	font-weight: 600;
+	margin-bottom: 8px;
+	font-size: 13px;
+}
+.wpzoom-ctc-info-icon {
+	font-size: 15px;
+	color: #8c8f94;
+	cursor: help;
+	line-height: 1;
+}
+
+.wpzoom-ctc-size-picker {
+	display: inline-flex;
+	background: #ebebeb;
+	border-radius: 8px;
+	padding: 4px;
+	gap: 2px;
+	margin-top: 2px;
+}
+.wpzoom-ctc-size-option {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 5px 14px;
+	border-radius: 6px;
+	cursor: pointer;
+	font-size: 13px;
+	font-weight: 500;
+	color: #50575e;
+	transition: background 0.15s, color 0.15s, box-shadow 0.15s;
+	user-select: none;
+	white-space: nowrap;
+}
+.wpzoom-ctc-size-option input[type="radio"] {
+	position: absolute;
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+.wpzoom-ctc-size-option:hover {
+	color: #2271b1;
+}
+.wpzoom-ctc-size-option.is-selected {
+	background: #fff;
+	color: #2271b1;
+	font-weight: 600;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+}
+
+/* --------------------------------------------------------------------------
+   Icon picker grid
+   -------------------------------------------------------------------------- */
+
+.wpzoom-ctc-icon-grid {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px;
+	margin-top: 6px;
+}
+.wpzoom-ctc-icon-choice {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 40px;
+	height: 40px;
+	border: 2px solid #c3c4c7;
+	border-radius: 4px;
+	cursor: pointer;
+	background: #f9f9f9;
+	transition: border-color 0.15s, background 0.15s;
+	position: relative;
+}
+.wpzoom-ctc-icon-choice input[type="radio"] {
+	position: absolute;
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+.wpzoom-ctc-icon-choice:hover {
+	border-color: #2271b1;
+	background: #f0f6fc;
+}
+.wpzoom-ctc-icon-choice.is-selected {
+	border-color: #2271b1;
+	background: #f0f6fc;
+}
+.wpzoom-ctc-icon-choice svg,
+.wpzoom-ctc-icon-choice .social-icon,
+.wpzoom-ctc-icon-choice .dashicons {
+	font-size: 18px;
+	width: 18px;
+	height: 18px;
+	color: #3c434a;
+	line-height: 1;
+	background: transparent !important;
+	border-radius: 0 !important;
+	padding: 0 !important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.wpzoom-ctc-icon-choice.is-selected svg,
+.wpzoom-ctc-icon-choice.is-selected .social-icon,
+.wpzoom-ctc-icon-choice.is-selected .dashicons {
+	color: #2271b1;
+}
+
+/* --------------------------------------------------------------------------
+   Save row
+   -------------------------------------------------------------------------- */
+
+.wpzoom-ctc-save-row {
+	margin-top: 8px;
+	padding-top: 8px;
+}
+
+
+/* --------------------------------------------------------------------------
+   Two-buttons warning (launcher + Yamidoo bubble both on the front end)
+   -------------------------------------------------------------------------- */
+
+.wpzoom-ctc-collision {
+	margin: 0 0 16px;
+	padding-right: 16px;
+}
+.wpzoom-ctc-collision p {
+	margin: 6px 0;
+}
+.wpzoom-ctc-collision .description {
+	margin-left: 8px;
+	color: #646970;
+}
+/* Once the shortcut has switched the channel on, the warning steps back until
+   the form is saved and the page re-renders without it. */
+.wpzoom-ctc-collision.is-resolved {
+	opacity: .55;
+}
+.wpzoom-ctc-collision.is-resolved #ctc-collision-add-ai {
+	display: none;
+}
+
+/* Brief pulse on the AI Chat card after the shortcut scrolls to it. */
+@keyframes wpzoom-ctc-card-flash {
+	0%   { box-shadow: 0 0 0 0 rgba(254, 85, 27, .55); }
+	100% { box-shadow: 0 0 0 12px rgba(254, 85, 27, 0); }
+}
+.wpzoom-ctc-card--flash {
+	animation: wpzoom-ctc-card-flash 1.1s ease-out 1;
+}

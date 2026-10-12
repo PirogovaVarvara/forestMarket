@@ -1,0 +1,6 @@
+2026-10-08T11:23:53+00:00 DEBUG #1964 - [New Request] POST /
+2026-10-08T11:23:53+00:00 ERROR #1964 - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-10-08T11:24:05+00:00 DEBUG #7720 - [New Request] POST /
+2026-10-08T11:24:05+00:00 ERROR #7720 - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.
+2026-10-08T11:24:38+00:00 DEBUG #7351 - [New Request] POST /
+2026-10-08T11:24:38+00:00 ERROR #7351 - SDK v6 client token runtime error: Cannot request a PayPal client token without a client ID and secret.

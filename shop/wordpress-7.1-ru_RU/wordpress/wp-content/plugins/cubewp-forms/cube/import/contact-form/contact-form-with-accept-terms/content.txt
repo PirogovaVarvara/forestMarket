@@ -1,0 +1,2 @@
+Contact Form with Accept Terms
+Contact form with an option to accept terms and conditions.

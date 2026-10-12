@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 56" fill="none">
+  <!-- Film-strip icon -->
+  <rect x="2" y="6" width="44" height="44" rx="7" fill="#1a1d1e"/>
+  <!-- Left perfs -->
+  <rect x="6"  y="11" width="5" height="7" rx="1.5" fill="#2d3436"/>
+  <rect x="6"  y="24" width="5" height="7" rx="1.5" fill="#2d3436"/>
+  <rect x="6"  y="37" width="5" height="7" rx="1.5" fill="#2d3436"/>
+  <!-- Right perfs -->
+  <rect x="37" y="11" width="5" height="7" rx="1.5" fill="#2d3436"/>
+  <rect x="37" y="24" width="5" height="7" rx="1.5" fill="#2d3436"/>
+  <rect x="37" y="37" width="5" height="7" rx="1.5" fill="#2d3436"/>
+  <!-- Screen area -->
+  <rect x="14" y="10" width="20" height="36" rx="2" fill="#2d3436"/>
+  <!-- Gradient screen fill -->
+  <rect x="14" y="10" width="20" height="36" rx="2" fill="url(#scr)"/>
+  <!-- Play triangle -->
+  <polygon points="21,22 21,34 31,28" fill="white" opacity="0.9"/>
+
+  <!-- XTREME wordmark -->
+  <text x="56" y="33"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="22"
+        font-weight="800"
+        letter-spacing="-0.5"
+        fill="#1a1d1e">XTREME</text>
+
+  <!-- SLIDER sub-wordmark -->
+  <text x="57" y="47"
+        font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="12"
+        font-weight="600"
+        letter-spacing="4"
+        fill="#7303c0">SLIDER</text>
+
+  <!-- Accent underline -->
+  <rect x="56" y="50" width="46" height="2" rx="1" fill="url(#ul)"/>
+
+  <defs>
+    <linearGradient id="scr" x1="14" y1="10" x2="34" y2="46" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7303c0"/>
+      <stop offset="100%" stop-color="#ec38bc"/>
+    </linearGradient>
+    <linearGradient id="ul" x1="56" y1="0" x2="102" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7303c0"/>
+      <stop offset="100%" stop-color="#ec38bc"/>
+    </linearGradient>
+  </defs>
+</svg>
